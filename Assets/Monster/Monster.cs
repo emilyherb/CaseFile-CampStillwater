@@ -22,6 +22,12 @@ public class Monster : MonoBehaviour
     private Vector3 patrolTarget;  
     private MonsterState currentState;  // Current state of the monster
 
+    public float viewRadius = 10f;
+    [Range(0, 360)]
+    public float viewAngle = 90f;
+    public LayerMask targetMask;
+    public LayerMask obstacleMask;
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -47,21 +53,54 @@ public class Monster : MonoBehaviour
     void HuntForPlayer()
     {
         // Check if the player is within chase range
-        if (target != null && Vector3.Distance(transform.position, target.position) <= chaseRange)
+        if (CanSeeTarget())
         {
-            // Switch to chasing state
             currentState = MonsterState.Chasing;
-            agent.speed = chaseSpeed;  // Change the speed when chasing
-            StopCoroutine(Patrol());  // Stop random patrolling when chasing
-            return;  // Exit the hunting logic
+            agent.speed = chaseSpeed;
+            StopCoroutine(Patrol());
         }
     }
+
+    bool CanSeeTarget()
+    {
+        if (target == null) return false;
+
+        Vector3 directionToTarget = (target.position - transform.position).normalized;
+        float distanceToTarget = Vector3.Distance(transform.position, target.position);
+
+        // Check if within distance and angle
+        if (distanceToTarget <= viewRadius)
+        {
+            float angleToTarget = Vector3.Angle(transform.forward, directionToTarget);
+            if (angleToTarget <= viewAngle / 2f)
+            {
+                // Check if something is blocking view
+                if (!Physics.Raycast(transform.position, directionToTarget, distanceToTarget, obstacleMask))
+                {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    Vector3 DirectionFromAngle(float angleDegrees, bool isGlobal)
+    {
+        if (!isGlobal)
+            angleDegrees += transform.eulerAngles.y;
+
+        return new Vector3(Mathf.Sin(angleDegrees * Mathf.Deg2Rad), 0, Mathf.Cos(angleDegrees * Mathf.Deg2Rad));
+    }
+
+
 
     void ChasePlayer()
     {
         if (target != null)
         {
             agent.SetDestination(target.position);  // Set the destination to the player's position
+            RotateTowards(target.position); // face the player
 
             // If the player is out of chase range, switch back to hunting state
             if (Vector3.Distance(transform.position, target.position) > chaseRange)
@@ -92,6 +131,7 @@ public class Monster : MonoBehaviour
             // Wait for the agent to reach the patrol target or for a new patrol point to be selected
             while (Vector3.Distance(transform.position, patrolTarget) > 1f)
             {
+                RotateTowards(patrolTarget);
                 yield return null;  // Continue until the target is reached
             }
 
@@ -100,32 +140,43 @@ public class Monster : MonoBehaviour
         }
     }
 
+    void RotateTowards(Vector3 targetPosition)
+    {
+        Vector3 direction = (targetPosition - transform.position).normalized;
+        direction.y = 0f;  // Prevent up/down tilting
+        if (direction != Vector3.zero)
+        {
+            Quaternion lookRotation = Quaternion.LookRotation(direction);
+            transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f);
+        }
+    }
+
+
     // for debugging only
     //TODO: Comment out when ready
     void OnDrawGizmos()
     {
-        // Draw chase range
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, chaseRange);
+        // Vision radius
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, viewRadius);
 
-        // Draw patrol radius
-        Gizmos.color = Color.cyan;
-        Gizmos.DrawWireSphere(transform.position, patrolRadius);
+        // Draw vision cone lines
+        Vector3 left = DirectionFromAngle(-viewAngle / 2, false);
+        Vector3 right = DirectionFromAngle(viewAngle / 2, false);
 
-        // Draw current patrol target if available
-        if (currentState == MonsterState.Hunting && patrolTarget != Vector3.zero)
+        Gizmos.color = Color.blue;
+        Gizmos.DrawLine(transform.position, transform.position + left * viewRadius);
+        Gizmos.DrawLine(transform.position, transform.position + right * viewRadius);
+
+        // Draw line to player if visible
+        if (Application.isPlaying && CanSeeTarget())
         {
             Gizmos.color = Color.green;
-            Gizmos.DrawSphere(patrolTarget, 0.5f);
-            Gizmos.DrawLine(transform.position, patrolTarget);
-        }
-
-        // Draw line to player if chasing
-        if (target != null && currentState == MonsterState.Chasing)
-        {
-            Gizmos.color = Color.magenta;
             Gizmos.DrawLine(transform.position, target.position);
         }
     }
+
+
+
 
 }
