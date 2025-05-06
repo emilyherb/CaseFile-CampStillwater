@@ -13,13 +13,13 @@ public class Monster : MonoBehaviour
 
     public Transform target;  // Target (the player)
     public float chaseRange = 10f;  // Range to start chasing the player
-    public float patrolSpeed = 3.5f;  // Patrol speed
-    public float chaseSpeed = 5f;  // Chase speed
+    public float patrolSpeed = 3.5f;  
+    public float chaseSpeed = 5f;  
     public float patrolRadius = 20f;  // Radius in which the monster can patrol
     public float patrolInterval = 3f;  // Time interval for selecting a new random patrol destination
 
-    private NavMeshAgent agent;  // The NavMeshAgent component
-    private Vector3 patrolTarget;  // Current patrol destination
+    private NavMeshAgent agent;  
+    private Vector3 patrolTarget;  
     private MonsterState currentState;  // Current state of the monster
 
     void Start()
@@ -99,4 +99,33 @@ public class Monster : MonoBehaviour
             yield return new WaitForSeconds(patrolInterval);
         }
     }
+
+    // for debugging only
+    //TODO: Comment out when ready
+    void OnDrawGizmos()
+    {
+        // Draw chase range
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, chaseRange);
+
+        // Draw patrol radius
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawWireSphere(transform.position, patrolRadius);
+
+        // Draw current patrol target if available
+        if (currentState == MonsterState.Hunting && patrolTarget != Vector3.zero)
+        {
+            Gizmos.color = Color.green;
+            Gizmos.DrawSphere(patrolTarget, 0.5f);
+            Gizmos.DrawLine(transform.position, patrolTarget);
+        }
+
+        // Draw line to player if chasing
+        if (target != null && currentState == MonsterState.Chasing)
+        {
+            Gizmos.color = Color.magenta;
+            Gizmos.DrawLine(transform.position, target.position);
+        }
+    }
+
 }
