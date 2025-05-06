@@ -346,6 +346,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 92583378}
+  chaseRange: 15
+  patrolSpeed: 3.5
+  chaseSpeed: 5
+  patrolRadius: 20
+  patrolInterval: 2
 --- !u!195 &463069051
 NavMeshAgent:
   m_ObjectHideFlags: 0
