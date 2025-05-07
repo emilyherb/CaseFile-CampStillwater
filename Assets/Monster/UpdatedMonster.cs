@@ -7,7 +7,7 @@ public class UpdatedMonster : MonoBehaviour
 {
 	// settings for monster
 	public Transform player;
-	public float walkSpeed, chaseSpeed, chaseRange, chaseTime;
+	public float walkSpeed, chaseSpeed, chaseRange;
 	public List<Transform> destinations;
 
 	// Agent and navigation
@@ -21,7 +21,7 @@ public class UpdatedMonster : MonoBehaviour
 	void Start()
 	{
 		agent = GetComponent<NavMeshAgent>();
-		StopChasing();
+		Hunting();
 	}
 
 	void Update()
@@ -31,10 +31,10 @@ public class UpdatedMonster : MonoBehaviour
 		{
 			if (!agent.hasPath || agent.velocity.sqrMagnitude == 0f)
 			{
-				PickNewDestination();
+				Hunting();
 			}
 		}
-		if (isChasing)
+		else if (isChasing)
 		{
 			StartChasing();
 		}
@@ -54,18 +54,23 @@ public class UpdatedMonster : MonoBehaviour
 
 	void StartChasing()
 	{
-		Debug.Log("Chasing player");
 		agent.speed = chaseSpeed;
 		agent.destination = player.position;
 	}
 
-	void StopChasing()
+	void Hunting()
 	{
-		Debug.Log("Stopping the chase...");
-        isChasing = false;
-        isHunting = true;
+		Debug.Log("HUNTING");
         agent.speed = walkSpeed; 
-        PickNewDestination(); 
+		if (!agent.hasPath || agent.velocity.sqrMagnitude == 0f)
+		{
+			PickNewDestination();
+		}
+	}
+
+	void KillPlayer()
+	{
+		Debug.Log("Player is dead");
 	}
 
 	void CheckPlayerProximity()
@@ -75,6 +80,11 @@ public class UpdatedMonster : MonoBehaviour
 		{
 			isChasing = true;
 			isHunting = false;
+			Debug.Log("Chasing Player");
+			if (distanceToPlayer < 2)
+			{
+				KillPlayer();
+			}
 		}
 		else
 		{
