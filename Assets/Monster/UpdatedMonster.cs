@@ -14,17 +14,25 @@ public class UpdatedMonster : MonoBehaviour
 	private int randNum;
 	private NavMeshAgent agent;
 
+	private float waitTime = 3f;
+	private bool isWaiting = false;
+
 	void Start()
 	{
 		agent = GetComponent<NavMeshAgent>();
 		isHunting = true;
 		agent.speed = walkSpeed;
-		PickNewDestination();
 	}
 
 	void Update()
 	{
-		
+		if (isHunting)
+		{
+			if (!agent.hasPath || agent.velocity.sqrMagnitude == 0f)
+			{
+				PickNewDestination();
+			}
+		}
 	}
 
 	void PickNewDestination()
@@ -37,7 +45,6 @@ public class UpdatedMonster : MonoBehaviour
 		randNum = Random.Range(0, destinations.Count);
 		destination = destinations[randNum];
 		agent.destination = destination.position;
-		Debug.Log("Moving to: " + destination.name);
 	}
 
 }
