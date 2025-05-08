@@ -12,41 +12,41 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49451
+53105
 Successfully changed project path to: /Users/emilyherbert/Documents/CaseFile-CampStillwater/Case File Camp Stillwater
 /Users/emilyherbert/Documents/CaseFile-CampStillwater/Case File Camp Stillwater
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 33.12 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 36.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/emilyherbert/Documents/CaseFile-CampStillwater/Case File Camp Stillwater/Assets
 GfxDevice: creating device client; threaded=0
-2025-05-07 14:16:54.351 Unity[40883:3038245] (null) preferred device: Apple M4 Pro (high power)
-2025-05-07 14:16:54.351 Unity[40883:3038245] Metal devices available: 1
-2025-05-07 14:16:54.351 Unity[40883:3038245] 0: Apple M4 Pro (high power)
-2025-05-07 14:16:54.351 Unity[40883:3038245] Using device Apple M4 Pro (high power)
+2025-05-08 08:35:11.061 Unity[43951:3114477] (null) preferred device: Apple M4 Pro (high power)
+2025-05-08 08:35:11.061 Unity[43951:3114477] Metal devices available: 1
+2025-05-08 08:35:11.061 Unity[43951:3114477] 0: Apple M4 Pro (high power)
+2025-05-08 08:35:11.062 Unity[43951:3114477] Using device Apple M4 Pro (high power)
 Initializing Metal device caps: Apple M4 Pro
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56883
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56951
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001279 seconds.
+Registered in 0.001175 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 36.10 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.90 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.595 seconds
+- Completed reload, in  1.611 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001055 seconds.
+Registered in 0.001429 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
@@ -55,608 +55,617 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.547 seconds
+- Completed reload, in  1.507 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.3 MB.
+Unloading 1248 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.0 MB.
+System memory in use after: 86.6 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1714.
-Total: 1.594375 ms (FindLiveObjects: 0.109250 ms CreateObjectMapping: 0.023458 ms MarkObjects: 1.059208 ms  DeleteObjects: 0.401833 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences
-  artifactKey: Guid(b797f953db7b63e48affcf18b7c87540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences using Guid(b797f953db7b63e48affcf18b7c87540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d6f1acf97f755be78afb8e522a9346') in 0.006855 seconds
-  Import took 0.008875 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1717.
+Total: 1.596208 ms (FindLiveObjects: 0.112750 ms CreateObjectMapping: 0.024833 ms MarkObjects: 1.069708 ms  DeleteObjects: 0.388291 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance/TimelineCTR.playable
-  artifactKey: Guid(0e6acb385f0b7294e8cabf7c91042693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance/TimelineCTR.playable using Guid(0e6acb385f0b7294e8cabf7c91042693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd232870b3d10998e51131229b814dc') in 0.144520 seconds
-  Import took 0.146179 seconds .
+  path: Assets/Military/Prefab/PlayerArmature.prefab
+  artifactKey: Guid(f269b47f315e0284f8824a9e948a3f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Prefab/PlayerArmature.prefab using Guid(f269b47f315e0284f8824a9e948a3f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b68350527fe0951eb7917858d2def6') in 1.277737 seconds
+  Import took 1.293101 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance/Timeline2CTR.playable
-  artifactKey: Guid(06bd1832f31ec1645be78217f68086ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance/Timeline2CTR.playable using Guid(06bd1832f31ec1645be78217f68086ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799b4f6e1ceb5b2d96f84a9fef110d2e') in 0.003797 seconds
-  Import took 0.005450 seconds .
+  Time since last request: 0.000282 seconds.
+  path: Assets/Military/Prefab/SK_Military_Survivalist (3).prefab
+  artifactKey: Guid(863c031a8670d3e4d8708b005a77bc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Prefab/SK_Military_Survivalist (3).prefab using Guid(863c031a8670d3e4d8708b005a77bc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca00a3280982a03c1e7de746f6a1e223') in 0.114981 seconds
+  Import took 0.123971 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance
-  artifactKey: Guid(0d4440cde6152c04fbe6a23a8584248d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance using Guid(0d4440cde6152c04fbe6a23a8584248d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa2eadb22e2ab9b61680287c8fb8c8b') in 0.000510 seconds
-  Import took 0.001713 seconds .
+  Time since last request: 0.000275 seconds.
+  path: Assets/Military/Prefab/SK_Military_Survivalist (2).prefab
+  artifactKey: Guid(ee890c2bad02eb24992202c420217a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Prefab/SK_Military_Survivalist (2).prefab using Guid(ee890c2bad02eb24992202c420217a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83180492a896187f4408296cabd7d96f') in 0.100164 seconds
+  Import took 0.110167 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.852422 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry
-  artifactKey: Guid(49ab9af231214b84581d01da6967c944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry using Guid(49ab9af231214b84581d01da6967c944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b80c31fee1e39ea0566047fdf7e39b') in 0.000980 seconds
-  Import took 0.002876 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.974934 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs
-  artifactKey: Guid(bb2a1954d156cc446ba8de4f759a1198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs using Guid(bb2a1954d156cc446ba8de4f759a1198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a7a94c45838f453604e41c666bbf4a') in 0.000821 seconds
-  Import took 0.002547 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006290 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs
-  artifactKey: Guid(bb2a1954d156cc446ba8de4f759a1198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs using Guid(bb2a1954d156cc446ba8de4f759a1198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a7a94c45838f453604e41c666bbf4a') in 0.000745 seconds
-  Import took 0.002400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.048636 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/_Courtyard1Complete 1.prefab
-  artifactKey: Guid(b645c5124f2b13c4880a0308c238926c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/_Courtyard1Complete 1.prefab using Guid(b645c5124f2b13c4880a0308c238926c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bd916c1c3cfbe5d618d411a48c6154') in 0.966876 seconds
-  Import took 0.976748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/Metal Fence.prefab
-  artifactKey: Guid(31a6e32b3781cfc44bb47fe665ba8c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/Metal Fence.prefab using Guid(31a6e32b3781cfc44bb47fe665ba8c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab9aadf46f69e23a986c3e7e36ab6dd') in 0.379637 seconds
-  Import took 0.384726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/OvalDecorations1.prefab
-  artifactKey: Guid(65d4e13b3f82de34faeaf8dd7d407e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/OvalDecorations1.prefab using Guid(65d4e13b3f82de34faeaf8dd7d407e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6259f933e5186f35822a085f7daef9') in 0.034663 seconds
-  Import took 0.036370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/Door.prefab
-  artifactKey: Guid(8e4d61e1d61c7a1428d6838c5e299e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/Door.prefab using Guid(8e4d61e1d61c7a1428d6838c5e299e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5ea74f453a8e00ef9da0640d1f547e') in 0.013594 seconds
-  Import took 0.015297 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/Side Wall.prefab
-  artifactKey: Guid(bb9d54417b7aee04aae8c82458d75a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/Side Wall.prefab using Guid(bb9d54417b7aee04aae8c82458d75a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4085da3a7c5e0e6ffbf031284771e7db') in 0.020540 seconds
-  Import took 0.022504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/WallUp.prefab
-  artifactKey: Guid(636e9bae275a9a9488fd7663c2b171de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/WallUp.prefab using Guid(636e9bae275a9a9488fd7663c2b171de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ef47368f5bbaa3140c648341ff24aa') in 0.016098 seconds
-  Import took 0.017955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/BigPillar.prefab
-  artifactKey: Guid(56e3183bcc103c541bca0330ed02c45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/BigPillar.prefab using Guid(56e3183bcc103c541bca0330ed02c45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c4d509b7a79c18e40a543d76ecf565') in 0.019104 seconds
-  Import took 0.021005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/Floor.prefab
-  artifactKey: Guid(bc15ab3f239ff2b4c869bc9f01736324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/Floor.prefab using Guid(bc15ab3f239ff2b4c869bc9f01736324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13840ea67f64a22f3fbc9dc4335b1055') in 0.027462 seconds
-  Import took 0.029765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/LowPolyDecorativeSphere.prefab
-  artifactKey: Guid(7663c137c9d80724f89efa36fc224473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/LowPolyDecorativeSphere.prefab using Guid(7663c137c9d80724f89efa36fc224473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2363bc741e9410e397e9165308575a8d') in 0.010282 seconds
-  Import took 0.012131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/OvalDecorations2.prefab
-  artifactKey: Guid(7ab1b81a3ae76354a92fd2a8b6e0616d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/OvalDecorations2.prefab using Guid(7ab1b81a3ae76354a92fd2a8b6e0616d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3a6efec71fbc01a82f5430a182bc50') in 0.009337 seconds
-  Import took 0.011035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/SideDoor.prefab
-  artifactKey: Guid(af16c89ae37fa88488514ec1d16d35a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/SideDoor.prefab using Guid(af16c89ae37fa88488514ec1d16d35a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccf55410072fb3e60e4dcde1cbeb4c0') in 0.015572 seconds
-  Import took 0.017499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/DoorWall.prefab
-  artifactKey: Guid(736ab1b4a0cd02d4aa32299021ee5df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/DoorWall.prefab using Guid(736ab1b4a0cd02d4aa32299021ee5df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eca08cb21fe5330d3b0a2ba2f18f85c') in 0.017731 seconds
-  Import took 0.019567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.208109 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs
-  artifactKey: Guid(54b2e445224bff74bacb6ab5aa544125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs using Guid(54b2e445224bff74bacb6ab5aa544125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c2c05c8ad12997eae57a89262311f4') in 0.000856 seconds
-  Import took 0.002695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.051786 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Axe 1.prefab
-  artifactKey: Guid(9cab7697c66aece498d729b4a64241fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Axe 1.prefab using Guid(9cab7697c66aece498d729b4a64241fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8446ab360077671b0d77b5d93cf67025') in 0.028184 seconds
-  Import took 0.030591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScissorsForGrass.prefab
-  artifactKey: Guid(723f84f13904f514ab8f3ca3d5b57c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScissorsForGrass.prefab using Guid(723f84f13904f514ab8f3ca3d5b57c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8206568d851cf0393d5d849b56ac624') in 0.030000 seconds
-  Import took 0.032086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 3.prefab
-  artifactKey: Guid(26f0053b6cf04ea44af763bd2e184dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 3.prefab using Guid(26f0053b6cf04ea44af763bd2e184dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d133480594f4b4f13a1a1304a199dd') in 0.019685 seconds
-  Import took 0.021796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence2.prefab
-  artifactKey: Guid(135ba6f8587f905418f573a1b2380169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence2.prefab using Guid(135ba6f8587f905418f573a1b2380169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a37fdfab8c423f5cdd10e0c4e00da0') in 0.016786 seconds
-  Import took 0.018546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/MiddleBridgePartAllLOD.prefab
-  artifactKey: Guid(e550825b76c9f4a4cafd2af6ba627a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/MiddleBridgePartAllLOD.prefab using Guid(e550825b76c9f4a4cafd2af6ba627a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19046bfeed70dcf46aa2e59d83bab11f') in 0.315317 seconds
-  Import took 0.317491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence1.prefab
-  artifactKey: Guid(ddf4f45c150785f4685630ead1bdbe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence1.prefab using Guid(ddf4f45c150785f4685630ead1bdbe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a216a3f9fab32860864fcbe17e21a7ac') in 0.020897 seconds
-  Import took 0.022886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/GasCan.prefab
-  artifactKey: Guid(8b780173080be1e4e86f28dd1ad13d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/GasCan.prefab using Guid(8b780173080be1e4e86f28dd1ad13d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43df07838efab4327a238c5d815491f9') in 0.032661 seconds
-  Import took 0.035528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/HalfBridge.prefab
-  artifactKey: Guid(903b9a0b57329fd41ad9cb0d383ab6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/HalfBridge.prefab using Guid(903b9a0b57329fd41ad9cb0d383ab6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c2aa1412ebf3b93d7b54773ef40c36') in 0.074249 seconds
-  Import took 0.078715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/PotsStacked.prefab
-  artifactKey: Guid(aef445cdc1ce6fc4f93a867a9d9109ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/PotsStacked.prefab using Guid(aef445cdc1ce6fc4f93a867a9d9109ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fc7ed14842347ffb09002519e26850') in 0.022345 seconds
-  Import took 0.024355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 2.prefab
-  artifactKey: Guid(e6ec50b9e4978294bada9a364235c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 2.prefab using Guid(e6ec50b9e4978294bada9a364235c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c462e0e8252bcea19c2b489847251170') in 0.019952 seconds
-  Import took 0.021897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/PotsUpsideDown.prefab
-  artifactKey: Guid(6e0ca3cc89322054fb5ae001a9081329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/PotsUpsideDown.prefab using Guid(6e0ca3cc89322054fb5ae001a9081329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c4bbcaf0a8155146fa56a943d99b02') in 0.014742 seconds
-  Import took 0.016720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Rope.prefab
-  artifactKey: Guid(4f3403a0a166e444194da6bcb1f3cb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Rope.prefab using Guid(4f3403a0a166e444194da6bcb1f3cb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfcb924d097e2e6253b7eb2d9aa3599') in 0.013435 seconds
-  Import took 0.015172 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ShedAllLod.prefab
-  artifactKey: Guid(fb05bdaf6898faa4fb17c88de74b56c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ShedAllLod.prefab using Guid(fb05bdaf6898faa4fb17c88de74b56c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46e5d8a56a02712c08b33600d00feaf') in 0.176476 seconds
-  Import took 0.188395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Gripper.prefab
-  artifactKey: Guid(070cc6e0f08b39248b99298eabf38f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Gripper.prefab using Guid(070cc6e0f08b39248b99298eabf38f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e441399cc6561ee01cfde647a545be4b') in 0.043107 seconds
-  Import took 0.046550 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Hammer.prefab
-  artifactKey: Guid(8648ac77aa011604c9b885644314c5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Hammer.prefab using Guid(8648ac77aa011604c9b885644314c5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25aab232ca1a4ba187439f683d0fa5ab') in 0.035307 seconds
-  Import took 0.038240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 4.prefab
-  artifactKey: Guid(14d7a570754dc3240ba1b0a465ba37e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 4.prefab using Guid(14d7a570754dc3240ba1b0a465ba37e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82b6d7421a0374216bba548fd1348d5') in 0.022125 seconds
-  Import took 0.024069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/BridgePartAllLOD.prefab
-  artifactKey: Guid(04d1d82e2f5f1d4469b5a60ed8ab97ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/BridgePartAllLOD.prefab using Guid(04d1d82e2f5f1d4469b5a60ed8ab97ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d606de3097a45fb86fe2e735d6a219') in 0.022109 seconds
-  Import took 0.024292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence4.prefab
-  artifactKey: Guid(361e3d5cdb2eadb43a7e7bacd9accd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence4.prefab using Guid(361e3d5cdb2eadb43a7e7bacd9accd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9d8ce052bd3290478f780f8fff02dd') in 0.019456 seconds
-  Import took 0.021427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 1.prefab
-  artifactKey: Guid(9b25f1703b9da8d4eb28fd5fe8179830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 1.prefab using Guid(9b25f1703b9da8d4eb28fd5fe8179830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae171012f603cfb17ae25b01f822f8eb') in 0.012054 seconds
-  Import took 0.013760 seconds .
+  Time since last request: 0.000253 seconds.
+  path: Assets/Military/Prefab/SK_Military_FPS_Survivalist (2).prefab
+  artifactKey: Guid(25671d77d13295f41a2396dc108890df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Prefab/SK_Military_FPS_Survivalist (2).prefab using Guid(25671d77d13295f41a2396dc108890df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8296b1956679a08e360908cb85b43772') in 0.058854 seconds
+  Import took 0.063623 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000213 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Bucket.prefab
-  artifactKey: Guid(cdff7da967252f94cad1dc1b01f99cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Bucket.prefab using Guid(cdff7da967252f94cad1dc1b01f99cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de128b2d0f837be9218f4ec4b424620') in 0.028944 seconds
-  Import took 0.031449 seconds .
+  path: Assets/Military/Prefab/SK_Military_FPS_Survivalist (1).prefab
+  artifactKey: Guid(832f2f1b5403b4a4ca05861efdc7e86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Prefab/SK_Military_FPS_Survivalist (1).prefab using Guid(832f2f1b5403b4a4ca05861efdc7e86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df01d2e41812b50b901380a6e33b59dd') in 0.038650 seconds
+  Import took 0.042195 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Hammer2.prefab
-  artifactKey: Guid(7c21bc16125c0394f816b22450955d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Hammer2.prefab using Guid(7c21bc16125c0394f816b22450955d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61bb1da909f889f4f8feab0a3f8705c6') in 0.019584 seconds
-  Import took 0.021579 seconds .
+  Time since last request: 0.000192 seconds.
+  path: Assets/Military/Prefab/Lighting.prefab
+  artifactKey: Guid(b1765a45445c20047b67651862aae6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Prefab/Lighting.prefab using Guid(b1765a45445c20047b67651862aae6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c66e3ba59d3e9c9d6dfbdfae21a5fce') in 0.004371 seconds
+  Import took 0.005947 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/FullBridge.prefab
-  artifactKey: Guid(a1df4b9f785e074449e4a29f24816a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/FullBridge.prefab using Guid(a1df4b9f785e074449e4a29f24816a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44aac35f3630e545b2c87e9845997052') in 0.063277 seconds
-  Import took 0.068989 seconds .
+  Time since last request: 0.000229 seconds.
+  path: Assets/Military/Prefab
+  artifactKey: Guid(37b6876ce1fef5042b4c23ca084d969a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Prefab using Guid(37b6876ce1fef5042b4c23ca084d969a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9295e9f85b00ffab98148800208be9') in 0.000501 seconds
+  Import took 0.001699 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/LittleBox1 1.prefab
-  artifactKey: Guid(68ee76a8899803640b86f31376021aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/LittleBox1 1.prefab using Guid(68ee76a8899803640b86f31376021aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e832ce53fdd08c5cd69ddb6b3150703') in 0.023693 seconds
-  Import took 0.025700 seconds .
+  Time since last request: 0.000151 seconds.
+  path: Assets/Military/Prefab/Environment.prefab
+  artifactKey: Guid(13038b49a8cfa564aa1a9ef9df96de79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Prefab/Environment.prefab using Guid(13038b49a8cfa564aa1a9ef9df96de79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10556643a1335d541860fc76c71273e') in 0.031050 seconds
+  Import took 0.033171 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/GlassSpray.prefab
-  artifactKey: Guid(318a7a800b8ccc14ea98ef0a7e067199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/GlassSpray.prefab using Guid(318a7a800b8ccc14ea98ef0a7e067199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976c0d0799917085610d2675859d0fbb') in 0.018741 seconds
-  Import took 0.020590 seconds .
+  Time since last request: 0.000224 seconds.
+  path: Assets/Military/Prefab/SK_Military_Survivalist (4).prefab
+  artifactKey: Guid(018f1c2109d7023488206bb23d1a8f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Prefab/SK_Military_Survivalist (4).prefab using Guid(018f1c2109d7023488206bb23d1a8f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a179be6f5166e99ab6a717218cf5ac69') in 0.131989 seconds
+  Import took 0.143889 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fork.prefab
-  artifactKey: Guid(a0c500ad6d9391749b34c0f9f753987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fork.prefab using Guid(a0c500ad6d9391749b34c0f9f753987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84234ecc8e758e13e140b3196293338') in 0.044829 seconds
-  Import took 0.048444 seconds .
+  Time since last request: 0.000290 seconds.
+  path: Assets/Military/Prefab/GameObject.prefab
+  artifactKey: Guid(67ee4c92fc8701b409879e605766f8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Prefab/GameObject.prefab using Guid(67ee4c92fc8701b409879e605766f8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79269d484f6ec9683c58dab7828a8a8') in 0.015160 seconds
+  Import took 0.017131 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ShedLOD1.prefab
-  artifactKey: Guid(b518e4023293f6747bb776b6384a8f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ShedLOD1.prefab using Guid(b518e4023293f6747bb776b6384a8f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b42bd2ba1585754d79d074b6ffea74b') in 0.141651 seconds
-  Import took 0.154341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Barrel.prefab
-  artifactKey: Guid(d33067713c4ea684297c7899a427215b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Barrel.prefab using Guid(d33067713c4ea684297c7899a427215b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b086f258b825ffd2bb35ff8af057fc0d') in 0.042445 seconds
-  Import took 0.045060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Box.prefab
-  artifactKey: Guid(7042f0c5fc091464cbd29ca102694e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Box.prefab using Guid(7042f0c5fc091464cbd29ca102694e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1544977a7bd1a9e98cbfa5130ed59bfe') in 0.034471 seconds
-  Import took 0.037318 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence5.prefab
-  artifactKey: Guid(43a17864c509699478646582a6a377c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence5.prefab using Guid(43a17864c509699478646582a6a377c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf15916318112e730bdc04e1d9f5eee') in 0.020560 seconds
-  Import took 0.022461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/LittleBox2.prefab
-  artifactKey: Guid(b0c9e37732491f14ebf148fca8134993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/LittleBox2.prefab using Guid(b0c9e37732491f14ebf148fca8134993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ae3c6583e360e917914dc059bfa5f7') in 0.018793 seconds
-  Import took 0.020653 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/BridgeFirstPartAllLOD.prefab
-  artifactKey: Guid(3b6e2b17278f80e40887b0aff9ecccfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/BridgeFirstPartAllLOD.prefab using Guid(3b6e2b17278f80e40887b0aff9ecccfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e0c3dbf80ab07ce3340f282a08c7da') in 0.030631 seconds
-  Import took 0.033771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Saw.prefab
-  artifactKey: Guid(c245124867324c340a935f7058728606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Saw.prefab using Guid(c245124867324c340a935f7058728606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c0efa22c7d5a71735f49dbcf39b2a8') in 0.035269 seconds
-  Import took 0.037261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence3.prefab
-  artifactKey: Guid(3ff55326860ccdc4db0504550148e994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence3.prefab using Guid(3ff55326860ccdc4db0504550148e994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729d80f592009dc30bbe71d888e99cca') in 0.020112 seconds
-  Import took 0.021967 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000479 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence3.prefab
-  artifactKey: Guid(3ff55326860ccdc4db0504550148e994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence3.prefab using Guid(3ff55326860ccdc4db0504550148e994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729d80f592009dc30bbe71d888e99cca') in 0.014494 seconds
-  Import took 0.016379 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 228.280984 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry 2
-  artifactKey: Guid(31b3271fc1406c449904b9df558c155f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry 2 using Guid(31b3271fc1406c449904b9df558c155f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0feedd06f5a3cfebc19b83d45e62a9') in 0.000991 seconds
-  Import took 0.003331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003843 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry 2
-  artifactKey: Guid(31b3271fc1406c449904b9df558c155f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry 2 using Guid(31b3271fc1406c449904b9df558c155f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0feedd06f5a3cfebc19b83d45e62a9') in 0.000727 seconds
-  Import took 0.002452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.214331 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry 2/_Prefabs
-  artifactKey: Guid(6feeff2b24f1bca498b050bdf1ec4202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry 2/_Prefabs using Guid(6feeff2b24f1bca498b050bdf1ec4202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9918df08a7b06a6ce572dd0be41a3b') in 0.000904 seconds
-  Import took 0.002583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.425045 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry 2/_Prefabs/Complete
-  artifactKey: Guid(5f784458b668e6742888e5045cf90dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry 2/_Prefabs/Complete using Guid(5f784458b668e6742888e5045cf90dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3295c0c7d0316da22bffe3138fd2ddd') in 0.001314 seconds
-  Import took 0.003137 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.120355 seconds.
-  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry 2/_Prefabs/Complete/Entry2Complete.prefab
-  artifactKey: Guid(eb3f456bfca527a46b40354e14725e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry 2/_Prefabs/Complete/Entry2Complete.prefab using Guid(eb3f456bfca527a46b40354e14725e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58bc427194c1366d309b0325640059e') in 0.482262 seconds
-  Import took 0.493684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.965123 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Shovel.prefab
-  artifactKey: Guid(bb8c330a191619443833d09c49ac8527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Shovel.prefab using Guid(bb8c330a191619443833d09c49ac8527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542c0d7e4d1b39643dd4e3bc42ecfaf5') in 0.063692 seconds
-  Import took 0.067891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Spray1.prefab
-  artifactKey: Guid(d102bac42b060cd43ab260ae556f2f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Spray1.prefab using Guid(d102bac42b060cd43ab260ae556f2f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf609db42f56081ea50facb600a2f8b') in 0.015829 seconds
-  Import took 0.017627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Spray3.prefab
-  artifactKey: Guid(dd362038514b13a4c9b03c803507f71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Spray3.prefab using Guid(dd362038514b13a4c9b03c803507f71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e07a9adfca46206cdc6417a0c0d82a1') in 0.015488 seconds
-  Import took 0.017254 seconds .
+  Time since last request: 0.000205 seconds.
+  path: Assets/Military/Prefab/UI_EventSystem.prefab
+  artifactKey: Guid(a89164b8df6251f4e96a803e3637e8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Prefab/UI_EventSystem.prefab using Guid(a89164b8df6251f4e96a803e3637e8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2854fbaa6f89728d13daa2407b9edd0') in 0.005344 seconds
+  Import took 0.006895 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000167 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/TinCan.prefab
-  artifactKey: Guid(796e2d04825afee4086cad4a9e3fac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/TinCan.prefab using Guid(796e2d04825afee4086cad4a9e3fac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4afaa412e7ea158d71ed2eddb1f72b0') in 0.022472 seconds
-  Import took 0.024435 seconds .
+  path: Assets/Military/Prefab/SK_Military_Survivalist (1).prefab
+  artifactKey: Guid(344e5bc5b26a34542848678562e23c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Prefab/SK_Military_Survivalist (1).prefab using Guid(344e5bc5b26a34542848678562e23c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47aaf7d86137c2e5b33535afa73ec99') in 0.065878 seconds
+  Import took 0.071176 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Sickle.prefab
-  artifactKey: Guid(664e4fe5307f53846a375f35fd65f35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Sickle.prefab using Guid(664e4fe5307f53846a375f35fd65f35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2ed0fcf65747bcd2b012400831e4f5') in 0.038591 seconds
-  Import took 0.041589 seconds .
+  Time since last request: 0.785380 seconds.
+  path: Assets/Military/Floor
+  artifactKey: Guid(ccbaaa8ef3ebdae469c3059b4bde7bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Floor using Guid(ccbaaa8ef3ebdae469c3059b4bde7bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b864c60aede27bbbd86dfa50cdf579') in 0.001195 seconds
+  Import took 0.003837 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/WaterCan.prefab
-  artifactKey: Guid(d70a765f5f6bb1d49accfaf2d1a6384c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/WaterCan.prefab using Guid(d70a765f5f6bb1d49accfaf2d1a6384c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c498b0cbddfe24aba71ec017e3785c3') in 0.023252 seconds
-  Import took 0.025144 seconds .
+  Time since last request: 0.044611 seconds.
+  path: Assets/Military/Floor/LightingData.asset
+  artifactKey: Guid(47aa9c09c31b25842b4f1f406a1bf40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Floor/LightingData.asset using Guid(47aa9c09c31b25842b4f1f406a1bf40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Unable to read header from archive file: memarchive0
+
+Mounting archive file system for lighting data asset failed!
+
+ -> (artifact id: '6a6f7a36412948a4423c9a805c2e3258') in 0.056431 seconds
+  Import took 0.058508 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Spray2.prefab
-  artifactKey: Guid(a499bfc27b7db994a9cd20081dfc283d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Spray2.prefab using Guid(a499bfc27b7db994a9cd20081dfc283d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc7f18fb906be2adfb760261ba9d2ee') in 0.010565 seconds
-  Import took 0.012239 seconds .
+  Time since last request: 0.000216 seconds.
+  path: Assets/Military/Floor/MAT_Floor_HDRP.mat
+  artifactKey: Guid(03c0b94cd9685824dbd259e44c5949c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Floor/MAT_Floor_HDRP.mat using Guid(03c0b94cd9685824dbd259e44c5949c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d41c78129a538c11413b999927b177') in 0.111616 seconds
+  Import took 0.113293 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/TinyBox.prefab
-  artifactKey: Guid(a9895e7cf5278f44eb578d759c3a2abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/TinyBox.prefab using Guid(a9895e7cf5278f44eb578d759c3a2abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45900258f6a86c213187302d634b73d6') in 0.019363 seconds
-  Import took 0.021286 seconds .
+  Time since last request: 0.000201 seconds.
+  path: Assets/Military/Floor/MAT_Floor.mat
+  artifactKey: Guid(877b27d923ebe5b41bd16025541c777b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Floor/MAT_Floor.mat using Guid(877b27d923ebe5b41bd16025541c777b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787988380d33dcd04d6cdd8537ae2f7d') in 0.011653 seconds
+  Import took 0.013269 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.226072 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/WoodPart1.prefab
-  artifactKey: Guid(060c83fa2ec9e23438866112a53273bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/WoodPart1.prefab using Guid(060c83fa2ec9e23438866112a53273bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6618f61c2fc4ff6375c3bb05a3fc58a') in 0.012782 seconds
-  Import took 0.014854 seconds .
+  Time since last request: 0.000200 seconds.
+  path: Assets/Military/Floor/MAT_Floor_URP.mat
+  artifactKey: Guid(7cff07407be075345ab4576b8ba510ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Floor/MAT_Floor_URP.mat using Guid(7cff07407be075345ab4576b8ba510ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7bd0742bdfae580e3c6eed954d9ef9') in 0.006445 seconds
+  Import took 0.008108 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/WoodPart2.prefab
-  artifactKey: Guid(bbd108b8f14d6044d92129ecf1eb2140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/WoodPart2.prefab using Guid(bbd108b8f14d6044d92129ecf1eb2140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13695348fe0aa5c0a2bbf0babd1be1d5') in 0.009431 seconds
-  Import took 0.011068 seconds .
+  Time since last request: 4.686232 seconds.
+  path: Assets/Military/Military.unity
+  artifactKey: Guid(e9017d5f96b9f09489b4b37e1d6eb914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Military.unity using Guid(e9017d5f96b9f09489b4b37e1d6eb914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506745b042afe3196fd14968b1259c8e') in 0.001226 seconds
+  Import took 0.003705 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Wrench.prefab
-  artifactKey: Guid(1b6247246e1a0be4faba5ea8b45b6523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Wrench.prefab using Guid(1b6247246e1a0be4faba5ea8b45b6523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f0da5992e93b76233ec6b78df6b8ef') in 0.022478 seconds
-  Import took 0.024490 seconds .
+  Time since last request: 0.004651 seconds.
+  path: Assets/Military/Military.unity
+  artifactKey: Guid(e9017d5f96b9f09489b4b37e1d6eb914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Military.unity using Guid(e9017d5f96b9f09489b4b37e1d6eb914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506745b042afe3196fd14968b1259c8e') in 0.000652 seconds
+  Import took 0.001900 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/WoodPart2.prefab
-  artifactKey: Guid(bbd108b8f14d6044d92129ecf1eb2140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/WoodPart2.prefab using Guid(bbd108b8f14d6044d92129ecf1eb2140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13695348fe0aa5c0a2bbf0babd1be1d5') in 0.013529 seconds
-  Import took 0.015229 seconds .
+  Time since last request: 54.270927 seconds.
+  path: Assets/Scenes/TerrainData_537933b7-ae83-421e-bd11-d503111d484f.asset
+  artifactKey: Guid(9872f507604b54b458099b94b01e78fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TerrainData_537933b7-ae83-421e-bd11-d503111d484f.asset using Guid(9872f507604b54b458099b94b01e78fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4adb07eb3e66d3ef85cf2760db55a83') in 0.058914 seconds
+  Import took 0.062016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Scenes/TerrainData_fe25b951-72bc-46b8-a717-2782cd9e1351.asset
+  artifactKey: Guid(c7c4728de4c504ce0999041c50fddb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TerrainData_fe25b951-72bc-46b8-a717-2782cd9e1351.asset using Guid(c7c4728de4c504ce0999041c50fddb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184ce1daa148becc80567829e986b088') in 0.037987 seconds
+  Import took 0.040858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.752314 seconds.
+  path: Assets/Scenes/Main Scene.unity
+  artifactKey: Guid(2b02c29601fc84e49a18fde7fed33f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Scene.unity using Guid(2b02c29601fc84e49a18fde7fed33f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3040a8d63b97060ec92d33148b659fc') in 0.004156 seconds
+  Import took 0.007265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.059216 seconds.
+  path: Assets/Military/StarterAssets/Readme.asset
+  artifactKey: Guid(4181bfe715a83e843b7538d750dc57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/StarterAssets/Readme.asset using Guid(4181bfe715a83e843b7538d750dc57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c57354f65677dcf88cb403d88e62dc') in 0.001253 seconds
+  Import took 0.002989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 273.297265 seconds.
+  path: Assets/Military/StarterAssets
+  artifactKey: Guid(3397cd14c28cccf47b097769f7817a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/StarterAssets using Guid(3397cd14c28cccf47b097769f7817a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d26381d7f76b5f1d54c8061e7379de7') in 0.001192 seconds
+  Import took 0.004598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.226879 seconds.
+  path: Assets/Military/StarterAssets/ThirdPersonController
+  artifactKey: Guid(54b90d7f60b179e4e9909cd127aa060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/StarterAssets/ThirdPersonController using Guid(54b90d7f60b179e4e9909cd127aa060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc99163a2112ff32d67c886f4bd4b73a') in 0.001225 seconds
+  Import took 0.004367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.456180 seconds.
+  path: Assets/Military/StarterAssets/Settings
+  artifactKey: Guid(e8099c188007d864ca8ac4cf30e6cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/StarterAssets/Settings using Guid(e8099c188007d864ca8ac4cf30e6cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d04b989c290caeb61bd40a6221499c2') in 0.001120 seconds
+  Import took 0.003805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.474755 seconds.
+  path: Assets/Military/StarterAssets/ThirdPersonController/Scripts
+  artifactKey: Guid(22db1f6f78cfb3440835ed6dee5f8e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/StarterAssets/ThirdPersonController/Scripts using Guid(22db1f6f78cfb3440835ed6dee5f8e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039c7ba213ff8e88604f4ccae6317b90') in 0.001537 seconds
+  Import took 0.004503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.337645 seconds.
+  path: Assets/Military/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs
+  artifactKey: Guid(26e54e5a728a9234ab24fcf1460ed8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs using Guid(26e54e5a728a9234ab24fcf1460ed8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f95a054f7e23f602baf792e9cfb3b10') in 0.155521 seconds
+  Import took 0.157775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.519261 seconds.
+  path: Assets/Military/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs
+  artifactKey: Guid(909d917d73a63f940ac158d02e936645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs using Guid(909d917d73a63f940ac158d02e936645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176e63048b061fc717ce9490627a99a5') in 0.002649 seconds
+  Import took 0.004571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.122293 seconds.
+  path: Assets/Military/Basemesh
+  artifactKey: Guid(4c30c361572b4cb45a215d69737339ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Basemesh using Guid(4c30c361572b4cb45a215d69737339ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318427f25f0ddb4f97b58f8a0fdb168f') in 0.001361 seconds
+  Import took 0.004040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.945929 seconds.
+  path: Assets/Military/Materials HDRP
+  artifactKey: Guid(b215d3e97c3a8d54298e419b65977da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP using Guid(b215d3e97c3a8d54298e419b65977da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2772625da7f3f798570aa7b92dd9c71') in 0.001623 seconds
+  Import took 0.004588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047138 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Backpack1_Skin1.mat
+  artifactKey: Guid(67e01125e3f35d24ea88a4316b057310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Backpack1_Skin1.mat using Guid(67e01125e3f35d24ea88a4316b057310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd9aec97e3a8d33f78464945aca3626') in 0.015286 seconds
+  Import took 0.017307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Pouches1_Skin1.mat
+  artifactKey: Guid(cca72710dfb044345b70d40a625086f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Pouches1_Skin1.mat using Guid(cca72710dfb044345b70d40a625086f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4883d57629fe30dea8c5ccc938ae29fe') in 0.005969 seconds
+  Import took 0.007433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Shirt3_Skin3.mat
+  artifactKey: Guid(229082b33ec611a499b632041b6141cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Shirt3_Skin3.mat using Guid(229082b33ec611a499b632041b6141cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422fb7cf042c1043c6bbc18041640272') in 0.006368 seconds
+  Import took 0.008000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Gloves1_Skin1.mat
+  artifactKey: Guid(a4158358f065f2c42bc1bc8acc850552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Gloves1_Skin1.mat using Guid(a4158358f065f2c42bc1bc8acc850552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e904e813abc542d7c591fd63943d328') in 0.006342 seconds
+  Import took 0.008394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Backpack1_Skin4.mat
+  artifactKey: Guid(f02f6c1af6a19f846b20cbef9adb1b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Backpack1_Skin4.mat using Guid(f02f6c1af6a19f846b20cbef9adb1b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3f5d8822a0139ea7d044fc9796a4a8') in 0.006056 seconds
+  Import took 0.007833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Vest1_Skin3.mat
+  artifactKey: Guid(05d1daf7457ea524783155e9bea3f9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Vest1_Skin3.mat using Guid(05d1daf7457ea524783155e9bea3f9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371b798f8221cb3087a559313faecceb') in 0.006088 seconds
+  Import took 0.007762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Backpack1_Skin2.mat
+  artifactKey: Guid(0d9334c000a0e324f8770aaa8ab318b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Backpack1_Skin2.mat using Guid(0d9334c000a0e324f8770aaa8ab318b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fb34705ec5284dd0fe48f86c627543') in 0.006063 seconds
+  Import took 0.007733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Pouches1_Skin2.mat
+  artifactKey: Guid(85f31a9731bc6934b8bbde32e3362dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Pouches1_Skin2.mat using Guid(85f31a9731bc6934b8bbde32e3362dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e302437b1d1d675557e507d99e91f93') in 0.006640 seconds
+  Import took 0.008395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Pants2_Skin1.mat
+  artifactKey: Guid(a227dcb883a1ca04691fdbc20e1405ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Pants2_Skin1.mat using Guid(a227dcb883a1ca04691fdbc20e1405ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5cfe5d1d6c0659c609b800efb01aff') in 0.006255 seconds
+  Import took 0.008161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Shirt3_Skin1.mat
+  artifactKey: Guid(cbe8630e81bbd4d48bd91e920aaec8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Shirt3_Skin1.mat using Guid(cbe8630e81bbd4d48bd91e920aaec8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01774c4965f570cb2ca236d1887108ac') in 0.006746 seconds
+  Import took 0.008334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Hands1_Skin1.mat
+  artifactKey: Guid(04a534206c13d0f44998d0ba90cd2ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Hands1_Skin1.mat using Guid(04a534206c13d0f44998d0ba90cd2ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0c7f7b817a595eb193ea9f7dbca822') in 0.006269 seconds
+  Import took 0.008468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Pouches1_Skin3.mat
+  artifactKey: Guid(e105ed8a7c64859449c86b4a90e6149b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Pouches1_Skin3.mat using Guid(e105ed8a7c64859449c86b4a90e6149b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9889529c687fa4870b85905340d386') in 0.006909 seconds
+  Import took 0.008830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Gloves1_Skin2.mat
+  artifactKey: Guid(d9e036f8f88a8c04ab5b0e31a4c8ce1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Gloves1_Skin2.mat using Guid(d9e036f8f88a8c04ab5b0e31a4c8ce1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f80b77d15cb0754db46ebedad2d866') in 0.005849 seconds
+  Import took 0.007510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Vest1_Skin1.mat
+  artifactKey: Guid(51f173ca9dccfe049bd0657a354ddfe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Vest1_Skin1.mat using Guid(51f173ca9dccfe049bd0657a354ddfe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286d33508ffffd07b2b89dd3099175fb') in 0.006349 seconds
+  Import took 0.008171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Shirt3_Skin2.mat
+  artifactKey: Guid(045cb93dc7a0e034c804738ca833942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Shirt3_Skin2.mat using Guid(045cb93dc7a0e034c804738ca833942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ff2763e8fd0059d4c15acb9a499a54') in 0.006474 seconds
+  Import took 0.007905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Vest1_Skin2.mat
+  artifactKey: Guid(80ea27ed5b44dcc4fa4eb46a7cfcce44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Vest1_Skin2.mat using Guid(80ea27ed5b44dcc4fa4eb46a7cfcce44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f918d859ce1c54dedb0b3c6e59543306') in 0.008077 seconds
+  Import took 0.010084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Cap1_Skin1.mat
+  artifactKey: Guid(0391a74cc3107a84f8c186625497d992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Cap1_Skin1.mat using Guid(0391a74cc3107a84f8c186625497d992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3506ccbb60025007083a8e20fbdf61') in 0.006259 seconds
+  Import took 0.007925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Cap1_Skin2.mat
+  artifactKey: Guid(76c552f98f0f48f4fa5d280ae5a7978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Cap1_Skin2.mat using Guid(76c552f98f0f48f4fa5d280ae5a7978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2283f516482de24aa54c751d74cb7a3') in 0.008677 seconds
+  Import took 0.010429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Boots3_Skin2.mat
+  artifactKey: Guid(897f2ddab7338ca4d8853a978e15652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Boots3_Skin2.mat using Guid(897f2ddab7338ca4d8853a978e15652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4336fdd31935b7005031aa63dbefebf') in 0.006248 seconds
+  Import took 0.007885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Floor.mat
+  artifactKey: Guid(f375849417247ab43ad723372cb44ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Floor.mat using Guid(f375849417247ab43ad723372cb44ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8659659796e1b874f622170db3de1f55') in 0.006386 seconds
+  Import took 0.008150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Eyes1.mat
+  artifactKey: Guid(e2504a63d3943bd489fdadeb20c11138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Eyes1.mat using Guid(e2504a63d3943bd489fdadeb20c11138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6e48c705c2c23702e5e3a4d62938d9') in 0.006426 seconds
+  Import took 0.008084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Boots3_Skin1.mat
+  artifactKey: Guid(9e0546643c83d104a90ae7ca68392bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Boots3_Skin1.mat using Guid(9e0546643c83d104a90ae7ca68392bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ba51f6f47969164ad7bc3304ac7c6d') in 0.005898 seconds
+  Import took 0.007692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Cap1_Skin4.mat
+  artifactKey: Guid(36697b70b15235042a5e89c98e83276f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Cap1_Skin4.mat using Guid(36697b70b15235042a5e89c98e83276f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d5ab08da2df78293e272f97406025d') in 0.007319 seconds
+  Import took 0.008938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Boots3_Skin3.mat
+  artifactKey: Guid(62319ce61a9d7934c95a769fb08211a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Boots3_Skin3.mat using Guid(62319ce61a9d7934c95a769fb08211a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805a544ed17aba63576257de3edadf4f') in 0.013988 seconds
+  Import took 0.015653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_FPS_Hands1_Skin1.mat
+  artifactKey: Guid(443cc63146bff3b44b314de406e8d507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_FPS_Hands1_Skin1.mat using Guid(443cc63146bff3b44b314de406e8d507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ff28a648a32c47c4129eab23a9572d') in 0.014786 seconds
+  Import took 0.016507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Pants2_Skin2.mat
+  artifactKey: Guid(bdd7a5e0734c2254683f2032e8a7c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Pants2_Skin2.mat using Guid(bdd7a5e0734c2254683f2032e8a7c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6fb6014e9c1f21ddf417a6d3b66ea5') in 0.005967 seconds
+  Import took 0.007662 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000170 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/WoodPart1.prefab
-  artifactKey: Guid(060c83fa2ec9e23438866112a53273bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/WoodPart1.prefab using Guid(060c83fa2ec9e23438866112a53273bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6618f61c2fc4ff6375c3bb05a3fc58a') in 0.008671 seconds
-  Import took 0.010338 seconds .
+  path: Assets/Military/Materials HDRP/HDRP_Cap1_Skin3.mat
+  artifactKey: Guid(52164bfa6fd9ab240bff627ce4c62452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Cap1_Skin3.mat using Guid(52164bfa6fd9ab240bff627ce4c62452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb53cb062560c805c759adc10f73270') in 0.009760 seconds
+  Import took 0.011365 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.652557 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels
-  artifactKey: Guid(5171b9b92981e144ab75862f7c8ab70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels using Guid(5171b9b92981e144ab75862f7c8ab70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddf28fb895ddde7bcd71d29edff16b0') in 0.002302 seconds
-  Import took 0.004057 seconds .
+  Time since last request: 0.000197 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Head1.mat
+  artifactKey: Guid(fc5116b24a68e04498069328a62df292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Head1.mat using Guid(fc5116b24a68e04498069328a62df292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee357001be6b3f64d6b27b8eaeedcf8') in 0.016093 seconds
+  Import took 0.017792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Pants2_Skin3.mat
+  artifactKey: Guid(315b9206d1b6e5841aa9209f2e1f8b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Pants2_Skin3.mat using Guid(315b9206d1b6e5841aa9209f2e1f8b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737221ed7b09f18cbcf75c1b426dcbb5') in 0.017625 seconds
+  Import took 0.019173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Military/Materials HDRP/HDRP_Backpack1_Skin3.mat
+  artifactKey: Guid(256a8ce9182584c4a8d68e6512b3ddd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials HDRP/HDRP_Backpack1_Skin3.mat using Guid(256a8ce9182584c4a8d68e6512b3ddd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0480a5452623d2c32bec35fed2ad16d7') in 0.006311 seconds
+  Import took 0.008073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.028233 seconds.
+  path: Assets/Military/Basemesh/SK_Military_Survivalist.fbx
+  artifactKey: Guid(0e55d5c42cc96404f872b45455603f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Basemesh/SK_Military_Survivalist.fbx using Guid(0e55d5c42cc96404f872b45455603f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5003742acd5a9dbd0cdf83729d3107f') in 0.434804 seconds
+  Import took 0.451068 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000285 seconds.
+Registered in 0.000316 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.515 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.1 MB.
+System memory in use after: 111.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1770.
+Total: 1.561584 ms (FindLiveObjects: 0.113250 ms CreateObjectMapping: 0.024292 ms MarkObjects: 1.035042 ms  DeleteObjects: 0.388250 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 378.537403 seconds.
+  path: Assets/FPSMovement.cs
+  artifactKey: Guid(ca7ad878852f14e889a9f645b5f934df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPSMovement.cs using Guid(ca7ad878852f14e889a9f645b5f934df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfc0503d0a5875c791acf8fa2bdb037') in 0.007351 seconds
+  Import took 0.009665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009596 seconds.
+  path: Assets/FPSMovement.cs
+  artifactKey: Guid(ca7ad878852f14e889a9f645b5f934df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPSMovement.cs using Guid(ca7ad878852f14e889a9f645b5f934df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfc0503d0a5875c791acf8fa2bdb037') in 0.001000 seconds
+  Import took 0.002903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.214155 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(157934ec2bcbd47229575b8568f1c600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(157934ec2bcbd47229575b8568f1c600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886c5d27a78332e8936f878b14f4bae2') in 0.001268 seconds
+  Import took 0.003231 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000308 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.546 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.2 MB.
+System memory in use after: 107.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1773.
+Total: 1.569583 ms (FindLiveObjects: 0.119709 ms CreateObjectMapping: 0.023458 ms MarkObjects: 1.021166 ms  DeleteObjects: 0.404750 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000303 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.548 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 103.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1776.
+Total: 1.862000 ms (FindLiveObjects: 0.114833 ms CreateObjectMapping: 0.023792 ms MarkObjects: 1.246125 ms  DeleteObjects: 0.476375 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000323 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
@@ -665,22 +674,465 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.551 seconds
+- Completed reload, in  1.491 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1166 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.8 MB.
-System memory in use after: 86.5 MB.
+Unloading 1170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.3 MB.
+System memory in use after: 99.9 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1724.
-Total: 1.487167 ms (FindLiveObjects: 0.100541 ms CreateObjectMapping: 0.023292 ms MarkObjects: 1.004042 ms  DeleteObjects: 0.358709 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1779.
+Total: 1.785625 ms (FindLiveObjects: 0.186042 ms CreateObjectMapping: 0.025000 ms MarkObjects: 1.093375 ms  DeleteObjects: 0.480416 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000333 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.538 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 95.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1782.
+Total: 1.702792 ms (FindLiveObjects: 0.129833 ms CreateObjectMapping: 0.024417 ms MarkObjects: 1.051959 ms  DeleteObjects: 0.495584 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 186.958351 seconds.
-  path: Assets/Skyboxes/Cold Night
-  artifactKey: Guid(5002a90c1ac5742af853cc504426d653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skyboxes/Cold Night using Guid(5002a90c1ac5742af853cc504426d653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2224166b98dda48583fef497b8319261') in 0.005482 seconds
-  Import took 0.007903 seconds .
+  Time since last request: 1838.452532 seconds.
+  path: Assets/Scripts/FPSMovement.cs
+  artifactKey: Guid(ca7ad878852f14e889a9f645b5f934df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FPSMovement.cs using Guid(ca7ad878852f14e889a9f645b5f934df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee0e7081d04ca1939cee1e94a0e0061') in 0.005248 seconds
+  Import took 0.007246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012643 seconds.
+  path: Assets/Scripts/FPSMovement.cs
+  artifactKey: Guid(ca7ad878852f14e889a9f645b5f934df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FPSMovement.cs using Guid(ca7ad878852f14e889a9f645b5f934df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee0e7081d04ca1939cee1e94a0e0061') in 0.001001 seconds
+  Import took 0.002564 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000291 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.455 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.3 MB.
+System memory in use after: 92.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1785.
+Total: 1.882042 ms (FindLiveObjects: 0.132791 ms CreateObjectMapping: 0.025625 ms MarkObjects: 1.170833 ms  DeleteObjects: 0.551834 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000409 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.462 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.4 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1788.
+Total: 1.709750 ms (FindLiveObjects: 0.118583 ms CreateObjectMapping: 0.025250 ms MarkObjects: 1.079583 ms  DeleteObjects: 0.485416 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000318 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.508 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.5 MB.
+System memory in use after: 84.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1791.
+Total: 1.590709 ms (FindLiveObjects: 0.108917 ms CreateObjectMapping: 0.024750 ms MarkObjects: 0.990458 ms  DeleteObjects: 0.465875 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 713.405830 seconds.
+  path: Assets/Scripts/FPSMovement.cs
+  artifactKey: Guid(ca7ad878852f14e889a9f645b5f934df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FPSMovement.cs using Guid(ca7ad878852f14e889a9f645b5f934df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ef45fc9eae31677b5c292bbafcb837') in 0.004917 seconds
+  Import took 0.006533 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000654 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.592 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.5 MB.
+System memory in use after: 80.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1794.
+Total: 1.708042 ms (FindLiveObjects: 0.192625 ms CreateObjectMapping: 0.023125 ms MarkObjects: 0.997000 ms  DeleteObjects: 0.494417 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.270158 seconds.
+  path: Assets/Military/Materials
+  artifactKey: Guid(3232ae25a076c524693e04439575d1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials using Guid(3232ae25a076c524693e04439575d1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b1b49e83ae4e19fb37b69cba21404b') in 0.006836 seconds
+  Import took 0.009941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066021 seconds.
+  path: Assets/Military/Materials/Backpack1_Skin1.mat
+  artifactKey: Guid(bb22c5d48abf85d4f98617d056e1d110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Backpack1_Skin1.mat using Guid(bb22c5d48abf85d4f98617d056e1d110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca31e292e976f6b1abb160ec2bf02ace') in 0.201604 seconds
+  Import took 0.204353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Military/Materials/Pouches1_Skin2.mat
+  artifactKey: Guid(fd4594c9614f0424da87b142d7d3801c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Pouches1_Skin2.mat using Guid(fd4594c9614f0424da87b142d7d3801c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f14d65c6a2ea382e35e81b66c1881f') in 0.039400 seconds
+  Import took 0.041833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Military/Materials/Gloves1_Skin2.mat
+  artifactKey: Guid(953e54df3cf3ebd459b13ba48cac3a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Gloves1_Skin2.mat using Guid(953e54df3cf3ebd459b13ba48cac3a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ad5f48d2de9c79e3eadf6e0d44bd36') in 0.031609 seconds
+  Import took 0.033535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Military/Materials/Head1.mat
+  artifactKey: Guid(01e354ee2a262cf40a7b08040b6236fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Head1.mat using Guid(01e354ee2a262cf40a7b08040b6236fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f436d0b5862027a322cc9346f29ee360') in 0.021294 seconds
+  Import took 0.023049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Military/Materials/Shirt3_Skin1.mat
+  artifactKey: Guid(8f39a9a3bee8af04889e87c953c40533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Shirt3_Skin1.mat using Guid(8f39a9a3bee8af04889e87c953c40533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9344de9c20e4e429691618141d2384b8') in 0.022131 seconds
+  Import took 0.024309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Military/Materials/Pants2_Skin3.mat
+  artifactKey: Guid(907de43488b59c54086bb78e00686023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Pants2_Skin3.mat using Guid(907de43488b59c54086bb78e00686023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82731ee8f3c1a7b817f8bfc1cbee1180') in 0.021611 seconds
+  Import took 0.023711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Military/Materials/Cap1_Skin1.mat
+  artifactKey: Guid(ca362cd434882e7468146d69e8b14eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Cap1_Skin1.mat using Guid(ca362cd434882e7468146d69e8b14eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf71eedf7572962ddc0b59dd91a115e1') in 0.027025 seconds
+  Import took 0.029094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Military/Materials/Gloves1_Skin1.mat
+  artifactKey: Guid(7e5e6c8eb72897145ac408f805ab3a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Gloves1_Skin1.mat using Guid(7e5e6c8eb72897145ac408f805ab3a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a966b46013d3ebb079bab433e5f32a6') in 0.020859 seconds
+  Import took 0.022787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Military/Materials/Cap1_Skin2.mat
+  artifactKey: Guid(177b89c6830906448881f566d8143446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Cap1_Skin2.mat using Guid(177b89c6830906448881f566d8143446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0756d0ec4dd66104f2372c480c299781') in 0.023249 seconds
+  Import took 0.025294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Military/Materials/Pants2_Skin1.mat
+  artifactKey: Guid(39c752ff4621e8f408fe3e0030d2cbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Pants2_Skin1.mat using Guid(39c752ff4621e8f408fe3e0030d2cbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76599ec0c4b89ae2c48b9cd3a203a860') in 0.024421 seconds
+  Import took 0.026560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Military/Materials/Backpack1_Skin4.mat
+  artifactKey: Guid(b15ec2cf8f326d6478fb6a1609b2ad4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Backpack1_Skin4.mat using Guid(b15ec2cf8f326d6478fb6a1609b2ad4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41df632eaf94fe0a4dc35ce855ad8681') in 0.017245 seconds
+  Import took 0.019387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Military/Materials/Shirt3_Skin3.mat
+  artifactKey: Guid(ed70616142da0fc49b90b7515061ffcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Shirt3_Skin3.mat using Guid(ed70616142da0fc49b90b7515061ffcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1ba70c6231cb8c9d6d563ad157aeaa') in 0.017677 seconds
+  Import took 0.019846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Military/Materials/Boots3_Skin2.mat
+  artifactKey: Guid(2c89187d4215b9f4c83dcefb5456897d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Boots3_Skin2.mat using Guid(2c89187d4215b9f4c83dcefb5456897d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe0553663454d98ac60d3a7aceaf01e') in 0.015811 seconds
+  Import took 0.017655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Military/Materials/Boots3_Skin3.mat
+  artifactKey: Guid(a210e4596a34b764387336c54096ea70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Boots3_Skin3.mat using Guid(a210e4596a34b764387336c54096ea70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06426f824b09c62800bee02864a4fdc3') in 0.011114 seconds
+  Import took 0.012947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Military/Materials/Vest1_Skin1.mat
+  artifactKey: Guid(85442a5678b051043a848d96f57c039d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Vest1_Skin1.mat using Guid(85442a5678b051043a848d96f57c039d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecde72dcc151d6d524fe6de5200ce4f') in 0.023363 seconds
+  Import took 0.025474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Military/Materials/Pants2_Skin2.mat
+  artifactKey: Guid(91e1bfddab2e07149a6e37f1c74aa6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Pants2_Skin2.mat using Guid(91e1bfddab2e07149a6e37f1c74aa6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523c4f2bdda9c34bcda6331be41b010c') in 0.027134 seconds
+  Import took 0.029293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Military/Materials/Cap1_Skin3.mat
+  artifactKey: Guid(96a5b189e0fdcb74b970135d97057d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Cap1_Skin3.mat using Guid(96a5b189e0fdcb74b970135d97057d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd9177eba3b69b68ec0c7d94d3c580c') in 0.029160 seconds
+  Import took 0.031281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Military/Materials/Pouches1_Skin1.mat
+  artifactKey: Guid(66281e6f4c3b1b34d8046c9fdea8fa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Pouches1_Skin1.mat using Guid(66281e6f4c3b1b34d8046c9fdea8fa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3e1f37b683573c3d75466c704f5b95') in 0.027382 seconds
+  Import took 0.029485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Military/Materials/Vest1_Skin3.mat
+  artifactKey: Guid(0965979b013b68345a68889b01fdc0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Vest1_Skin3.mat using Guid(0965979b013b68345a68889b01fdc0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2312de2f20b4e0cb68f990c947a4784b') in 0.023751 seconds
+  Import took 0.025858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Military/Materials/Backpack1_Skin2.mat
+  artifactKey: Guid(3c18a64b693f2fc45a7f092ddf46cbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Backpack1_Skin2.mat using Guid(3c18a64b693f2fc45a7f092ddf46cbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85267c4e334b240c67f56695acb90e9b') in 0.016201 seconds
+  Import took 0.018301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Military/Materials/Hands1_Skin2.mat
+  artifactKey: Guid(1f04324fc44f0984596062b227d2375c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Hands1_Skin2.mat using Guid(1f04324fc44f0984596062b227d2375c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f345bbef9dac7fb005e9c296ced6c8') in 0.017924 seconds
+  Import took 0.020012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Military/Materials/Cap1_Skin4.mat
+  artifactKey: Guid(3ada2b513534a4a42806251244eefe3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Cap1_Skin4.mat using Guid(3ada2b513534a4a42806251244eefe3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e5b47f88a23a12d476fef3bac5cde5') in 0.017628 seconds
+  Import took 0.019818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Military/Materials/Pouches1_Skin3.mat
+  artifactKey: Guid(c4ebab701bd8b4244a7201e9c2ee70ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Pouches1_Skin3.mat using Guid(c4ebab701bd8b4244a7201e9c2ee70ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662da35c25b9be23f7a17cad11fd9be9') in 0.020677 seconds
+  Import took 0.022869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Military/Materials/Vest1_Skin2.mat
+  artifactKey: Guid(433800eadcf133e42b71c8c30a6d86e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Vest1_Skin2.mat using Guid(433800eadcf133e42b71c8c30a6d86e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838e22c48fabfdf582d2a1f53f475d7f') in 0.020154 seconds
+  Import took 0.022378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Military/Materials/Eyes1.mat
+  artifactKey: Guid(38b71884de7d2094587df9ab6c870d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Eyes1.mat using Guid(38b71884de7d2094587df9ab6c870d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23cddac1130ea3484ce050c4939f4c82') in 0.023060 seconds
+  Import took 0.024840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Military/Materials/Backpack1_Skin3.mat
+  artifactKey: Guid(daa8d9ddafbf2c3448faa8e6f2b6ae90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Backpack1_Skin3.mat using Guid(daa8d9ddafbf2c3448faa8e6f2b6ae90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4d68cc2ff279634bc17574859a97b5') in 0.022777 seconds
+  Import took 0.025045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Military/Materials/Boots3_Skin1.mat
+  artifactKey: Guid(b4968c47c65a7f04d838250af66552f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Boots3_Skin1.mat using Guid(b4968c47c65a7f04d838250af66552f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2feaaca32c2dfaecc9b005898093c37d') in 0.010436 seconds
+  Import took 0.012212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Military/Materials/FPS_Hands1_Skin1.mat
+  artifactKey: Guid(308bfb0f350b3eb4781240efb6c21c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/FPS_Hands1_Skin1.mat using Guid(308bfb0f350b3eb4781240efb6c21c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb12f457516fa6dc73c097a3793f9fc') in 0.022453 seconds
+  Import took 0.024865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Military/Materials/Shirt3_Skin2.mat
+  artifactKey: Guid(2eafbc23cd3c62a47b7b2dcbf76f1526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Shirt3_Skin2.mat using Guid(2eafbc23cd3c62a47b7b2dcbf76f1526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bc4b3f0162ae12e7986f2d2dda3ec2') in 0.020675 seconds
+  Import took 0.022808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Military/Materials/Hands1_Skin1.mat
+  artifactKey: Guid(a4f3038e85335ab4eb10f074fda8b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Hands1_Skin1.mat using Guid(a4f3038e85335ab4eb10f074fda8b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c118bca794ba95151b729391c7cbb327') in 0.021279 seconds
+  Import took 0.023701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004365 seconds.
+  path: Assets/Military/Materials/Hands1_Skin1.mat
+  artifactKey: Guid(a4f3038e85335ab4eb10f074fda8b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials/Hands1_Skin1.mat using Guid(a4f3038e85335ab4eb10f074fda8b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c118bca794ba95151b729391c7cbb327') in 0.022137 seconds
+  Import took 0.024896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.163355 seconds.
+  path: Assets/Military/Materials URP
+  artifactKey: Guid(3f7419c434c974a469778113b045370b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Materials URP using Guid(3f7419c434c974a469778113b045370b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2479e2d160646ccd92a9ef29268bf988') in 0.001279 seconds
+  Import took 0.004012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.247972 seconds.
+  path: Assets/Military/StarterAssets/license.txt
+  artifactKey: Guid(b846ecad8a98bd34dba8a5daf996d86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/StarterAssets/license.txt using Guid(b846ecad8a98bd34dba8a5daf996d86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bfa82d940f2545504e063734c87f97') in 0.409629 seconds
+  Import took 0.412553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095672 seconds.
+  path: Assets/Military/StarterAssets/Environment
+  artifactKey: Guid(8d8da06649314d7498296c53b4a0a77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/StarterAssets/Environment using Guid(8d8da06649314d7498296c53b4a0a77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1f724647e5152a86ab16e4cc2dec08') in 0.000732 seconds
+  Import took 0.002484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.152673 seconds.
+  path: Assets/Military/StarterAssets/InputSystem
+  artifactKey: Guid(48c9acd554a28814b922162e3fa889b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/StarterAssets/InputSystem using Guid(48c9acd554a28814b922162e3fa889b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027cb9384761dec05f1bcc22399345c3') in 0.003630 seconds
+  Import took 0.006680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.340279 seconds.
+  path: Assets/Military/Texture
+  artifactKey: Guid(3f21bc7aefe197f44b45643d6f0b389c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Military/Texture using Guid(3f21bc7aefe197f44b45643d6f0b389c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398afda39357c4a0ec1919a93dfeb772') in 0.001568 seconds
+  Import took 0.004216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.858208 seconds.
+  path: Assets/New Terrain 1 2.asset
+  artifactKey: Guid(55f89e929ee774cfdafac6d85fdfcf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1 2.asset using Guid(55f89e929ee774cfdafac6d85fdfcf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc56d68c28dfc17bcc9e74c296e28ee') in 0.040049 seconds
+  Import took 0.042160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/New Terrain 2.asset
+  artifactKey: Guid(68ee279e1e39b463a9257a600235ca47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 2.asset using Guid(68ee279e1e39b463a9257a600235ca47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2821bf713d7948a924edb67e465d969e') in 0.004814 seconds
+  Import took 0.006282 seconds .
 
