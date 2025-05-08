@@ -1,0 +1,686 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/emilyherbert/Documents/CaseFile-CampStillwater/Case File Camp Stillwater
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49451
+Successfully changed project path to: /Users/emilyherbert/Documents/CaseFile-CampStillwater/Case File Camp Stillwater
+/Users/emilyherbert/Documents/CaseFile-CampStillwater/Case File Camp Stillwater
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 33.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/emilyherbert/Documents/CaseFile-CampStillwater/Case File Camp Stillwater/Assets
+GfxDevice: creating device client; threaded=0
+2025-05-07 14:16:54.351 Unity[40883:3038245] (null) preferred device: Apple M4 Pro (high power)
+2025-05-07 14:16:54.351 Unity[40883:3038245] Metal devices available: 1
+2025-05-07 14:16:54.351 Unity[40883:3038245] 0: Apple M4 Pro (high power)
+2025-05-07 14:16:54.351 Unity[40883:3038245] Using device Apple M4 Pro (high power)
+Initializing Metal device caps: Apple M4 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56883
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001279 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 36.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.595 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001055 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.547 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.7 MB.
+System memory in use after: 86.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1714.
+Total: 1.594375 ms (FindLiveObjects: 0.109250 ms CreateObjectMapping: 0.023458 ms MarkObjects: 1.059208 ms  DeleteObjects: 0.401833 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences
+  artifactKey: Guid(b797f953db7b63e48affcf18b7c87540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences using Guid(b797f953db7b63e48affcf18b7c87540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d6f1acf97f755be78afb8e522a9346') in 0.006855 seconds
+  Import took 0.008875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/TimelineCTR.playable
+  artifactKey: Guid(0e6acb385f0b7294e8cabf7c91042693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/TimelineCTR.playable using Guid(0e6acb385f0b7294e8cabf7c91042693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd232870b3d10998e51131229b814dc') in 0.144520 seconds
+  Import took 0.146179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/Timeline2CTR.playable
+  artifactKey: Guid(06bd1832f31ec1645be78217f68086ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/Timeline2CTR.playable using Guid(06bd1832f31ec1645be78217f68086ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799b4f6e1ceb5b2d96f84a9fef110d2e') in 0.003797 seconds
+  Import took 0.005450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance
+  artifactKey: Guid(0d4440cde6152c04fbe6a23a8584248d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance using Guid(0d4440cde6152c04fbe6a23a8584248d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa2eadb22e2ab9b61680287c8fb8c8b') in 0.000510 seconds
+  Import took 0.001713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.852422 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry
+  artifactKey: Guid(49ab9af231214b84581d01da6967c944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry using Guid(49ab9af231214b84581d01da6967c944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b80c31fee1e39ea0566047fdf7e39b') in 0.000980 seconds
+  Import took 0.002876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.974934 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs
+  artifactKey: Guid(bb2a1954d156cc446ba8de4f759a1198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs using Guid(bb2a1954d156cc446ba8de4f759a1198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a7a94c45838f453604e41c666bbf4a') in 0.000821 seconds
+  Import took 0.002547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006290 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs
+  artifactKey: Guid(bb2a1954d156cc446ba8de4f759a1198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs using Guid(bb2a1954d156cc446ba8de4f759a1198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a7a94c45838f453604e41c666bbf4a') in 0.000745 seconds
+  Import took 0.002400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048636 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/_Courtyard1Complete 1.prefab
+  artifactKey: Guid(b645c5124f2b13c4880a0308c238926c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/_Courtyard1Complete 1.prefab using Guid(b645c5124f2b13c4880a0308c238926c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bd916c1c3cfbe5d618d411a48c6154') in 0.966876 seconds
+  Import took 0.976748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/Metal Fence.prefab
+  artifactKey: Guid(31a6e32b3781cfc44bb47fe665ba8c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/Metal Fence.prefab using Guid(31a6e32b3781cfc44bb47fe665ba8c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab9aadf46f69e23a986c3e7e36ab6dd') in 0.379637 seconds
+  Import took 0.384726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/OvalDecorations1.prefab
+  artifactKey: Guid(65d4e13b3f82de34faeaf8dd7d407e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/OvalDecorations1.prefab using Guid(65d4e13b3f82de34faeaf8dd7d407e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6259f933e5186f35822a085f7daef9') in 0.034663 seconds
+  Import took 0.036370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/Door.prefab
+  artifactKey: Guid(8e4d61e1d61c7a1428d6838c5e299e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/Door.prefab using Guid(8e4d61e1d61c7a1428d6838c5e299e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5ea74f453a8e00ef9da0640d1f547e') in 0.013594 seconds
+  Import took 0.015297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/Side Wall.prefab
+  artifactKey: Guid(bb9d54417b7aee04aae8c82458d75a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/Side Wall.prefab using Guid(bb9d54417b7aee04aae8c82458d75a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4085da3a7c5e0e6ffbf031284771e7db') in 0.020540 seconds
+  Import took 0.022504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/WallUp.prefab
+  artifactKey: Guid(636e9bae275a9a9488fd7663c2b171de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/WallUp.prefab using Guid(636e9bae275a9a9488fd7663c2b171de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ef47368f5bbaa3140c648341ff24aa') in 0.016098 seconds
+  Import took 0.017955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/BigPillar.prefab
+  artifactKey: Guid(56e3183bcc103c541bca0330ed02c45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/BigPillar.prefab using Guid(56e3183bcc103c541bca0330ed02c45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c4d509b7a79c18e40a543d76ecf565') in 0.019104 seconds
+  Import took 0.021005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/Floor.prefab
+  artifactKey: Guid(bc15ab3f239ff2b4c869bc9f01736324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/Floor.prefab using Guid(bc15ab3f239ff2b4c869bc9f01736324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13840ea67f64a22f3fbc9dc4335b1055') in 0.027462 seconds
+  Import took 0.029765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/LowPolyDecorativeSphere.prefab
+  artifactKey: Guid(7663c137c9d80724f89efa36fc224473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/LowPolyDecorativeSphere.prefab using Guid(7663c137c9d80724f89efa36fc224473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2363bc741e9410e397e9165308575a8d') in 0.010282 seconds
+  Import took 0.012131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/OvalDecorations2.prefab
+  artifactKey: Guid(7ab1b81a3ae76354a92fd2a8b6e0616d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/OvalDecorations2.prefab using Guid(7ab1b81a3ae76354a92fd2a8b6e0616d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3a6efec71fbc01a82f5430a182bc50') in 0.009337 seconds
+  Import took 0.011035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/SideDoor.prefab
+  artifactKey: Guid(af16c89ae37fa88488514ec1d16d35a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/SideDoor.prefab using Guid(af16c89ae37fa88488514ec1d16d35a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccf55410072fb3e60e4dcde1cbeb4c0') in 0.015572 seconds
+  Import took 0.017499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/DoorWall.prefab
+  artifactKey: Guid(736ab1b4a0cd02d4aa32299021ee5df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry/_Prefabs/DoorWall.prefab using Guid(736ab1b4a0cd02d4aa32299021ee5df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eca08cb21fe5330d3b0a2ba2f18f85c') in 0.017731 seconds
+  Import took 0.019567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.208109 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs
+  artifactKey: Guid(54b2e445224bff74bacb6ab5aa544125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs using Guid(54b2e445224bff74bacb6ab5aa544125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c2c05c8ad12997eae57a89262311f4') in 0.000856 seconds
+  Import took 0.002695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051786 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Axe 1.prefab
+  artifactKey: Guid(9cab7697c66aece498d729b4a64241fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Axe 1.prefab using Guid(9cab7697c66aece498d729b4a64241fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8446ab360077671b0d77b5d93cf67025') in 0.028184 seconds
+  Import took 0.030591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScissorsForGrass.prefab
+  artifactKey: Guid(723f84f13904f514ab8f3ca3d5b57c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScissorsForGrass.prefab using Guid(723f84f13904f514ab8f3ca3d5b57c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8206568d851cf0393d5d849b56ac624') in 0.030000 seconds
+  Import took 0.032086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 3.prefab
+  artifactKey: Guid(26f0053b6cf04ea44af763bd2e184dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 3.prefab using Guid(26f0053b6cf04ea44af763bd2e184dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d133480594f4b4f13a1a1304a199dd') in 0.019685 seconds
+  Import took 0.021796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence2.prefab
+  artifactKey: Guid(135ba6f8587f905418f573a1b2380169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence2.prefab using Guid(135ba6f8587f905418f573a1b2380169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a37fdfab8c423f5cdd10e0c4e00da0') in 0.016786 seconds
+  Import took 0.018546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/MiddleBridgePartAllLOD.prefab
+  artifactKey: Guid(e550825b76c9f4a4cafd2af6ba627a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/MiddleBridgePartAllLOD.prefab using Guid(e550825b76c9f4a4cafd2af6ba627a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19046bfeed70dcf46aa2e59d83bab11f') in 0.315317 seconds
+  Import took 0.317491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence1.prefab
+  artifactKey: Guid(ddf4f45c150785f4685630ead1bdbe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence1.prefab using Guid(ddf4f45c150785f4685630ead1bdbe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a216a3f9fab32860864fcbe17e21a7ac') in 0.020897 seconds
+  Import took 0.022886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/GasCan.prefab
+  artifactKey: Guid(8b780173080be1e4e86f28dd1ad13d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/GasCan.prefab using Guid(8b780173080be1e4e86f28dd1ad13d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43df07838efab4327a238c5d815491f9') in 0.032661 seconds
+  Import took 0.035528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/HalfBridge.prefab
+  artifactKey: Guid(903b9a0b57329fd41ad9cb0d383ab6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/HalfBridge.prefab using Guid(903b9a0b57329fd41ad9cb0d383ab6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c2aa1412ebf3b93d7b54773ef40c36') in 0.074249 seconds
+  Import took 0.078715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/PotsStacked.prefab
+  artifactKey: Guid(aef445cdc1ce6fc4f93a867a9d9109ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/PotsStacked.prefab using Guid(aef445cdc1ce6fc4f93a867a9d9109ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fc7ed14842347ffb09002519e26850') in 0.022345 seconds
+  Import took 0.024355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 2.prefab
+  artifactKey: Guid(e6ec50b9e4978294bada9a364235c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 2.prefab using Guid(e6ec50b9e4978294bada9a364235c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c462e0e8252bcea19c2b489847251170') in 0.019952 seconds
+  Import took 0.021897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/PotsUpsideDown.prefab
+  artifactKey: Guid(6e0ca3cc89322054fb5ae001a9081329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/PotsUpsideDown.prefab using Guid(6e0ca3cc89322054fb5ae001a9081329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c4bbcaf0a8155146fa56a943d99b02') in 0.014742 seconds
+  Import took 0.016720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Rope.prefab
+  artifactKey: Guid(4f3403a0a166e444194da6bcb1f3cb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Rope.prefab using Guid(4f3403a0a166e444194da6bcb1f3cb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfcb924d097e2e6253b7eb2d9aa3599') in 0.013435 seconds
+  Import took 0.015172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ShedAllLod.prefab
+  artifactKey: Guid(fb05bdaf6898faa4fb17c88de74b56c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ShedAllLod.prefab using Guid(fb05bdaf6898faa4fb17c88de74b56c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46e5d8a56a02712c08b33600d00feaf') in 0.176476 seconds
+  Import took 0.188395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Gripper.prefab
+  artifactKey: Guid(070cc6e0f08b39248b99298eabf38f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Gripper.prefab using Guid(070cc6e0f08b39248b99298eabf38f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e441399cc6561ee01cfde647a545be4b') in 0.043107 seconds
+  Import took 0.046550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Hammer.prefab
+  artifactKey: Guid(8648ac77aa011604c9b885644314c5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Hammer.prefab using Guid(8648ac77aa011604c9b885644314c5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25aab232ca1a4ba187439f683d0fa5ab') in 0.035307 seconds
+  Import took 0.038240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 4.prefab
+  artifactKey: Guid(14d7a570754dc3240ba1b0a465ba37e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 4.prefab using Guid(14d7a570754dc3240ba1b0a465ba37e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82b6d7421a0374216bba548fd1348d5') in 0.022125 seconds
+  Import took 0.024069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/BridgePartAllLOD.prefab
+  artifactKey: Guid(04d1d82e2f5f1d4469b5a60ed8ab97ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/BridgePartAllLOD.prefab using Guid(04d1d82e2f5f1d4469b5a60ed8ab97ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d606de3097a45fb86fe2e735d6a219') in 0.022109 seconds
+  Import took 0.024292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence4.prefab
+  artifactKey: Guid(361e3d5cdb2eadb43a7e7bacd9accd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence4.prefab using Guid(361e3d5cdb2eadb43a7e7bacd9accd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9d8ce052bd3290478f780f8fff02dd') in 0.019456 seconds
+  Import took 0.021427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 1.prefab
+  artifactKey: Guid(9b25f1703b9da8d4eb28fd5fe8179830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 1.prefab using Guid(9b25f1703b9da8d4eb28fd5fe8179830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae171012f603cfb17ae25b01f822f8eb') in 0.012054 seconds
+  Import took 0.013760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Bucket.prefab
+  artifactKey: Guid(cdff7da967252f94cad1dc1b01f99cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Bucket.prefab using Guid(cdff7da967252f94cad1dc1b01f99cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de128b2d0f837be9218f4ec4b424620') in 0.028944 seconds
+  Import took 0.031449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Hammer2.prefab
+  artifactKey: Guid(7c21bc16125c0394f816b22450955d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Hammer2.prefab using Guid(7c21bc16125c0394f816b22450955d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61bb1da909f889f4f8feab0a3f8705c6') in 0.019584 seconds
+  Import took 0.021579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/FullBridge.prefab
+  artifactKey: Guid(a1df4b9f785e074449e4a29f24816a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/FullBridge.prefab using Guid(a1df4b9f785e074449e4a29f24816a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44aac35f3630e545b2c87e9845997052') in 0.063277 seconds
+  Import took 0.068989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/LittleBox1 1.prefab
+  artifactKey: Guid(68ee76a8899803640b86f31376021aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/LittleBox1 1.prefab using Guid(68ee76a8899803640b86f31376021aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e832ce53fdd08c5cd69ddb6b3150703') in 0.023693 seconds
+  Import took 0.025700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/GlassSpray.prefab
+  artifactKey: Guid(318a7a800b8ccc14ea98ef0a7e067199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/GlassSpray.prefab using Guid(318a7a800b8ccc14ea98ef0a7e067199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976c0d0799917085610d2675859d0fbb') in 0.018741 seconds
+  Import took 0.020590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fork.prefab
+  artifactKey: Guid(a0c500ad6d9391749b34c0f9f753987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fork.prefab using Guid(a0c500ad6d9391749b34c0f9f753987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84234ecc8e758e13e140b3196293338') in 0.044829 seconds
+  Import took 0.048444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ShedLOD1.prefab
+  artifactKey: Guid(b518e4023293f6747bb776b6384a8f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ShedLOD1.prefab using Guid(b518e4023293f6747bb776b6384a8f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b42bd2ba1585754d79d074b6ffea74b') in 0.141651 seconds
+  Import took 0.154341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Barrel.prefab
+  artifactKey: Guid(d33067713c4ea684297c7899a427215b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Barrel.prefab using Guid(d33067713c4ea684297c7899a427215b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b086f258b825ffd2bb35ff8af057fc0d') in 0.042445 seconds
+  Import took 0.045060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Box.prefab
+  artifactKey: Guid(7042f0c5fc091464cbd29ca102694e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Box.prefab using Guid(7042f0c5fc091464cbd29ca102694e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1544977a7bd1a9e98cbfa5130ed59bfe') in 0.034471 seconds
+  Import took 0.037318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence5.prefab
+  artifactKey: Guid(43a17864c509699478646582a6a377c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence5.prefab using Guid(43a17864c509699478646582a6a377c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf15916318112e730bdc04e1d9f5eee') in 0.020560 seconds
+  Import took 0.022461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/LittleBox2.prefab
+  artifactKey: Guid(b0c9e37732491f14ebf148fca8134993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/LittleBox2.prefab using Guid(b0c9e37732491f14ebf148fca8134993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ae3c6583e360e917914dc059bfa5f7') in 0.018793 seconds
+  Import took 0.020653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/BridgeFirstPartAllLOD.prefab
+  artifactKey: Guid(3b6e2b17278f80e40887b0aff9ecccfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/BridgeFirstPartAllLOD.prefab using Guid(3b6e2b17278f80e40887b0aff9ecccfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e0c3dbf80ab07ce3340f282a08c7da') in 0.030631 seconds
+  Import took 0.033771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Saw.prefab
+  artifactKey: Guid(c245124867324c340a935f7058728606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Saw.prefab using Guid(c245124867324c340a935f7058728606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c0efa22c7d5a71735f49dbcf39b2a8') in 0.035269 seconds
+  Import took 0.037261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence3.prefab
+  artifactKey: Guid(3ff55326860ccdc4db0504550148e994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence3.prefab using Guid(3ff55326860ccdc4db0504550148e994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729d80f592009dc30bbe71d888e99cca') in 0.020112 seconds
+  Import took 0.021967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence3.prefab
+  artifactKey: Guid(3ff55326860ccdc4db0504550148e994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence3.prefab using Guid(3ff55326860ccdc4db0504550148e994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729d80f592009dc30bbe71d888e99cca') in 0.014494 seconds
+  Import took 0.016379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 228.280984 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry 2
+  artifactKey: Guid(31b3271fc1406c449904b9df558c155f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry 2 using Guid(31b3271fc1406c449904b9df558c155f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0feedd06f5a3cfebc19b83d45e62a9') in 0.000991 seconds
+  Import took 0.003331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003843 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry 2
+  artifactKey: Guid(31b3271fc1406c449904b9df558c155f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry 2 using Guid(31b3271fc1406c449904b9df558c155f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0feedd06f5a3cfebc19b83d45e62a9') in 0.000727 seconds
+  Import took 0.002452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.214331 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry 2/_Prefabs
+  artifactKey: Guid(6feeff2b24f1bca498b050bdf1ec4202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry 2/_Prefabs using Guid(6feeff2b24f1bca498b050bdf1ec4202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9918df08a7b06a6ce572dd0be41a3b') in 0.000904 seconds
+  Import took 0.002583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.425045 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry 2/_Prefabs/Complete
+  artifactKey: Guid(5f784458b668e6742888e5045cf90dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry 2/_Prefabs/Complete using Guid(5f784458b668e6742888e5045cf90dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3295c0c7d0316da22bffe3138fd2ddd') in 0.001314 seconds
+  Import took 0.003137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.120355 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/Entry 2/_Prefabs/Complete/Entry2Complete.prefab
+  artifactKey: Guid(eb3f456bfca527a46b40354e14725e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/Entry 2/_Prefabs/Complete/Entry2Complete.prefab using Guid(eb3f456bfca527a46b40354e14725e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58bc427194c1366d309b0325640059e') in 0.482262 seconds
+  Import took 0.493684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.965123 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Shovel.prefab
+  artifactKey: Guid(bb8c330a191619443833d09c49ac8527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Shovel.prefab using Guid(bb8c330a191619443833d09c49ac8527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542c0d7e4d1b39643dd4e3bc42ecfaf5') in 0.063692 seconds
+  Import took 0.067891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Spray1.prefab
+  artifactKey: Guid(d102bac42b060cd43ab260ae556f2f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Spray1.prefab using Guid(d102bac42b060cd43ab260ae556f2f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf609db42f56081ea50facb600a2f8b') in 0.015829 seconds
+  Import took 0.017627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Spray3.prefab
+  artifactKey: Guid(dd362038514b13a4c9b03c803507f71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Spray3.prefab using Guid(dd362038514b13a4c9b03c803507f71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e07a9adfca46206cdc6417a0c0d82a1') in 0.015488 seconds
+  Import took 0.017254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/TinCan.prefab
+  artifactKey: Guid(796e2d04825afee4086cad4a9e3fac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/TinCan.prefab using Guid(796e2d04825afee4086cad4a9e3fac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4afaa412e7ea158d71ed2eddb1f72b0') in 0.022472 seconds
+  Import took 0.024435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Sickle.prefab
+  artifactKey: Guid(664e4fe5307f53846a375f35fd65f35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Sickle.prefab using Guid(664e4fe5307f53846a375f35fd65f35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2ed0fcf65747bcd2b012400831e4f5') in 0.038591 seconds
+  Import took 0.041589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/WaterCan.prefab
+  artifactKey: Guid(d70a765f5f6bb1d49accfaf2d1a6384c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/WaterCan.prefab using Guid(d70a765f5f6bb1d49accfaf2d1a6384c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c498b0cbddfe24aba71ec017e3785c3') in 0.023252 seconds
+  Import took 0.025144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Spray2.prefab
+  artifactKey: Guid(a499bfc27b7db994a9cd20081dfc283d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Spray2.prefab using Guid(a499bfc27b7db994a9cd20081dfc283d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc7f18fb906be2adfb760261ba9d2ee') in 0.010565 seconds
+  Import took 0.012239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/TinyBox.prefab
+  artifactKey: Guid(a9895e7cf5278f44eb578d759c3a2abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/TinyBox.prefab using Guid(a9895e7cf5278f44eb578d759c3a2abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45900258f6a86c213187302d634b73d6') in 0.019363 seconds
+  Import took 0.021286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.226072 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/WoodPart1.prefab
+  artifactKey: Guid(060c83fa2ec9e23438866112a53273bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/WoodPart1.prefab using Guid(060c83fa2ec9e23438866112a53273bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6618f61c2fc4ff6375c3bb05a3fc58a') in 0.012782 seconds
+  Import took 0.014854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/WoodPart2.prefab
+  artifactKey: Guid(bbd108b8f14d6044d92129ecf1eb2140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/WoodPart2.prefab using Guid(bbd108b8f14d6044d92129ecf1eb2140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13695348fe0aa5c0a2bbf0babd1be1d5') in 0.009431 seconds
+  Import took 0.011068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Wrench.prefab
+  artifactKey: Guid(1b6247246e1a0be4faba5ea8b45b6523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Wrench.prefab using Guid(1b6247246e1a0be4faba5ea8b45b6523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f0da5992e93b76233ec6b78df6b8ef') in 0.022478 seconds
+  Import took 0.024490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/WoodPart2.prefab
+  artifactKey: Guid(bbd108b8f14d6044d92129ecf1eb2140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/WoodPart2.prefab using Guid(bbd108b8f14d6044d92129ecf1eb2140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13695348fe0aa5c0a2bbf0babd1be1d5') in 0.013529 seconds
+  Import took 0.015229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/WoodPart1.prefab
+  artifactKey: Guid(060c83fa2ec9e23438866112a53273bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/WoodPart1.prefab using Guid(060c83fa2ec9e23438866112a53273bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6618f61c2fc4ff6375c3bb05a3fc58a') in 0.008671 seconds
+  Import took 0.010338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.652557 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels
+  artifactKey: Guid(5171b9b92981e144ab75862f7c8ab70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels using Guid(5171b9b92981e144ab75862f7c8ab70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddf28fb895ddde7bcd71d29edff16b0') in 0.002302 seconds
+  Import took 0.004057 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000285 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.551 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1166 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.8 MB.
+System memory in use after: 86.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1724.
+Total: 1.487167 ms (FindLiveObjects: 0.100541 ms CreateObjectMapping: 0.023292 ms MarkObjects: 1.004042 ms  DeleteObjects: 0.358709 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 186.958351 seconds.
+  path: Assets/Skyboxes/Cold Night
+  artifactKey: Guid(5002a90c1ac5742af853cc504426d653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skyboxes/Cold Night using Guid(5002a90c1ac5742af853cc504426d653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2224166b98dda48583fef497b8319261') in 0.005482 seconds
+  Import took 0.007903 seconds .
+
