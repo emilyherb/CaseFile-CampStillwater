@@ -5771,8 +5771,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca7ad878852f14e889a9f645b5f934df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 7
+  moveSpeed: 10
   gravity: -9.81
+  playerCamera: {fileID: 1722239262}
 --- !u!143 &568495796
 CharacterController:
   m_ObjectHideFlags: 0
@@ -5796,6 +5797,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8865281306383317119, guid: 018f1c2109d7023488206bb23d1a8f71, type: 3}
   m_PrefabInstance: {fileID: 568495792}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &568495798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568495794}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87ccf9d210f25418d8e967fe2d55254b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCamera: {fileID: 1722239262}
+  mouseSensitivity: 100
 --- !u!4 &568677772 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 445910, guid: c63ea781a273235439e583799176c846, type: 3}
