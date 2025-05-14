@@ -15,12 +15,14 @@ public class UpdatedMonster : MonoBehaviour
 	private int randNum;
 	private NavMeshAgent agent;
 	private bool isHunting, isChasing;
+	private Animator animator;
 
 	
 
 	void Start()
 	{
 		agent = GetComponent<NavMeshAgent>();
+		animator = GetComponent<Animator>();
 		Hunting();
 	}
 
@@ -56,6 +58,7 @@ public class UpdatedMonster : MonoBehaviour
 	{
 		agent.speed = chaseSpeed;
 		agent.destination = player.position;
+		animator.SetBool("isChasing", true);
 	}
 
 	void Hunting()
@@ -90,6 +93,7 @@ public class UpdatedMonster : MonoBehaviour
 		{
 			isChasing = false;
 			isHunting = true;
+			animator.SetBool("isChasing", false);
 		}
 	}
 
