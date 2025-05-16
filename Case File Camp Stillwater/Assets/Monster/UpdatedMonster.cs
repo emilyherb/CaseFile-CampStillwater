@@ -7,7 +7,7 @@ public class UpdatedMonster : MonoBehaviour
 {
 	// settings for monster
 	public Transform player;
-	public float walkSpeed, chaseSpeed, chaseRange;
+	public float walkSpeed, chaseSpeed, chaseRange, killDistance;
 	public List<Transform> destinations;
 
 	// Agent and navigation
@@ -84,7 +84,7 @@ public class UpdatedMonster : MonoBehaviour
 			isChasing = true;
 			isHunting = false;
 			Debug.Log("Chasing Player");
-			if (distanceToPlayer < 2)
+			if (distanceToPlayer < killDistance)
 			{
 				KillPlayer();
 			}
