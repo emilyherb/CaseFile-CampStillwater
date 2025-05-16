@@ -14,8 +14,10 @@ public class UpdatedMonster : MonoBehaviour
 	private Transform destination;
 	private int randNum;
 	private NavMeshAgent agent;
-	private bool isHunting, isChasing;
+	private bool isHunting, isChasing, isFleeing;
 	private Animator animator;
+
+	private const float RunAwaySpeed = 40;
 
 	
 
@@ -29,7 +31,11 @@ public class UpdatedMonster : MonoBehaviour
 	void Update()
 	{
 		CheckPlayerProximity();
-		if (isHunting)
+		if (isFleeing)
+		{
+			agent.speed = RunAwaySpeed;
+		}
+		else if (isHunting)
 		{
 			if (!agent.hasPath || agent.velocity.sqrMagnitude == 0f)
 			{
@@ -65,6 +71,7 @@ public class UpdatedMonster : MonoBehaviour
 	{
 		Debug.Log("HUNTING");
         agent.speed = walkSpeed; 
+		animator.SetBool("isChasing", false);
 		if (!agent.hasPath || agent.velocity.sqrMagnitude == 0f)
 		{
 			PickNewDestination();
@@ -76,10 +83,32 @@ public class UpdatedMonster : MonoBehaviour
 		Debug.Log("Player is dead");
 	}
 
+	void RunFromPlayer()
+	{
+		Debug.Log("Monster was hit with light");
+		isFleeing = true;
+		Transform furthestPoint = GetFurthestPoint(agent.transform.position);
+        if (furthestPoint != null)
+        {
+			agent.SetDestination(furthestPoint.position);
+        }
+	}
+
 	void CheckPlayerProximity()
 	{
 		float distanceToPlayer = Vector3.Distance(transform.position, player.position);
-		if (distanceToPlayer < chaseRange)
+		if (isFleeing)
+		{
+			Debug.Log("Monster is fleeing");
+			if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
+			{
+				isFleeing = false;
+				isHunting = true;
+				isChasing = false;
+				Debug.Log("Monster is not fleeing and has reached it's destination to hunt again'");
+			}
+		}
+		else if (distanceToPlayer < chaseRange)
 		{
 			isChasing = true;
 			isHunting = false;
@@ -96,5 +125,32 @@ public class UpdatedMonster : MonoBehaviour
 			animator.SetBool("isChasing", false);
 		}
 	}
+
+	void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Light"))
+        {
+			RunFromPlayer();
+        }
+    }
+
+	// Helper method for monster escaping
+	Transform GetFurthestPoint(Vector3 fromPosition)
+    {
+        Transform furthest = null;
+        float maxDistance = 0f;
+
+        foreach (Transform point in destinations)
+        {
+            float dist = Vector3.Distance(fromPosition, point.position);
+            if (dist > maxDistance)
+            {
+                maxDistance = dist;
+                furthest = point;
+            }
+        }
+
+        return furthest;
+    }
 
 }
