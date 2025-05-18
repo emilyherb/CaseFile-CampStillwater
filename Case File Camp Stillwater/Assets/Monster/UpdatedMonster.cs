@@ -78,10 +78,24 @@ public class UpdatedMonster : MonoBehaviour
 		}
 	}
 
-	void KillPlayer()
-	{
-		Debug.Log("Player is dead");
-	}
+void KillPlayer()
+{
+    Debug.Log("Player is dead");
+
+    // Show end screen
+    GameManager.Instance.PlayerDied();
+
+    // Optionally disable player movement
+    GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+    CharacterController controller = playerObj.GetComponent<CharacterController>();
+    if (controller != null)
+    {
+        controller.enabled = false;
+    }
+
+    // You can also disable the camera/controller scripts here if needed
+}
+
 
 	void RunFromPlayer()
 	{

@@ -8,214 +8,1748 @@ Using pre-set license
 -name
 AssetImportWorker0
 -projectPath
-/Users/carrie/Documents/github/CaseFile-CampStillwater/Case File Camp Stillwater
+/Users/emilyherbert/Documents/CaseFile-CampStillwater/Case File Camp Stillwater
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59901
-Successfully changed project path to: /Users/carrie/Documents/github/CaseFile-CampStillwater/Case File Camp Stillwater
-/Users/carrie/Documents/github/CaseFile-CampStillwater/Case File Camp Stillwater
+56784
+Successfully changed project path to: /Users/emilyherbert/Documents/CaseFile-CampStillwater/Case File Camp Stillwater
+/Users/emilyherbert/Documents/CaseFile-CampStillwater/Case File Camp Stillwater
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 51.08 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 38.09 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/carrie/Documents/github/CaseFile-CampStillwater/Case File Camp Stillwater/Assets
+[Subsystems] Discovering subsystems at path /Users/emilyherbert/Documents/CaseFile-CampStillwater/Case File Camp Stillwater/Assets
 GfxDevice: creating device client; threaded=0
-2025-05-12 14:58:51.063 Unity[16545:5744059] (null) preferred device: Apple M1 (high power)
-2025-05-12 14:58:51.063 Unity[16545:5744059] Metal devices available: 1
-2025-05-12 14:58:51.063 Unity[16545:5744059] 0: Apple M1 (high power)
-2025-05-12 14:58:51.063 Unity[16545:5744059] Using device Apple M1 (high power)
-Initializing Metal device caps: Apple M1
+2025-05-16 15:14:58.261 Unity[63963:4184413] (null) preferred device: Apple M4 Pro (high power)
+2025-05-16 15:14:58.262 Unity[63963:4184413] Metal devices available: 1
+2025-05-16 15:14:58.262 Unity[63963:4184413] 0: Apple M4 Pro (high power)
+2025-05-16 15:14:58.262 Unity[63963:4184413] Using device Apple M4 Pro (high power)
+Initializing Metal device caps: Apple M4 Pro
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56545
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56963
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.005534 seconds.
+Registered in 0.002427 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 47.26 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 36.70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.999 seconds
+- Completed reload, in  1.594 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001054 seconds.
+Registered in 0.002106 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.301 seconds
+- Completed reload, in  1.592 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.23 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1252 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.2 MB.
-System memory in use after: 73.9 MB.
+Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 87.6 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1722.
-Total: 4.289834 ms (FindLiveObjects: 0.370250 ms CreateObjectMapping: 0.040209 ms MarkObjects: 3.147625 ms  DeleteObjects: 0.729958 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Campfire/Campfire.unitypackage
-  artifactKey: Guid(305d6235e0aa34edbb73f9d3d82f4d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Campfire/Campfire.unitypackage using Guid(305d6235e0aa34edbb73f9d3d82f4d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0dc2bae2f2d5c01cbdbe2b5b6a18be') in 0.193071 seconds
-  Import took 0.225611 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1725.
+Total: 2.067875 ms (FindLiveObjects: 0.155166 ms CreateObjectMapping: 0.026542 ms MarkObjects: 1.423833 ms  DeleteObjects: 0.461084 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.695365 seconds.
-  path: Assets/Campfire/Campfire.fbx
-  artifactKey: Guid(20cefda7b9ad27b4190fd6e74ca9710a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Campfire/Campfire.fbx using Guid(20cefda7b9ad27b4190fd6e74ca9710a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e10c78138c1a1945580e7cf4091ef2') in 0.761531 seconds
-  Import took 0.778500 seconds .
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58c32c74971579209c983feef23e212') in 0.461419 seconds
+  Import took 0.463826 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Campfire/Campfire_MAT_BaseColor_01.jpg
-  artifactKey: Guid(1b21ba5de22bb3842ad2e3beee8635b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Campfire/Campfire_MAT_BaseColor_01.jpg using Guid(1b21ba5de22bb3842ad2e3beee8635b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da99ecf4a162f90c74230df1ee8c287') in 0.164439 seconds
-  Import took 0.167917 seconds .
+  Time since last request: 28.651814 seconds.
+  path: Assets/Collectibles
+  artifactKey: Guid(d64460907b15f4297b81a5298480bda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collectibles using Guid(d64460907b15f4297b81a5298480bda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b2d987cd0ed6c40bd501269e0be2e4') in 0.001375 seconds
+  Import took 0.003354 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Campfire/Campfire_MAT_Roughness.jpg
-  artifactKey: Guid(15771faf4cd2a0141bdad385ec240e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Campfire/Campfire_MAT_Roughness.jpg using Guid(15771faf4cd2a0141bdad385ec240e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd3b4a347bbadb56711c4437bbc347b') in 0.009156 seconds
-  Import took 0.012112 seconds .
+  Time since last request: 5.522975 seconds.
+  path: Assets/Collectibles/Cube.prefab
+  artifactKey: Guid(ce36eadfbb6a14fee907d55c4305f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collectibles/Cube.prefab using Guid(ce36eadfbb6a14fee907d55c4305f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fe574ac392f68d0aec463b0bd7f143') in 0.258754 seconds
+  Import took 0.261079 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Campfire/Campfire_MAT_BaseColor_00.jpg
-  artifactKey: Guid(91b24a55f77fa6e46a8a2fd488ad1ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Campfire/Campfire_MAT_BaseColor_00.jpg using Guid(91b24a55f77fa6e46a8a2fd488ad1ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a3ae1ec36a67c611ca4fcbbb75f041') in 0.007712 seconds
-  Import took 0.010264 seconds .
+  Time since last request: 10.299521 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Water Can/Materials/WaterCanMat.mat
+  artifactKey: Guid(fa0cd207b62e0334e9bd52abb60d4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Water Can/Materials/WaterCanMat.mat using Guid(fa0cd207b62e0334e9bd52abb60d4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e445686f0ede9ff739c117c59f65ef') in 0.142715 seconds
+  Import took 0.145678 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Campfire/Campfire_MAT_Normal_JL.jpg
-  artifactKey: Guid(383e3ba33371412479917754186aa253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Campfire/Campfire_MAT_Normal_JL.jpg using Guid(383e3ba33371412479917754186aa253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c164781fe263f042cdc411ac41ea39f2') in 0.021657 seconds
-  Import took 0.024859 seconds .
+  Time since last request: 0.000272 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Materials/Wood Parts.mat
+  artifactKey: Guid(c3655d15929bc8a48803caf0f1d31a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Materials/Wood Parts.mat using Guid(c3655d15929bc8a48803caf0f1d31a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69a34589dbff6687b21f96461600dba') in 0.014460 seconds
+  Import took 0.016268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Barrel/Materials/Wood.mat
+  artifactKey: Guid(b5e3ae35313537a4d925e56cb7f9cae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Barrel/Materials/Wood.mat using Guid(b5e3ae35313537a4d925e56cb7f9cae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7dbef7223f16283ce1f488cb60b9797') in 0.011004 seconds
+  Import took 0.012788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/water/Models/Materials/WaterSimpleDaylight.mat
+  artifactKey: Guid(cb6f3344386d8b44ea69a4d8c453389b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/water/Models/Materials/WaterSimpleDaylight.mat using Guid(cb6f3344386d8b44ea69a4d8c453389b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7de0f140710dd3c9ca14d7cf7d62c87') in 0.006239 seconds
+  Import took 0.008032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Materials/Wood Parts.mat
+  artifactKey: Guid(b856b93a90de20243a1abafd7f62154d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Materials/Wood Parts.mat using Guid(b856b93a90de20243a1abafd7f62154d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3f26d7a3ae769be4d22c2467c414bf') in 0.018605 seconds
+  Import took 0.020776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Fork/Materials/WoodMat.mat
+  artifactKey: Guid(75cdfffecd1026947898d7f67f330fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Fork/Materials/WoodMat.mat using Guid(75cdfffecd1026947898d7f67f330fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ed136afb7dbec64988cd8c3fa04ad0') in 0.017932 seconds
+  Import took 0.020071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Shovel/Materials/WoodMat.mat
+  artifactKey: Guid(6e7986e0851264342ae9b57dea4f0c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Shovel/Materials/WoodMat.mat using Guid(6e7986e0851264342ae9b57dea4f0c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd7031b99be7c35c1413f6739a65d60') in 0.018022 seconds
+  Import took 0.020168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Last Bridge Part/Materials/Wood Parts.mat
+  artifactKey: Guid(3718d69b9cc35454aaeb1ba80d710b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Last Bridge Part/Materials/Wood Parts.mat using Guid(3718d69b9cc35454aaeb1ba80d710b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fee995227f0bf251d5f8879b5739be9') in 0.011926 seconds
+  Import took 0.013866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Wood Parts/Materials/Wood Parts.mat
+  artifactKey: Guid(3a11984daddfd2342a51a5b79bcb0fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Wood Parts/Materials/Wood Parts.mat using Guid(3a11984daddfd2342a51a5b79bcb0fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798a2c7d4724a727581b8df0077d4294') in 0.005167 seconds
+  Import took 0.006709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Hammer/Materials/WoodMat.mat
+  artifactKey: Guid(3f6ecf90391699f449696d07e39a4d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Hammer/Materials/WoodMat.mat using Guid(3f6ecf90391699f449696d07e39a4d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c796b3814b799ebc95c53970155f398f') in 0.017994 seconds
+  Import took 0.020066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Fork/Materials/Wood.mat
+  artifactKey: Guid(a621c3a575abf7741aa1888e83c6ee5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Fork/Materials/Wood.mat using Guid(a621c3a575abf7741aa1888e83c6ee5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ed3e804838643ad26d87b38694560a') in 0.005940 seconds
+  Import took 0.007631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Wood Parts/Materials/WoodPart1Mat.mat
+  artifactKey: Guid(4ae57ca3660de93468a1ffad3e7b1ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Wood Parts/Materials/WoodPart1Mat.mat using Guid(4ae57ca3660de93468a1ffad3e7b1ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19768662c388405e20d33799fe01d4b') in 0.011023 seconds
+  Import took 0.012701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Shovel/Materials/Wood.mat
+  artifactKey: Guid(ae80f4614ff0a5b48a56c7e337d74fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Shovel/Materials/Wood.mat using Guid(ae80f4614ff0a5b48a56c7e337d74fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b8eb03d9e5405b829bba4e10aa21e9') in 0.007975 seconds
+  Import took 0.009632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Water Can/Materials/WaterCanMat.mat
+  artifactKey: Guid(fa0cd207b62e0334e9bd52abb60d4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Water Can/Materials/WaterCanMat.mat using Guid(fa0cd207b62e0334e9bd52abb60d4571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e445686f0ede9ff739c117c59f65ef') in 0.014070 seconds
+  Import took 0.016179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Hammer/Materials/Wood.mat
+  artifactKey: Guid(09a832fd351ef0b42a96668f4152ee32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Hammer/Materials/Wood.mat using Guid(09a832fd351ef0b42a96668f4152ee32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a993ef7f7c3e4dc4f279b031fbe0f751') in 0.005155 seconds
+  Import took 0.006697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.661374 seconds.
+  path: Assets/Collectibles/Cube.prefab
+  artifactKey: Guid(ce36eadfbb6a14fee907d55c4305f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collectibles/Cube.prefab using Guid(ce36eadfbb6a14fee907d55c4305f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac3f84835326261ad0d51e331c33d80') in 0.051612 seconds
+  Import took 0.053671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.855993 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(670da7a8846c44f6db012f55d31a148d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(670da7a8846c44f6db012f55d31a148d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff1a8a1fc54683f20c31bfe72d96908') in 0.003460 seconds
+  Import took 0.005247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.495069 seconds.
+  path: Assets/Scripts/LicenseSpawner.cs
+  artifactKey: Guid(db7466907ebe840c2aa57bf13d2e625c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LicenseSpawner.cs using Guid(db7466907ebe840c2aa57bf13d2e625c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4888cce90b97fbcf93bb2963dcb655e7') in 0.144228 seconds
+  Import took 0.146333 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000314 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.529 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1175 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.7 MB.
+System memory in use after: 92.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1771.
+Total: 1.672208 ms (FindLiveObjects: 0.124667 ms CreateObjectMapping: 0.025458 ms MarkObjects: 1.124084 ms  DeleteObjects: 0.397292 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000315 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.555 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1175 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.9 MB.
+System memory in use after: 86.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1774.
+Total: 1.513209 ms (FindLiveObjects: 0.123459 ms CreateObjectMapping: 0.024500 ms MarkObjects: 0.961041 ms  DeleteObjects: 0.403542 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 274.789783 seconds.
+  path: Assets/Collectibles/License.prefab
+  artifactKey: Guid(ce36eadfbb6a14fee907d55c4305f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collectibles/License.prefab using Guid(ce36eadfbb6a14fee907d55c4305f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44c5b0128da910803ed2740be0e25e6') in 0.170165 seconds
+  Import took 0.172697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.103326 seconds.
+  path: Assets/Scripts/LicensePickup.cs
+  artifactKey: Guid(3f150affcadc94f9da97d501b196e0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LicensePickup.cs using Guid(3f150affcadc94f9da97d501b196e0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee53597d4363445d2978252bf064062') in 0.003571 seconds
+  Import took 0.005703 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000320 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.521 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.3 MB.
+System memory in use after: 80.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1779.
+Total: 1.492791 ms (FindLiveObjects: 0.102416 ms CreateObjectMapping: 0.025042 ms MarkObjects: 0.946875 ms  DeleteObjects: 0.417750 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000332 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.651 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.4 MB.
+System memory in use after: 75.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1782.
+Total: 1.511500 ms (FindLiveObjects: 0.096125 ms CreateObjectMapping: 0.025250 ms MarkObjects: 0.957375 ms  DeleteObjects: 0.431958 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.421476 seconds.
+  path: Assets/Scripts/LicensePickup.cs
+  artifactKey: Guid(3f150affcadc94f9da97d501b196e0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LicensePickup.cs using Guid(3f150affcadc94f9da97d501b196e0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e0ef52043a914b919062307368f223') in 0.006793 seconds
+  Import took 0.008705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.128122 seconds.
+  path: Assets/Collectibles/License.prefab
+  artifactKey: Guid(ce36eadfbb6a14fee907d55c4305f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collectibles/License.prefab using Guid(ce36eadfbb6a14fee907d55c4305f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ea524d4949a906600251beaa61f891') in 0.161228 seconds
+  Import took 0.163366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.698647 seconds.
+  path: Assets/Collectibles/License.prefab
+  artifactKey: Guid(ce36eadfbb6a14fee907d55c4305f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collectibles/License.prefab using Guid(ce36eadfbb6a14fee907d55c4305f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b1f3dcc9e3c87ee37bb427bb6f8686') in 0.017623 seconds
+  Import took 0.019761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.751822 seconds.
+  path: Assets/Collectibles/License.prefab
+  artifactKey: Guid(ce36eadfbb6a14fee907d55c4305f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collectibles/License.prefab using Guid(ce36eadfbb6a14fee907d55c4305f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd47ee183dc7d24f89b913af0ab442e') in 0.012120 seconds
+  Import took 0.014140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005244 seconds.
+  path: Assets/Collectibles/License.prefab
+  artifactKey: Guid(ce36eadfbb6a14fee907d55c4305f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collectibles/License.prefab using Guid(ce36eadfbb6a14fee907d55c4305f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd47ee183dc7d24f89b913af0ab442e') in 0.006701 seconds
+  Import took 0.008677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.741764 seconds.
+  path: Assets/Collectibles/License.prefab
+  artifactKey: Guid(ce36eadfbb6a14fee907d55c4305f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collectibles/License.prefab using Guid(ce36eadfbb6a14fee907d55c4305f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ac141e2c987526a67fe7752b40a0fb') in 0.012347 seconds
+  Import took 0.014422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003249 seconds.
+  path: Assets/Collectibles/License.prefab
+  artifactKey: Guid(ce36eadfbb6a14fee907d55c4305f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collectibles/License.prefab using Guid(ce36eadfbb6a14fee907d55c4305f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ac141e2c987526a67fe7752b40a0fb') in 0.006989 seconds
+  Import took 0.008867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.259687 seconds.
+  path: Assets/Collectibles/License.prefab
+  artifactKey: Guid(ce36eadfbb6a14fee907d55c4305f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collectibles/License.prefab using Guid(ce36eadfbb6a14fee907d55c4305f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b420451a35da6747206058858b28c7') in 0.011630 seconds
+  Import took 0.013757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 207.765433 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Down Woods_AlbedoTransparency.png
+  artifactKey: Guid(5e892199c2981d84bbaecd29c06fcbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Down Woods_AlbedoTransparency.png using Guid(5e892199c2981d84bbaecd29c06fcbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accbdab85098babd385a09b3d7f51f76') in 0.328369 seconds
+  Import took 0.330701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Main Holders_AlbedoTransparency.png
+  artifactKey: Guid(e4ba830464fc2d34793cc6a6ce2d5ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Main Holders_AlbedoTransparency.png using Guid(e4ba830464fc2d34793cc6a6ce2d5ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7e4ace073465bbabb9c6e08db41a57') in 0.007017 seconds
+  Import took 0.008566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Down Woods_Normal.png
+  artifactKey: Guid(fea277d0d62327e43a42e5bb5f9946c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Down Woods_Normal.png using Guid(fea277d0d62327e43a42e5bb5f9946c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d28ecb10129616325db986131e2d90') in 0.012213 seconds
+  Import took 0.013794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Main Holders_MetallicSmoothness.png
+  artifactKey: Guid(75d1c79c573a8a743b94900b5d46915a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Main Holders_MetallicSmoothness.png using Guid(75d1c79c573a8a743b94900b5d46915a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9efa850d41570bc59b47dcf014bb43e8') in 0.005173 seconds
+  Import took 0.006710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Down Woods_AO.png
+  artifactKey: Guid(1356d1178d187b44aaecced3492c6604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Down Woods_AO.png using Guid(1356d1178d187b44aaecced3492c6604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8b0e3cc611b7e06ed17e6ae5de6c15') in 0.005381 seconds
+  Import took 0.006928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Down Woods_AlbedoTransparency.png
+  artifactKey: Guid(37661eaf7ef80454487b87a3750e19e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Down Woods_AlbedoTransparency.png using Guid(37661eaf7ef80454487b87a3750e19e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b7d14ce031bdd963bf97374389de45') in 0.006289 seconds
+  Import took 0.007954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Rope_MetallicSmoothness.png
+  artifactKey: Guid(0069a5d4132dff54dac9a843f95ad31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Rope_MetallicSmoothness.png using Guid(0069a5d4132dff54dac9a843f95ad31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031f05a170483cf10e1c1c89529f5ce6') in 0.005052 seconds
+  Import took 0.006484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Nails_MetallicSmoothness.png
+  artifactKey: Guid(d9e77a1943864474fbeec77e336847fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Nails_MetallicSmoothness.png using Guid(d9e77a1943864474fbeec77e336847fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bff9db21715c0681e0b7c2a40d1b3fc') in 0.004963 seconds
+  Import took 0.006489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Wood Parts_AO.png
+  artifactKey: Guid(914412d6131c81249ba15d04777c34ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Wood Parts_AO.png using Guid(914412d6131c81249ba15d04777c34ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49fcd2c1da521265489827a5b4932e08') in 0.006347 seconds
+  Import took 0.007980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Rope_Normal.png
+  artifactKey: Guid(cf14bcc72b041934cbb8e98869ed33cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Rope_Normal.png using Guid(cf14bcc72b041934cbb8e98869ed33cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62914bbd1c0bfd5dfa321139f1d1691') in 0.006804 seconds
+  Import took 0.008337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Wood Parts_AlbedoTransparency.png
+  artifactKey: Guid(aed928f4378f0ad40bbf46ed26c3992a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Wood Parts_AlbedoTransparency.png using Guid(aed928f4378f0ad40bbf46ed26c3992a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6a9f411c27b41e700a033de7ee74b2') in 0.005280 seconds
+  Import took 0.006798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Nails_Normal.png
+  artifactKey: Guid(099f5c5ffbc094d498941e4d4c8b0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Nails_Normal.png using Guid(099f5c5ffbc094d498941e4d4c8b0418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46d08fd7d90d3c132a5cdc3ab3d6584') in 0.004796 seconds
+  Import took 0.006357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Rope_AO.png
+  artifactKey: Guid(806c6d433de188c4bba9547a8b1632b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Rope_AO.png using Guid(806c6d433de188c4bba9547a8b1632b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a780a74f397eb590e7c48ecf743f06b8') in 0.004659 seconds
+  Import took 0.006167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Rope_AO.png
+  artifactKey: Guid(9bf4c57918566444c98716f8970858be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Rope_AO.png using Guid(9bf4c57918566444c98716f8970858be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845f50403cceede1b546254b0e0cfdad') in 0.005078 seconds
+  Import took 0.006607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Wood Parts_Normal.png
+  artifactKey: Guid(828e15c51526ea047ba1d7a673dd1839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Wood Parts_Normal.png using Guid(828e15c51526ea047ba1d7a673dd1839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4d3111d74cbb5152efc43c9458571f') in 0.008083 seconds
+  Import took 0.009701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Wood Parts_MetallicSmoothness.png
+  artifactKey: Guid(536c2c41a4729964596b72d9e4a7f734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Wood Parts_MetallicSmoothness.png using Guid(536c2c41a4729964596b72d9e4a7f734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f432eee0dbb19a777d321f8592f78fa8') in 0.007825 seconds
+  Import took 0.009458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Nails_AlbedoTransparency.png
+  artifactKey: Guid(3fdd884b45a4fde46a5ab7c51b72f833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Nails_AlbedoTransparency.png using Guid(3fdd884b45a4fde46a5ab7c51b72f833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47755f58341fe3bc0a0cb6af01529de2') in 0.004506 seconds
+  Import took 0.006023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Rope Holder_AlbedoTransparency.png
+  artifactKey: Guid(04297abe7a56cc54ba16cf8ec3f4729d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Rope Holder_AlbedoTransparency.png using Guid(04297abe7a56cc54ba16cf8ec3f4729d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f86082cdd207ccc111f84edad6fca69') in 0.005517 seconds
+  Import took 0.007126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Rope_AlbedoTransparency.png
+  artifactKey: Guid(18503d19a695eeb42894fd93705dd628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Rope_AlbedoTransparency.png using Guid(18503d19a695eeb42894fd93705dd628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b99e56628c6516fdfd44537dcb1b822') in 0.005589 seconds
+  Import took 0.007230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Wood Parts_MetallicSmoothness.png
+  artifactKey: Guid(9adeab06e2237f741897b01a2efd030d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Wood Parts_MetallicSmoothness.png using Guid(9adeab06e2237f741897b01a2efd030d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca84d41e8382abfa2e6c5dd7450b411c') in 0.004694 seconds
+  Import took 0.006197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Main Holders_Normal.png
+  artifactKey: Guid(7ac1ec938a5f0dd4582b4224f21cf491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Main Holders_Normal.png using Guid(7ac1ec938a5f0dd4582b4224f21cf491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f810352eb0e8a0814df51909969561a2') in 0.005874 seconds
+  Import took 0.007481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Main Holders_MetallicSmoothness.png
+  artifactKey: Guid(f41b16b18ee12004c97102281f22dcbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Main Holders_MetallicSmoothness.png using Guid(f41b16b18ee12004c97102281f22dcbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75dbd085380350821a74d648a0687aa3') in 0.005149 seconds
+  Import took 0.006715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Main Holders_AO.png
+  artifactKey: Guid(1c4a16d21d0ca48478f298ff82c26a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Main Holders_AO.png using Guid(1c4a16d21d0ca48478f298ff82c26a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187aabe5f5746c9d6a23288d1ca61c2d') in 0.005679 seconds
+  Import took 0.007257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Wood Parts_Normal.png
+  artifactKey: Guid(c46af493029354748a6fcd27986ad4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Wood Parts_Normal.png using Guid(c46af493029354748a6fcd27986ad4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59609e6de43c6b8b4f14d136be7a68c6') in 0.005835 seconds
+  Import took 0.007434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Nails_AlbedoTransparency.png
+  artifactKey: Guid(d9aa3c9be573d3447abf19da112ec461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Nails_AlbedoTransparency.png using Guid(d9aa3c9be573d3447abf19da112ec461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9975a72cfc2222582fc9ac0b1c76f0') in 0.004617 seconds
+  Import took 0.006137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Wood Parts_AO.png
+  artifactKey: Guid(9aa2674953f5325408582ab9ec6bcd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Wood Parts_AO.png using Guid(9aa2674953f5325408582ab9ec6bcd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717a8030fe6c67d0a790209fcbccded3') in 0.005684 seconds
+  Import took 0.007264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Main Holders_AO.png
+  artifactKey: Guid(1f2805b62650e2f458e2f38041747236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Main Holders_AO.png using Guid(1f2805b62650e2f458e2f38041747236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b54f66a3107403389a3f0812f7316b') in 0.004837 seconds
+  Import took 0.006309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Down Woods_MetallicSmoothness.png
+  artifactKey: Guid(e184fb6dc22024f4abcb7cd50b231faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Down Woods_MetallicSmoothness.png using Guid(e184fb6dc22024f4abcb7cd50b231faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3343ff3af92790754abf4acb70d272f') in 0.004997 seconds
+  Import took 0.006524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Nails_Normal.png
+  artifactKey: Guid(de49f2ea32b0ca344b1a057b8a0a427c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Nails_Normal.png using Guid(de49f2ea32b0ca344b1a057b8a0a427c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14f7c8fae3e341b7b5594614bec8af6') in 0.005266 seconds
+  Import took 0.007098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Down Woods_Normal.png
+  artifactKey: Guid(dc766f666782c2544ae5a71a7a5d6710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Down Woods_Normal.png using Guid(dc766f666782c2544ae5a71a7a5d6710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe791cec335102866de30a68805fb5c') in 0.006875 seconds
+  Import took 0.008495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Rope_MetallicSmoothness.png
+  artifactKey: Guid(93a3fbd6d8f03884099e41f0ddcd3205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Rope_MetallicSmoothness.png using Guid(93a3fbd6d8f03884099e41f0ddcd3205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33301ba0a316a4d78b46cdd2757d4a2a') in 0.005185 seconds
+  Import took 0.006736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Rope_AlbedoTransparency.png
+  artifactKey: Guid(554b5675562e27747ba26c33c66c5376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Rope_AlbedoTransparency.png using Guid(554b5675562e27747ba26c33c66c5376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4be4a93d831d5922e014fc56f2aca1') in 0.005112 seconds
+  Import took 0.006641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Main Holders_Normal.png
+  artifactKey: Guid(ea29bd5b79907ad43b50a8b3e4917e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Main Holders_Normal.png using Guid(ea29bd5b79907ad43b50a8b3e4917e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd5731d90da102119a8669c68928320') in 0.006529 seconds
+  Import took 0.008130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Rope Holder_MetallicSmoothness.png
+  artifactKey: Guid(9e525ee73beef71439b8e725cbe45b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Rope Holder_MetallicSmoothness.png using Guid(9e525ee73beef71439b8e725cbe45b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9bc170da60b5c336fc4dee2f1568a5') in 0.005658 seconds
+  Import took 0.007172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Nails_AO.png
+  artifactKey: Guid(c2a63be5bff242a4388141dd26ecd026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Nails_AO.png using Guid(c2a63be5bff242a4388141dd26ecd026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20698f4bc40b2d2919053db976714cc') in 0.004953 seconds
+  Import took 0.006494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Wood Parts_AlbedoTransparency.png
+  artifactKey: Guid(efa98fbd2be4070418f5f3b47362f95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Wood Parts_AlbedoTransparency.png using Guid(efa98fbd2be4070418f5f3b47362f95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178611db09864c421420a0d926758fdb') in 0.007976 seconds
+  Import took 0.009608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Nails_MetallicSmoothness.png
+  artifactKey: Guid(96a055d94c0aa2b4aa2b924246ec2bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Nails_MetallicSmoothness.png using Guid(96a055d94c0aa2b4aa2b924246ec2bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f64881a68b9629a125dec8f79bc2d4c') in 0.005333 seconds
+  Import took 0.006866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Rope Holder_AO.png
+  artifactKey: Guid(a3ff3d4e0b5f8dc4e89804ade37802d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Rope Holder_AO.png using Guid(a3ff3d4e0b5f8dc4e89804ade37802d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b78d1ca71d74171bae66ec638845bd') in 0.005045 seconds
+  Import took 0.006636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Nails_AO.png
+  artifactKey: Guid(960400cbe37ddcf4e877b99bb6ed0e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Nails_AO.png using Guid(960400cbe37ddcf4e877b99bb6ed0e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde8f9c47ccd07d0016678e69a00e79b') in 0.004924 seconds
+  Import took 0.006531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Down Woods_AO.png
+  artifactKey: Guid(1d2fd87aafa7ac34590dd452335d56c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Down Woods_AO.png using Guid(1d2fd87aafa7ac34590dd452335d56c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408cec8679fe90d38bc07aba46b5c14a') in 0.004982 seconds
+  Import took 0.006577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Rope_Normal.png
+  artifactKey: Guid(ebd8364ec6e22ae41b40c8135fe001a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Rope_Normal.png using Guid(ebd8364ec6e22ae41b40c8135fe001a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e750977e2a6eee959561f587fdcd89e4') in 0.006253 seconds
+  Import took 0.007839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Down Woods_MetallicSmoothness.png
+  artifactKey: Guid(543910e27305b884895c8fbaca4a5c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Down Woods_MetallicSmoothness.png using Guid(543910e27305b884895c8fbaca4a5c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbbb81c6cd3fbbf170dbe827827dc7e4') in 0.005032 seconds
+  Import took 0.006581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Rope Holder_Normal.png
+  artifactKey: Guid(f0d47dc1ae018e34eac7e821352e5cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Texter First Part/1 First Part Bridge_Rope Holder_Normal.png using Guid(f0d47dc1ae018e34eac7e821352e5cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07329f5dc097c0a17bce073c60238da6') in 0.006383 seconds
+  Import took 0.007945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Main Holders_AlbedoTransparency.png
+  artifactKey: Guid(64b5a6048a16bd840b3f7ec33dfb06cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Texter Bridge Part/1 Bridge Part_Main Holders_AlbedoTransparency.png using Guid(64b5a6048a16bd840b3f7ec33dfb06cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3e4436d92795ef4e311f69e0a63334') in 0.004739 seconds
+  Import took 0.006246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.601433 seconds.
+  path: Assets/Boats/Legacy_Content/Textures/AluBoat_ao.png
+  artifactKey: Guid(519c341342e127640bb5b9bd1fc98ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boats/Legacy_Content/Textures/AluBoat_ao.png using Guid(519c341342e127640bb5b9bd1fc98ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d1dfacbc11f6c81f95ce0078ffece3') in 0.006733 seconds
+  Import took 0.008612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Axe/Texture Axe/Axe_Material_AlbedoTransparency.png
+  artifactKey: Guid(33677da3657ea354f8d00d950934bd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Axe/Texture Axe/Axe_Material_AlbedoTransparency.png using Guid(33677da3657ea354f8d00d950934bd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2128f7fa344bfa7e671af67cb698982') in 0.007166 seconds
+  Import took 0.008911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Boats/Legacy_Content/Textures/AluBoat_normal.png
+  artifactKey: Guid(133aa55d49752294bbbb14ae4d8fd219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boats/Legacy_Content/Textures/AluBoat_normal.png using Guid(133aa55d49752294bbbb14ae4d8fd219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7df9328f06a53257ce1b05b4a6a0b7') in 0.008224 seconds
+  Import took 0.009799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Boats/Legacy_Content/Textures/AluBoat_ao.png
+  artifactKey: Guid(519c341342e127640bb5b9bd1fc98ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boats/Legacy_Content/Textures/AluBoat_ao.png using Guid(519c341342e127640bb5b9bd1fc98ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d1dfacbc11f6c81f95ce0078ffece3') in 0.005725 seconds
+  Import took 0.007359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Boats/Legacy_Content/Textures/AluBoat_specular.png
+  artifactKey: Guid(fde171b646a376d41acfdb2aebf1846a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boats/Legacy_Content/Textures/AluBoat_specular.png using Guid(fde171b646a376d41acfdb2aebf1846a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7dfa7de7b3f24dbe0e902234f7aa1c') in 0.008851 seconds
+  Import took 0.010550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Boats/Legacy_Content/Textures/AluBoat_diffuse.png
+  artifactKey: Guid(1d0f86c681c4f3a47b62b87d44e518fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boats/Legacy_Content/Textures/AluBoat_diffuse.png using Guid(1d0f86c681c4f3a47b62b87d44e518fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2743ebd2468be5ee169eba85a230b60a') in 0.006711 seconds
+  Import took 0.008311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Axe/Texture Axe/Axe_Material_AO.png
+  artifactKey: Guid(127cf77d123339a47b95c1089935ca3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Axe/Texture Axe/Axe_Material_AO.png using Guid(127cf77d123339a47b95c1089935ca3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5486d401911c0f1a0636373fe9e43e05') in 0.006470 seconds
+  Import took 0.008391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Monster/MN D/TEXTURES/bake_normal.psd
+  artifactKey: Guid(bfd010e0f4e9c4148a98f3de0f884563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monster/MN D/TEXTURES/bake_normal.psd using Guid(bfd010e0f4e9c4148a98f3de0f884563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7644912be69c9a416ff1748aed7151') in 0.313683 seconds
+  Import took 0.315372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-done-dark@2x.png
+  artifactKey: Guid(fba4512e3548e0548b2cf4f11913e257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-done-dark@2x.png using Guid(fba4512e3548e0548b2cf4f11913e257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055ff317a57040ee1660a83b8c693b38') in 0.005823 seconds
+  Import took 0.007552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-done-light.png
+  artifactKey: Guid(68d404d4616084f449a3bc644c023f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-done-light.png using Guid(68d404d4616084f449a3bc644c023f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c44723bbf4f275809a7dda03f19972') in 0.006294 seconds
+  Import took 0.007942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Nature Kit/Standard Assets/Effects/TessellationShaders/Textures/CliffHeight.png
+  artifactKey: Guid(17da6d53ec93a0444bd0f751b1d02477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/Standard Assets/Effects/TessellationShaders/Textures/CliffHeight.png using Guid(17da6d53ec93a0444bd0f751b1d02477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e552a55537b388d3361daf70e165c9d8') in 0.041507 seconds
+  Import took 0.043219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-offline-dark@2x.png
+  artifactKey: Guid(c9fb8470579cf8440975e58c5df98216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-offline-dark@2x.png using Guid(c9fb8470579cf8440975e58c5df98216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc3a0ba2663fe6216b25050e83e2cb4') in 0.006139 seconds
+  Import took 0.007746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Nature Kit/Standard Assets/Effects/TessellationShaders/Textures/CliffNormals.png
+  artifactKey: Guid(e08c295755c0885479ad19f518286ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/Standard Assets/Effects/TessellationShaders/Textures/CliffNormals.png using Guid(e08c295755c0885479ad19f518286ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821d25abc4f3e7bd384c159fc32f2b80') in 0.007235 seconds
+  Import took 0.008838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-dark@2x.png
+  artifactKey: Guid(158d9c687149a0e499002e08c9420c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-dark@2x.png using Guid(158d9c687149a0e499002e08c9420c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9739b4d75db5544d4a51c0a5cb2e14') in 0.004471 seconds
+  Import took 0.006066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Boats/Source/Textures/Boat_Wood_BC.png
+  artifactKey: Guid(d5f9aaf3e29a8d74185e46564082b6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boats/Source/Textures/Boat_Wood_BC.png using Guid(d5f9aaf3e29a8d74185e46564082b6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5662ba892d576312a32ac050eb5b3e3e') in 0.014688 seconds
+  Import took 0.016345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-error-dark.png
+  artifactKey: Guid(3eeca90c1ad2c46499941d0901eef4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-error-dark.png using Guid(3eeca90c1ad2c46499941d0901eef4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb03be016ad4c166c72fb3e099903e4d') in 0.004910 seconds
+  Import took 0.006869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-error-light.png
+  artifactKey: Guid(b08f8cbc53d0bfb45bd2fd1f676d3554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-error-light.png using Guid(b08f8cbc53d0bfb45bd2fd1f676d3554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33bcd4d06344d5c290118a0df944e4b') in 0.004765 seconds
+  Import took 0.006403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-available-changes-light@2x.png
+  artifactKey: Guid(8478a99d8fb61c94ba938c3034d449c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-available-changes-light@2x.png using Guid(8478a99d8fb61c94ba938c3034d449c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3597a2738251a1c519c3a9508f83f926') in 0.005310 seconds
+  Import took 0.007037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-offline-dark.png
+  artifactKey: Guid(594fa102c56c0274db9edabc563d7dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-offline-dark.png using Guid(594fa102c56c0274db9edabc563d7dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a233c0480c681f808ec1853270c2b756') in 0.004237 seconds
+  Import took 0.005720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Box/Texture Box/Box_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(5831bdd5a99602e41a356ec8e61df256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Box/Texture Box/Box_DefaultMaterial_MetallicSmoothness.png using Guid(5831bdd5a99602e41a356ec8e61df256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71bb7395d9e55209e01479f7c56db98') in 0.008695 seconds
+  Import took 0.010296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Box/Texture Box/Box_DefaultMaterial_AO.png
+  artifactKey: Guid(9486fe8708a0cf74791b81f75e82a86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Box/Texture Box/Box_DefaultMaterial_AO.png using Guid(9486fe8708a0cf74791b81f75e82a86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20aabeadbff45806a552e78456826f46') in 0.007919 seconds
+  Import took 0.009692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Cels/Texture Cels/Cels_Metal_AO.png
+  artifactKey: Guid(c44a88252b242e04b8009ca9206660ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Cels/Texture Cels/Cels_Metal_AO.png using Guid(c44a88252b242e04b8009ca9206660ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8e8bcc68b4157f9e5add7a849ece88') in 0.007333 seconds
+  Import took 0.008939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Box/Texture Box/Box_Material_MetallicSmoothness.png
+  artifactKey: Guid(20baccad24d629745a776cf618da93b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Box/Texture Box/Box_Material_MetallicSmoothness.png using Guid(20baccad24d629745a776cf618da93b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba06b56cfd415a0a9976f6b0fd0f80f') in 0.008521 seconds
+  Import took 0.010164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/conflicted-file-dark@2x.png
+  artifactKey: Guid(68295f1d2b4db9040ac84ac00d5554a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/conflicted-file-dark@2x.png using Guid(68295f1d2b4db9040ac84ac00d5554a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ba16d09879eebe832b7a33d028de90') in 0.004565 seconds
+  Import took 0.006135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/conflicted-file-dark.png
+  artifactKey: Guid(16b10562fce5a0f4794872a75d897cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/conflicted-file-dark.png using Guid(16b10562fce5a0f4794872a75d897cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826625fd4d467b289044903ebfe70325') in 0.004412 seconds
+  Import took 0.005952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-dark.png
+  artifactKey: Guid(8558913fe46542045b38c8f97ef8546a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-dark.png using Guid(8558913fe46542045b38c8f97ef8546a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034df1f6251e7aac66109764e8b600fc') in 0.004305 seconds
+  Import took 0.005692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Box/Texture Box/Box_DefaultMaterial_Normal.png
+  artifactKey: Guid(b95873d16b3d9fc4fafcb63fa103bd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Box/Texture Box/Box_DefaultMaterial_Normal.png using Guid(b95873d16b3d9fc4fafcb63fa103bd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b023c7c6d529b03bc2f11c8a951fdc19') in 0.008799 seconds
+  Import took 0.010328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Box/Texture Box/Box_Material_AlbedoTransparency.png
+  artifactKey: Guid(2e99cf0c8efc2bd459af73097493162d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Box/Texture Box/Box_Material_AlbedoTransparency.png using Guid(2e99cf0c8efc2bd459af73097493162d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2407e226ecad8621f08436c5ff7a10cf') in 0.008911 seconds
+  Import took 0.010510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Cels/Texture Cels/Cels_Metal_AlbedoTransparency.png
+  artifactKey: Guid(a2ea6ca6104028a4b830a4a46a3f3fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Cels/Texture Cels/Cels_Metal_AlbedoTransparency.png using Guid(a2ea6ca6104028a4b830a4a46a3f3fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a1b72943417f9426073cd70883b6f5') in 0.008163 seconds
+  Import took 0.009740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-offline-light.png
+  artifactKey: Guid(5baffe5f7a6366344b7819fa35e7e030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-offline-light.png using Guid(5baffe5f7a6366344b7819fa35e7e030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21040f798877d72870fc0fdb8e534800') in 0.004620 seconds
+  Import took 0.006160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-error-light@2x.png
+  artifactKey: Guid(d41e3a51c74c48847a8eb97a319afda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-error-light@2x.png using Guid(d41e3a51c74c48847a8eb97a319afda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1ab51b179c4b07a569ea8d590ae39b') in 0.004368 seconds
+  Import took 0.005909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-done-dark.png
+  artifactKey: Guid(80c31f397a3ab184bae2f0d4b3dc5c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-done-dark.png using Guid(80c31f397a3ab184bae2f0d4b3dc5c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983f99d3af539e7f15ba333510ea92d9') in 0.004363 seconds
+  Import took 0.005917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/conflicted-file-light.png
+  artifactKey: Guid(159b6ffcecc70b54a991cab02c8be883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/conflicted-file-light.png using Guid(159b6ffcecc70b54a991cab02c8be883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9630b8696cdfd45f184fe5310c9ee48') in 0.004667 seconds
+  Import took 0.006025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Axe/Texture Axe/Axe_Material_Normal.png
+  artifactKey: Guid(0715401981b048b489425fce13aef63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Axe/Texture Axe/Axe_Material_Normal.png using Guid(0715401981b048b489425fce13aef63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c4cbdfc33215e7a50176e5d0189b1b') in 0.009644 seconds
+  Import took 0.011149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-error-dark@2x.png
+  artifactKey: Guid(0159d5999f4dc4545848ed42cd775ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-error-dark@2x.png using Guid(0159d5999f4dc4545848ed42cd775ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a771db89b7ac341c787ae99574610d06') in 0.004512 seconds
+  Import took 0.006099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-warning-dark@2x.png
+  artifactKey: Guid(45308e2aea842dd4e87bb30395d6e303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-warning-dark@2x.png using Guid(45308e2aea842dd4e87bb30395d6e303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a14e32f628a4d4066a67d32248b5cd') in 0.005708 seconds
+  Import took 0.007332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-incoming-light@2x.png
+  artifactKey: Guid(75d22b424580dde41824299bb20d1de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-incoming-light@2x.png using Guid(75d22b424580dde41824299bb20d1de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fb8491116d8e2af25634b8ffa04825') in 0.004276 seconds
+  Import took 0.005715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-done-light@2x.png
+  artifactKey: Guid(efbf52d7ee1264d478d63a17b943941a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-done-light@2x.png using Guid(efbf52d7ee1264d478d63a17b943941a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e07a79c33e3ff743b5e4169f1e4156') in 0.004536 seconds
+  Import took 0.006102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-available-changes-light.png
+  artifactKey: Guid(c27f4e1f2b76b2f45b48df65c02ba338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-available-changes-light.png using Guid(c27f4e1f2b76b2f45b48df65c02ba338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be33a0fc99d488fd6eb960dce47c1e0') in 0.004355 seconds
+  Import took 0.005930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-light.png
+  artifactKey: Guid(4466539767d9ee241abcc43eebb52ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-light.png using Guid(4466539767d9ee241abcc43eebb52ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8192fce38fd6a5624164245434bccfd') in 0.003952 seconds
+  Import took 0.005350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-warning-light@2x.png
+  artifactKey: Guid(02fa233a818899d48a2d3e68a68b23b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-warning-light@2x.png using Guid(02fa233a818899d48a2d3e68a68b23b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9af7ed3e9478715743f81bccf76d86') in 0.004294 seconds
+  Import took 0.005805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Cels/Texture Cels/Cels_Metal_Normal.png
+  artifactKey: Guid(d3c79713f4b2ca741b30ae858ae5371e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Cels/Texture Cels/Cels_Metal_Normal.png using Guid(d3c79713f4b2ca741b30ae858ae5371e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2947bf27f7f01e9cecf950937e2ad50') in 0.009490 seconds
+  Import took 0.011125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-light@2x.png
+  artifactKey: Guid(837c493ae228aaf4d977e9138707008d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-light@2x.png using Guid(837c493ae228aaf4d977e9138707008d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f1b068e662373b72d7ed77bc8bb203') in 0.005028 seconds
+  Import took 0.006600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-offline-light@2x.png
+  artifactKey: Guid(cabe2c11824b4164984e262821760727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-offline-light@2x.png using Guid(cabe2c11824b4164984e262821760727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6465b2e5bd1864df4282361ac4a2fd4f') in 0.004715 seconds
+  Import took 0.006180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Boats/Source/Textures/Boat_Wood_AO.png
+  artifactKey: Guid(b1a00c21e5a4cb7458bb4386d2953db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boats/Source/Textures/Boat_Wood_AO.png using Guid(b1a00c21e5a4cb7458bb4386d2953db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b039bd229d9de0a1da85627278bf4023') in 0.014924 seconds
+  Import took 0.016536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Box/Texture Box/Box_Material_Normal.png
+  artifactKey: Guid(bc5d66763b8c1ae4cb690f73a5758487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Box/Texture Box/Box_Material_Normal.png using Guid(bc5d66763b8c1ae4cb690f73a5758487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df4b682fc5e7dbb6fad14ad536d5629') in 0.015381 seconds
+  Import took 0.017080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-available-changes-dark.png
+  artifactKey: Guid(07ab2758fd6b77141ae34a703972f385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-available-changes-dark.png using Guid(07ab2758fd6b77141ae34a703972f385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580a9a8495abef87bd9eb4158132ef90') in 0.005732 seconds
+  Import took 0.007542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Nature Kit/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png
+  artifactKey: Guid(d440902fad11e807d00044888d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nature Kit/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png using Guid(d440902fad11e807d00044888d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cbd84caaa9ac549386b4d1b68ddfcc') in 0.004842 seconds
+  Import took 0.006303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Boats/Legacy_Content/Textures/Boat_Mobile_Diffuse.png
+  artifactKey: Guid(968080e60c6bbfb47a5237e013310416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boats/Legacy_Content/Textures/Boat_Mobile_Diffuse.png using Guid(968080e60c6bbfb47a5237e013310416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38cb28015fdf1570113c964fa92e46fc') in 0.006426 seconds
+  Import took 0.007964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-incoming-dark.png
+  artifactKey: Guid(4f1f02bee0a5ae24aac00a40a212299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-incoming-dark.png using Guid(4f1f02bee0a5ae24aac00a40a212299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6c886ec20d96738eeaf297e638969d') in 0.003995 seconds
+  Import took 0.005421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Cels/Texture Cels/Cels_Metal_MetallicSmoothness.png
+  artifactKey: Guid(027324b58ffac6d4cad1a0c90bde61c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Cels/Texture Cels/Cels_Metal_MetallicSmoothness.png using Guid(027324b58ffac6d4cad1a0c90bde61c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28465ffe9bc45a46b4124e08a1227cc') in 0.009758 seconds
+  Import took 0.011369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/clear-light@2x.png
+  artifactKey: Guid(c84258b6921bcce45a57f68a07b2143f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/clear-light@2x.png using Guid(c84258b6921bcce45a57f68a07b2143f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997f9944c1d2fb2fae85e9b4b165e4a5') in 0.004541 seconds
+  Import took 0.006353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-incoming-dark@2x.png
+  artifactKey: Guid(a9fa02cdd2d760c43a0e69ba0fa49dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-incoming-dark@2x.png using Guid(a9fa02cdd2d760c43a0e69ba0fa49dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd07b48f0e69b4a7e2971b8540eda67f') in 0.004612 seconds
+  Import took 0.006164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Axe/Texture Axe/Axe_Material_MetallicSmoothness.png
+  artifactKey: Guid(2c30305651075b447a7dbf266bf5fc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Axe/Texture Axe/Axe_Material_MetallicSmoothness.png using Guid(2c30305651075b447a7dbf266bf5fc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d47be517d3b091272f8c51c1da7ab77') in 0.009738 seconds
+  Import took 0.011363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-warning-dark.png
+  artifactKey: Guid(0e3edcdf6743ba643999fb3882f1cc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-warning-dark.png using Guid(0e3edcdf6743ba643999fb3882f1cc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa261fbde399118eb90b79604c879052') in 0.003840 seconds
+  Import took 0.005320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-available-changes-dark@2x.png
+  artifactKey: Guid(1a2cea5a396ff5d4a8f740bd5d8726b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-available-changes-dark@2x.png using Guid(1a2cea5a396ff5d4a8f740bd5d8726b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f37db82606bf95a524b9cafed0a3fb') in 0.004583 seconds
+  Import took 0.006063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Box/Texture Box/Box_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(7618f44593835e641bd9ab690f1f9218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Box/Texture Box/Box_DefaultMaterial_AlbedoTransparency.png using Guid(7618f44593835e641bd9ab690f1f9218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8918659da2960716e33417d71a4bf58c') in 0.007862 seconds
+  Import took 0.009491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Boats/Source/Textures/Boat_Wood_MS.tif
+  artifactKey: Guid(0bcd3e78f99cb2145b6848ac7d452349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boats/Source/Textures/Boat_Wood_MS.tif using Guid(0bcd3e78f99cb2145b6848ac7d452349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd97fea55e1564d259f6318a34428ac') in 0.482110 seconds
+  Import took 0.485576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-warning-light.png
+  artifactKey: Guid(1e80543db0ef9494a9c1777f01e1a4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-warning-light.png using Guid(1e80543db0ef9494a9c1777f01e1a4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695f8b96254935eb5a697896806a0ff7') in 0.004668 seconds
+  Import took 0.006305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Boats/Source/Textures/Boat_Wood_Normal_OpenGL.png
+  artifactKey: Guid(93bcd8568d783b142a38bff255394144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Boats/Source/Textures/Boat_Wood_Normal_OpenGL.png using Guid(93bcd8568d783b142a38bff255394144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d7320cb3535763032f155890c90974') in 0.008588 seconds
+  Import took 0.010131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Box/Texture Box/Box_Material_AO.png
+  artifactKey: Guid(d9f6d444374f7f648bae2f48d5bdc67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Box/Texture Box/Box_Material_AO.png using Guid(d9f6d444374f7f648bae2f48d5bdc67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f3cab72913c3ccec96aea5927c274c') in 0.005982 seconds
+  Import took 0.007573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-incoming-light.png
+  artifactKey: Guid(0919e5a835eb86343b8b1722ea1d32a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons/collaborate-incoming-light.png using Guid(0919e5a835eb86343b8b1722ea1d32a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cacef8cfe89f9c5b6d00169adfd3c3b') in 0.003227 seconds
+  Import took 0.004740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.385767 seconds.
+  path: Assets/Lana Studio/Hyper Casual FX/Textures/Circle01.png
+  artifactKey: Guid(098eca53dfcb7b14989fd25bda5a8314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lana Studio/Hyper Casual FX/Textures/Circle01.png using Guid(098eca53dfcb7b14989fd25bda5a8314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b547928d68a1c15daa39668c8e85c14') in 0.065174 seconds
+  Import took 0.067492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Lana Studio/Hyper Casual FX/Textures/Circle06.png
+  artifactKey: Guid(19a47a1a975ddeb4992226a4867d9eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lana Studio/Hyper Casual FX/Textures/Circle06.png using Guid(19a47a1a975ddeb4992226a4867d9eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a36a9072bee7ac1768945a60b9c5a27') in 0.009811 seconds
+  Import took 0.011535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Lana Studio/Hyper Casual FX/Textures/Circle04.png
+  artifactKey: Guid(738d0386f7ab1b242b3cca6cedcb2106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lana Studio/Hyper Casual FX/Textures/Circle04.png using Guid(738d0386f7ab1b242b3cca6cedcb2106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa64b7ab1d16276a0a504ce78af3697') in 0.006053 seconds
+  Import took 0.007602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Lana Studio/Hyper Casual FX/Textures/Circle02.png
+  artifactKey: Guid(b27bcf37600cca24196520251965a496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lana Studio/Hyper Casual FX/Textures/Circle02.png using Guid(b27bcf37600cca24196520251965a496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08dfa4550589c52803ee9082169d90a') in 0.014504 seconds
+  Import took 0.016245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Lana Studio/Hyper Casual FX/Textures/Circle05.png
+  artifactKey: Guid(d0af66a9d145d5f438be94e94354e0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lana Studio/Hyper Casual FX/Textures/Circle05.png using Guid(d0af66a9d145d5f438be94e94354e0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b73cc551fc928680697ec6af15b36a') in 0.007399 seconds
+  Import took 0.008946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Lana Studio/Hyper Casual FX/Textures/Circle03.png
+  artifactKey: Guid(9208f0b907763a642ab2a0a4718fa2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lana Studio/Hyper Casual FX/Textures/Circle03.png using Guid(9208f0b907763a642ab2a0a4718fa2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bd9d8bc1c7d7331736a872e5715f6a') in 0.007143 seconds
+  Import took 0.008702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.068272 seconds.
+  path: Assets/Hyper Casual FX/Prefabs
+  artifactKey: Guid(3a1483e59a911934285c579038e52954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper Casual FX/Prefabs using Guid(3a1483e59a911934285c579038e52954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e4659efd64614bc4bad4320b91af6e') in 0.000886 seconds
+  Import took 0.002646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.363821 seconds.
+  path: Assets/Hyper Casual FX/Prefabs/Shine
+  artifactKey: Guid(27e0e5f541ea92a43b14bc4b302d341e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper Casual FX/Prefabs/Shine using Guid(27e0e5f541ea92a43b14bc4b302d341e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd473f7635accddc45fc7a300c81a67f5') in 0.001791 seconds
+  Import took 0.004801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072225 seconds.
+  path: Assets/Hyper Casual FX/Prefabs/Shine/Shine_blue.prefab
+  artifactKey: Guid(9442d241d2d8ecc47b49f256b55325c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper Casual FX/Prefabs/Shine/Shine_blue.prefab using Guid(9442d241d2d8ecc47b49f256b55325c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba6ac9223a91d3341e005ba83b62c46') in 0.006875 seconds
+  Import took 0.008968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Hyper Casual FX/Prefabs/Shine/Shine_pink.prefab
+  artifactKey: Guid(2a409ab125c5216449bc5f005ec045f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper Casual FX/Prefabs/Shine/Shine_pink.prefab using Guid(2a409ab125c5216449bc5f005ec045f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8214d8f1df57742f7bb1c2bd39439aed') in 0.002383 seconds
+  Import took 0.003847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Hyper Casual FX/Prefabs/Shine/Shine_ellow.prefab
+  artifactKey: Guid(b6e54acc881a03c4a9719b161a25a3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper Casual FX/Prefabs/Shine/Shine_ellow.prefab using Guid(b6e54acc881a03c4a9719b161a25a3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8910ce4c0ed79058b87e961e876e2f3d') in 0.002026 seconds
+  Import took 0.003432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.251426 seconds.
+  path: Assets/Hyper Casual FX/Prefabs/Sparkle
+  artifactKey: Guid(610caf6a9ff70a74caddde78d9dbcfbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper Casual FX/Prefabs/Sparkle using Guid(610caf6a9ff70a74caddde78d9dbcfbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032a19b0136e1f52f1e43a5384b54076') in 0.001576 seconds
+  Import took 0.004232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076725 seconds.
+  path: Assets/Hyper Casual FX/Prefabs/Sparkle/Sparkle_ellow.prefab
+  artifactKey: Guid(49057b33ea71fbb4da4e8f02a8db9f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper Casual FX/Prefabs/Sparkle/Sparkle_ellow.prefab using Guid(49057b33ea71fbb4da4e8f02a8db9f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2fce5f575c41134f71ba72470f8530') in 0.002759 seconds
+  Import took 0.004774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.278343 seconds.
+  path: Assets/Hyper Casual FX/Materials/Circles_Additive.mat
+  artifactKey: Guid(b3ed9e83085d95542b762dd15b306e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper Casual FX/Materials/Circles_Additive.mat using Guid(b3ed9e83085d95542b762dd15b306e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff61d4005b22152de609152d10b3763d') in 0.070204 seconds
+  Import took 0.072255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000936 seconds.
+  path: Assets/Hyper Casual FX/Materials/Circles_Additive.mat
+  artifactKey: Guid(b3ed9e83085d95542b762dd15b306e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper Casual FX/Materials/Circles_Additive.mat using Guid(b3ed9e83085d95542b762dd15b306e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff61d4005b22152de609152d10b3763d') in 0.006907 seconds
+  Import took 0.008897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.430547 seconds.
+  path: Assets/Hyper Casual FX/Textures/Flare01.png
+  artifactKey: Guid(892deaf2e1ee28e4cafd18112f565635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper Casual FX/Textures/Flare01.png using Guid(892deaf2e1ee28e4cafd18112f565635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27243a466e599a8f64b0fe1166eee08') in 0.014586 seconds
+  Import took 0.016788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003788 seconds.
+  path: Assets/Hyper Casual FX/Textures/Flare01.png
+  artifactKey: Guid(892deaf2e1ee28e4cafd18112f565635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hyper Casual FX/Textures/Flare01.png using Guid(892deaf2e1ee28e4cafd18112f565635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27243a466e599a8f64b0fe1166eee08') in 0.007356 seconds
+  Import took 0.009053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.495812 seconds.
+  path: Assets/Collectibles/License 1.prefab
+  artifactKey: Guid(12f6ab7882f514a9a84f724b4f5f36e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collectibles/License 1.prefab using Guid(12f6ab7882f514a9a84f724b4f5f36e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a3df2e977b8ed8a62c75eb949fb450') in 0.013936 seconds
+  Import took 0.016238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003088 seconds.
+  path: Assets/Collectibles/License 1.prefab
+  artifactKey: Guid(12f6ab7882f514a9a84f724b4f5f36e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collectibles/License 1.prefab using Guid(12f6ab7882f514a9a84f724b4f5f36e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a3df2e977b8ed8a62c75eb949fb450') in 0.008056 seconds
+  Import took 0.010104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.937279 seconds.
+  path: Assets/Collectibles/License.prefab
+  artifactKey: Guid(12f6ab7882f514a9a84f724b4f5f36e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collectibles/License.prefab using Guid(12f6ab7882f514a9a84f724b4f5f36e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1a7522c36afdd4aa7f379543395e13') in 0.016877 seconds
+  Import took 0.019091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.652974 seconds.
+  path: Assets/Scenes/New Terrain.asset
+  artifactKey: Guid(32620d2a18d1d6543869088db9e2d1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Terrain.asset using Guid(32620d2a18d1d6543869088db9e2d1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ad6d45efa9164541a2c5a317237923') in 0.049411 seconds
+  Import took 0.053209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Scenes/TerrainData_29939328-1ab0-4a88-9d64-4e88eda8e840.asset
+  artifactKey: Guid(372add99eb8b0497fbbcd8f3b801bcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TerrainData_29939328-1ab0-4a88-9d64-4e88eda8e840.asset using Guid(372add99eb8b0497fbbcd8f3b801bcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2774c72bae365be75bcd0bdab38280') in 0.032365 seconds
+  Import took 0.035417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Scenes/TerrainData_026f2584-c1a7-4345-9798-3ff37bf4993d.asset
+  artifactKey: Guid(37504f8fc32ac424987012712ed0413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TerrainData_026f2584-c1a7-4345-9798-3ff37bf4993d.asset using Guid(37504f8fc32ac424987012712ed0413f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6673a8e3665a2dd9860484519fa7d654') in 0.033106 seconds
+  Import took 0.035878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Scenes/TerrainData_8b905c76-0985-439d-b45b-b03dcc5d2777.asset
+  artifactKey: Guid(d517aff5b2873494d875f40927661e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TerrainData_8b905c76-0985-439d-b45b-b03dcc5d2777.asset using Guid(d517aff5b2873494d875f40927661e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab90b2f687e928fe220dbc30f07a2bfd') in 0.032748 seconds
+  Import took 0.035701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Scenes/TerrainData_760688c8-ff9f-45d7-ba85-a1b4e81e8ab4.asset
+  artifactKey: Guid(deef85f2e72704ef5a412f40ec07bae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TerrainData_760688c8-ff9f-45d7-ba85-a1b4e81e8ab4.asset using Guid(deef85f2e72704ef5a412f40ec07bae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b912094c80f67b321fc98838e9a35ec') in 0.034613 seconds
+  Import took 0.037448 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000210 seconds.
-  path: Assets/Campfire/Campfire_fire_MAT_BaseColor_Alpha.png
-  artifactKey: Guid(2c820697f83ad9047b0b5e97fd15655b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Campfire/Campfire_fire_MAT_BaseColor_Alpha.png using Guid(2c820697f83ad9047b0b5e97fd15655b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d3f7273a7959b7ca74a84becd229e3') in 0.123281 seconds
-  Import took 0.126593 seconds .
+  path: Assets/Scenes/TerrainData_8518a3e4-f664-4f42-ad5f-26c9a9042255.asset
+  artifactKey: Guid(ae34e717f41e04afe9334c1de30776e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TerrainData_8518a3e4-f664-4f42-ad5f-26c9a9042255.asset using Guid(ae34e717f41e04afe9334c1de30776e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2021829b2131198f40a140a2f127e9') in 0.034199 seconds
+  Import took 0.037273 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Campfire/Campfire_MAT_AO.jpg
-  artifactKey: Guid(7a803e9b27e63f74eb826f2247f16a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Campfire/Campfire_MAT_AO.jpg using Guid(7a803e9b27e63f74eb826f2247f16a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb57708f9849acd3bbb085e88d29401c') in 0.007359 seconds
-  Import took 0.011386 seconds .
+  Time since last request: 35.906152 seconds.
+  path: Assets/Scripts/LicensePickup.cs
+  artifactKey: Guid(3f150affcadc94f9da97d501b196e0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LicensePickup.cs using Guid(3f150affcadc94f9da97d501b196e0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9713b18565e631c77932c2a81b2a9c64') in 0.000976 seconds
+  Import took 0.002699 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Campfire/Campfire_MAT_nofire.mat
-  artifactKey: Guid(4517b0d20e582dd4595707c2d67c51cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Campfire/Campfire_MAT_nofire.mat using Guid(4517b0d20e582dd4595707c2d67c51cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33203aae7430bfab26ec9a51a17047a0') in 0.168700 seconds
-  Import took 0.171364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Campfire/Campfire_MAT.mat
-  artifactKey: Guid(42abacf0405b0a849bd479b4aebe779e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Campfire/Campfire_MAT.mat using Guid(42abacf0405b0a849bd479b4aebe779e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b287b51dd7257f85b6b82a0d0f1609d8') in 0.016014 seconds
-  Import took 0.018846 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Campfire/Campfire_MAT_Metallic.jpg
-  artifactKey: Guid(980f4e9158d86174bacf9b31d18f394e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Campfire/Campfire_MAT_Metallic.jpg using Guid(980f4e9158d86174bacf9b31d18f394e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3f3bacb3e41fc6b7ddb05585f3e221') in 0.009275 seconds
-  Import took 0.012648 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Campfire/Campfire_fire_MAT.mat
-  artifactKey: Guid(45c7bc0c16715aa4eb4f60a4c060c89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Campfire/Campfire_fire_MAT.mat using Guid(45c7bc0c16715aa4eb4f60a4c060c89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f381c75db1653b61e7be90b837e469b3') in 0.557482 seconds
-  Import took 0.560243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Campfire/Campfire_anim.fbx
-  artifactKey: Guid(c576e1097ef79e64a9f0ab7c3883cf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Campfire/Campfire_anim.fbx using Guid(c576e1097ef79e64a9f0ab7c3883cf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f884ee85cfd30283535d3ff9efd0ddb2') in 0.303448 seconds
-  Import took 0.306805 seconds .
+  Time since last request: 131.316653 seconds.
+  path: Assets/Scripts/LicenseUIManager.cs
+  artifactKey: Guid(a26dce9b7421f4265a2e3d20276823c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LicenseUIManager.cs using Guid(a26dce9b7421f4265a2e3d20276823c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9111c6ed77f956f6e414c808a86f48') in 0.002455 seconds
+  Import took 0.007294 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002592 seconds.
+Registered in 0.000328 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.565 seconds
+- Completed reload, in  1.560 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1173 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 382.1 MB.
-System memory in use after: 381.8 MB.
+Unloading 1190 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.1 MB.
+System memory in use after: 81.3 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1773.
-Total: 5.632667 ms (FindLiveObjects: 0.743959 ms CreateObjectMapping: 0.048791 ms MarkObjects: 4.228417 ms  DeleteObjects: 0.610291 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1797.
+Total: 2.355000 ms (FindLiveObjects: 0.149792 ms CreateObjectMapping: 0.025500 ms MarkObjects: 1.390334 ms  DeleteObjects: 0.788292 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.982392 seconds.
+  path: Assets/Scripts/LicenseUIManager.cs
+  artifactKey: Guid(a26dce9b7421f4265a2e3d20276823c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LicenseUIManager.cs using Guid(a26dce9b7421f4265a2e3d20276823c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a64e6167fc2a239f2db1c984e8dc88') in 0.005144 seconds
+  Import took 0.006939 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001729 seconds.
+Registered in 0.000356 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.763 seconds
+- Completed reload, in  1.491 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1173 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 377.3 MB.
-System memory in use after: 377.0 MB.
+Unloading 1190 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.2 MB.
+System memory in use after: 75.3 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1776.
-Total: 7.712666 ms (FindLiveObjects: 1.205958 ms CreateObjectMapping: 0.065125 ms MarkObjects: 5.782000 ms  DeleteObjects: 0.657833 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1800.
+Total: 1.949917 ms (FindLiveObjects: 0.108583 ms CreateObjectMapping: 0.024167 ms MarkObjects: 1.065959 ms  DeleteObjects: 0.750625 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 438.273417 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c194066b5ddf713208b3818b9611a53a') in 0.424620 seconds
+  Import took 0.426790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9effe56a08cd2156f7af31e426d9ac1') in 0.116568 seconds
+  Import took 0.118403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7b026d7eb27ba79ec0f96f4fe45e1f') in 0.086743 seconds
+  Import took 0.088498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c194066b5ddf713208b3818b9611a53a') in 0.014899 seconds
+  Import took 0.016623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7b026d7eb27ba79ec0f96f4fe45e1f') in 0.010576 seconds
+  Import took 0.012420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012442951c2af51cf6d0c4f6d14be546') in 0.035738 seconds
+  Import took 0.037621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001084 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012442951c2af51cf6d0c4f6d14be546') in 0.021836 seconds
+  Import took 0.023638 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000765 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.506 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1190 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.7 MB.
+System memory in use after: 69.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1807.
+Total: 1.724500 ms (FindLiveObjects: 0.102625 ms CreateObjectMapping: 0.025417 ms MarkObjects: 0.947292 ms  DeleteObjects: 0.648334 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 381.501189 seconds.
+  path: Assets/Collectibles/License 1.prefab
+  artifactKey: Guid(055c68bb391a44832bda4dc623e37f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collectibles/License 1.prefab using Guid(055c68bb391a44832bda4dc623e37f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd9b5d03a01fb2ac3c3ad8125b2d573') in 0.177894 seconds
+  Import took 0.180391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.176271 seconds.
+  path: Assets/Collectibles/License.prefab
+  artifactKey: Guid(055c68bb391a44832bda4dc623e37f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collectibles/License.prefab using Guid(055c68bb391a44832bda4dc623e37f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d71a92cf391f6b7729a81e35ea37d16') in 0.018968 seconds
+  Import took 0.021172 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000730 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.482 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1189 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.0 MB.
+System memory in use after: 64.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1811.
+Total: 1.916209 ms (FindLiveObjects: 0.110000 ms CreateObjectMapping: 0.024916 ms MarkObjects: 1.045625 ms  DeleteObjects: 0.735000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000466 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.486 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1189 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.1 MB.
+System memory in use after: 58.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1814.
+Total: 1.992417 ms (FindLiveObjects: 0.116667 ms CreateObjectMapping: 0.025750 ms MarkObjects: 1.083958 ms  DeleteObjects: 0.765084 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000441 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.457 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1189 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53.4 MB.
+System memory in use after: 52.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1817.
+Total: 1.943708 ms (FindLiveObjects: 0.120958 ms CreateObjectMapping: 0.025666 ms MarkObjects: 1.053500 ms  DeleteObjects: 0.742708 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000315 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.507 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1189 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 47.5 MB.
+System memory in use after: 46.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1820.
+Total: 1.856167 ms (FindLiveObjects: 0.110541 ms CreateObjectMapping: 0.024500 ms MarkObjects: 1.033292 ms  DeleteObjects: 0.687167 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000493 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.507 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1189 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.7 MB.
+System memory in use after: 40.9 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1823.
+Total: 1.946792 ms (FindLiveObjects: 0.120833 ms CreateObjectMapping: 0.025708 ms MarkObjects: 1.060875 ms  DeleteObjects: 0.738458 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1485.901361 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17607fc7efb202de54a7cfbd93113be2') in 0.018418 seconds
+  Import took 0.020567 seconds .
 
