@@ -10,6 +10,14 @@ public class UpdatedMonster : MonoBehaviour
 	public float walkSpeed, chaseSpeed, chaseRange, killDistance;
 	public List<Transform> destinations;
 
+	// Sound stuff
+	public AudioSource footstepSource;
+	public AudioSource screamSource;
+	public List<AudioClip> footstepClips;
+	private float footstepInterval = 1.2f;
+	private float footstepTimer;
+	public AudioClip attackScream;
+
 	// Agent and navigation
 	private Transform destination;
 	private int randNum;
@@ -37,6 +45,12 @@ public class UpdatedMonster : MonoBehaviour
 		}
 		else if (isHunting)
 		{
+			footstepTimer -= Time.deltaTime;
+			if (footstepTimer <= 0f)
+			{
+				PlayFootstep();
+				footstepTimer = footstepInterval;
+			}
 			if (!agent.hasPath || agent.velocity.sqrMagnitude == 0f)
 			{
 				Hunting();
@@ -45,6 +59,15 @@ public class UpdatedMonster : MonoBehaviour
 		else if (isChasing)
 		{
 			StartChasing();
+		}
+	}
+
+	void PlayFootstep()
+	{
+		if (footstepClips.Count > 0 && footstepSource != null)
+		{
+			AudioClip clip = footstepClips[Random.Range(0, footstepClips.Count)];
+			footstepSource.PlayOneShot(clip);
 		}
 	}
 
@@ -65,6 +88,7 @@ public class UpdatedMonster : MonoBehaviour
 		agent.speed = chaseSpeed;
 		agent.destination = player.position;
 		animator.SetBool("isChasing", true);
+		screamSource.PlayOneShot(attackScream);
 	}
 
 	void Hunting()
