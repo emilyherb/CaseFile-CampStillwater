@@ -61,4 +61,10 @@ public class flashlight : MonoBehaviour
             batteryBars[i].enabled = i < barsToShow;
         }
     }
+
+    public void RechargeLight()
+    {
+        batteryLife = 100f;
+        UpdateBatteryUI();
+    }
 }

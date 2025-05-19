@@ -11,7 +11,10 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
 
     public GameObject licensePrefab;
+    public GameObject batteryPrefab;
+    public GameObject flashLight;
     public int totalLicenses = 6;
+    public int totalBatteries = 8;
     public TMP_Text licenseCounterText;
 
     // Define the bounds of the spawn area
@@ -20,6 +23,7 @@ public class GameManager : MonoBehaviour
 
     private int licensesCollected = 0;
     private List<GameObject> spawnedLicenses = new List<GameObject>();
+    private List<GameObject> spawnedBatteries = new List<GameObject>();
 
     public GameObject endScreen;
     public GameObject player;
@@ -41,6 +45,7 @@ public class GameManager : MonoBehaviour
         licensesCollected = 0;
         SpawnLicenses();
         UpdateLicenseUI();
+        SpawnBatteries();
     }
 
     public void CollectLicense(GameObject license)
@@ -101,6 +106,30 @@ public void PlayerDied()
             Vector3 randomPos = GetRandomPosition();
             GameObject license = Instantiate(licensePrefab, randomPos, Quaternion.identity);
             spawnedLicenses.Add(license);
+        }
+    }
+
+    void SpawnBatteries()
+    {
+        for (int i = 0; i < totalBatteries; i++)
+        {
+            Vector3 randomPos = GetRandomPosition();
+            GameObject battery = Instantiate(batteryPrefab, randomPos, Quaternion.identity);
+            spawnedBatteries.Add(battery);
+        }
+    }
+
+    public void RechargeLight()
+    {
+        flashlight flashlightScript = flashLight.GetComponent<flashlight>();
+
+        if (flashlightScript != null)
+        {
+            flashlightScript.RechargeLight();
+        }
+        else
+        {
+            Debug.LogWarning("No Flashlight script found on flashLight GameObject!");
         }
     }
 
