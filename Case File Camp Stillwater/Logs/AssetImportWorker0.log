@@ -12,759 +12,283 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64802
+58966
 Successfully changed project path to: /Users/emilyherbert/Documents/CaseFile-CampStillwater/Case File Camp Stillwater
 /Users/emilyherbert/Documents/CaseFile-CampStillwater/Case File Camp Stillwater
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 37.29 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 27.25 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/emilyherbert/Documents/CaseFile-CampStillwater/Case File Camp Stillwater/Assets
 GfxDevice: creating device client; threaded=0
-2025-05-18 14:32:43.309 Unity[66452:4388591] (null) preferred device: Apple M4 Pro (high power)
-2025-05-18 14:32:43.310 Unity[66452:4388591] Metal devices available: 1
-2025-05-18 14:32:43.310 Unity[66452:4388591] 0: Apple M4 Pro (high power)
-2025-05-18 14:32:43.310 Unity[66452:4388591] Using device Apple M4 Pro (high power)
+2025-05-19 13:58:41.956 Unity[73492:7320431] (null) preferred device: Apple M4 Pro (high power)
+2025-05-19 13:58:41.957 Unity[73492:7320431] Metal devices available: 1
+2025-05-19 13:58:41.957 Unity[73492:7320431] 0: Apple M4 Pro (high power)
+2025-05-19 13:58:41.957 Unity[73492:7320431] Using device Apple M4 Pro (high power)
 Initializing Metal device caps: Apple M4 Pro
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000388 seconds.
+Registered in 0.000258 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 33.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 21.76 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.615 seconds
+- Completed reload, in  1.053 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000416 seconds.
+Registered in 0.000279 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.574 seconds
+- Completed reload, in  1.121 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1269 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.3 MB.
-System memory in use after: 88.9 MB.
+System memory in use before: 89.5 MB.
+System memory in use after: 89.2 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1744.
-Total: 1.761833 ms (FindLiveObjects: 0.122250 ms CreateObjectMapping: 0.024375 ms MarkObjects: 1.108917 ms  DeleteObjects: 0.505541 ms)
+Total: 1.364125 ms (FindLiveObjects: 0.105542 ms CreateObjectMapping: 0.016375 ms MarkObjects: 0.863500 ms  DeleteObjects: 0.377959 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Collectibles/License.prefab
-  artifactKey: Guid(055c68bb391a44832bda4dc623e37f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Collectibles/License.prefab using Guid(055c68bb391a44832bda4dc623e37f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd68cefdd031e95aac9834e36509b69') in 0.696788 seconds
-  Import took 0.699464 seconds .
+  path: Assets/Collectibles/Battery.prefab
+  artifactKey: Guid(2d7ca054c13f57248927a1f974ae76a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collectibles/Battery.prefab using Guid(2d7ca054c13f57248927a1f974ae76a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b875e93ee571fa50b84d769bba9910') in 0.472379 seconds
+  Import took 0.474367 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 67.206241 seconds.
-  path: Assets/Monster/Monster.cs
-  artifactKey: Guid(6acc9a0b2074fc545a89abae7f6f0526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Monster/Monster.cs using Guid(6acc9a0b2074fc545a89abae7f6f0526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2cceadee28372e488e3bd4f8b92f0e') in 0.173593 seconds
-  Import took 0.179656 seconds .
+  Time since last request: 2116.821970 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Blade Holder_AlbedoTransparency.png
+  artifactKey: Guid(3c5f299e13f5ef743aee67c61053f8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Blade Holder_AlbedoTransparency.png using Guid(3c5f299e13f5ef743aee67c61053f8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb933d5c70526ae52bb093215b194eeb') in 0.257259 seconds
+  Import took 0.263045 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 99.499455 seconds.
-  path: Assets/FirstPersonCharacter/FPSController.prefab
-  artifactKey: Guid(5e9e851c0e142814dac026a256ba2ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FirstPersonCharacter/FPSController.prefab using Guid(5e9e851c0e142814dac026a256ba2ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ff35f8a09c5af4cb6dbf698a7a4b4b') in 0.016002 seconds
-  Import took 0.018816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.582769 seconds.
-  path: Assets/FirstPersonCharacter/Scripts
-  artifactKey: Guid(74f03f38040584c48b54d31a58fc020b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FirstPersonCharacter/Scripts using Guid(74f03f38040584c48b54d31a58fc020b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c7837ee8418a64b78eacd04d9d19e6') in 0.001972 seconds
-  Import took 0.005135 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.280382 seconds.
-  path: Assets/FirstPersonCharacter/Scripts/FirstPersonController.cs
-  artifactKey: Guid(05ec5cf00ca181d45a42ba1870e148c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FirstPersonCharacter/Scripts/FirstPersonController.cs using Guid(05ec5cf00ca181d45a42ba1870e148c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7ba466449ab217a025e822cb0bd4f8') in 0.004489 seconds
-  Import took 0.009302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000836 seconds.
-  path: Assets/FirstPersonCharacter/Scripts/FirstPersonController.cs
-  artifactKey: Guid(05ec5cf00ca181d45a42ba1870e148c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FirstPersonCharacter/Scripts/FirstPersonController.cs using Guid(05ec5cf00ca181d45a42ba1870e148c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7ba466449ab217a025e822cb0bd4f8') in 0.002083 seconds
-  Import took 0.004165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.217538 seconds.
-  path: Assets/Monster/UpdatedMonster.cs
-  artifactKey: Guid(9b19b9f076a784c489905fb23151553f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Monster/UpdatedMonster.cs using Guid(9b19b9f076a784c489905fb23151553f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981d53472bde78a62d6d094f209fa5d3') in 0.001136 seconds
-  Import took 0.003149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/Monster/UpdatedMonster.cs
-  artifactKey: Guid(9b19b9f076a784c489905fb23151553f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Monster/UpdatedMonster.cs using Guid(9b19b9f076a784c489905fb23151553f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981d53472bde78a62d6d094f209fa5d3') in 0.000892 seconds
-  Import took 0.002181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 391.339475 seconds.
-  path: Assets/Monster/UpdatedMonster.cs
-  artifactKey: Guid(9b19b9f076a784c489905fb23151553f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Monster/UpdatedMonster.cs using Guid(9b19b9f076a784c489905fb23151553f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3442237fa27eb37f6a1dc835d18b6689') in 0.001622 seconds
-  Import took 0.004853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 403.621896 seconds.
-  path: Assets/Scripts/GameManager.cs
-  artifactKey: Guid(114e2c45c3aef4cd893137303b7896d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameManager.cs using Guid(114e2c45c3aef4cd893137303b7896d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29addf7d32c4a3b6d85e81e84b7347a9') in 0.002742 seconds
-  Import took 0.006193 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000348 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.562 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1178 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.3 MB.
-System memory in use after: 83.9 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1756.
-Total: 1.623458 ms (FindLiveObjects: 0.147250 ms CreateObjectMapping: 0.025542 ms MarkObjects: 1.054416 ms  DeleteObjects: 0.395625 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.900921 seconds.
-  path: Assets/Scripts/LicensePickup.cs
-  artifactKey: Guid(3f150affcadc94f9da97d501b196e0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LicensePickup.cs using Guid(3f150affcadc94f9da97d501b196e0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5111f28ac5da27571a6860a1befb3e') in 0.007642 seconds
-  Import took 0.009743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017470 seconds.
-  path: Assets/Scripts/LicensePickup.cs
-  artifactKey: Guid(3f150affcadc94f9da97d501b196e0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LicensePickup.cs using Guid(3f150affcadc94f9da97d501b196e0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5111f28ac5da27571a6860a1befb3e') in 0.000983 seconds
-  Import took 0.002519 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000329 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.574 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1178 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.6 MB.
-System memory in use after: 77.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1759.
-Total: 1.623708 ms (FindLiveObjects: 0.134792 ms CreateObjectMapping: 0.024625 ms MarkObjects: 1.015333 ms  DeleteObjects: 0.448125 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 152.390065 seconds.
-  path: Assets/Scripts/LicenseSpawner.cs
-  artifactKey: Guid(db7466907ebe840c2aa57bf13d2e625c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LicenseSpawner.cs using Guid(db7466907ebe840c2aa57bf13d2e625c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b1d13f1956b0f547f91322a3009b90') in 0.005789 seconds
-  Import took 0.007994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011009 seconds.
-  path: Assets/Scripts/LicenseSpawner.cs
-  artifactKey: Guid(db7466907ebe840c2aa57bf13d2e625c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LicenseSpawner.cs using Guid(db7466907ebe840c2aa57bf13d2e625c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b1d13f1956b0f547f91322a3009b90') in 0.000866 seconds
-  Import took 0.002532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 86.847439 seconds.
-  path: Assets/Collectibles/License.prefab
-  artifactKey: Guid(055c68bb391a44832bda4dc623e37f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Collectibles/License.prefab using Guid(055c68bb391a44832bda4dc623e37f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54fda6f8a1f86e004c7d90c307927c0f') in 0.181937 seconds
-  Import took 0.184586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 79.294454 seconds.
-  path: Assets/Nature Kit/Standard Assets/Effects/LightFlares/Flares/50mmZoom.flare
-  artifactKey: Guid(54fbbf098d116effa00081aba8ad6659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nature Kit/Standard Assets/Effects/LightFlares/Flares/50mmZoom.flare using Guid(54fbbf098d116effa00081aba8ad6659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3888ed398d0a7051bb7af22176978c85') in 0.064129 seconds
-  Import took 0.066279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001995 seconds.
-  path: Assets/Nature Kit/Standard Assets/Effects/LightFlares/Flares/50mmZoom.flare
-  artifactKey: Guid(54fbbf098d116effa00081aba8ad6659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nature Kit/Standard Assets/Effects/LightFlares/Flares/50mmZoom.flare using Guid(54fbbf098d116effa00081aba8ad6659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3888ed398d0a7051bb7af22176978c85') in 0.002480 seconds
-  Import took 0.003916 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000410 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.613 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1177 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 74.7 MB.
-System memory in use after: 74.4 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1762.
-Total: 1.600791 ms (FindLiveObjects: 0.129709 ms CreateObjectMapping: 0.024167 ms MarkObjects: 0.992375 ms  DeleteObjects: 0.453875 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000813 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.466 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1177 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.0 MB.
-System memory in use after: 67.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1765.
-Total: 1.634750 ms (FindLiveObjects: 0.110541 ms CreateObjectMapping: 0.024834 ms MarkObjects: 1.030167 ms  DeleteObjects: 0.468292 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000330 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.570 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1177 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.3 MB.
-System memory in use after: 61.0 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1768.
-Total: 1.703875 ms (FindLiveObjects: 0.102167 ms CreateObjectMapping: 0.032042 ms MarkObjects: 1.067916 ms  DeleteObjects: 0.500959 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000324 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.499 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1177 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 54.6 MB.
-System memory in use after: 54.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1771.
-Total: 1.723250 ms (FindLiveObjects: 0.123500 ms CreateObjectMapping: 0.025208 ms MarkObjects: 1.089167 ms  DeleteObjects: 0.484667 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000314 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.531 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1176 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 47.9 MB.
-System memory in use after: 47.5 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1773.
-Total: 1.783750 ms (FindLiveObjects: 0.210250 ms CreateObjectMapping: 0.024750 ms MarkObjects: 1.023625 ms  DeleteObjects: 0.524042 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000442 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.482 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1176 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 41.1 MB.
-System memory in use after: 40.8 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1776.
-Total: 1.847000 ms (FindLiveObjects: 0.134584 ms CreateObjectMapping: 0.025583 ms MarkObjects: 1.139500 ms  DeleteObjects: 0.546375 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000360 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.574 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1176 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 34.3 MB.
-System memory in use after: 34.0 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1779.
-Total: 1.643042 ms (FindLiveObjects: 0.120625 ms CreateObjectMapping: 0.025042 ms MarkObjects: 1.019042 ms  DeleteObjects: 0.477500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000708 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.489 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1176 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 27.5 MB.
-System memory in use after: 27.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1782.
-Total: 1.720083 ms (FindLiveObjects: 0.117292 ms CreateObjectMapping: 0.024750 ms MarkObjects: 1.090459 ms  DeleteObjects: 0.486584 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000346 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.530 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1176 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 20.7 MB.
-System memory in use after: 20.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1785.
-Total: 2.491792 ms (FindLiveObjects: 0.151208 ms CreateObjectMapping: 0.025000 ms MarkObjects: 1.850042 ms  DeleteObjects: 0.464791 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000898 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.527 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1176 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 14.0 MB.
-System memory in use after: 13.6 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1788.
-Total: 1.640583 ms (FindLiveObjects: 0.133791 ms CreateObjectMapping: 0.025042 ms MarkObjects: 1.020666 ms  DeleteObjects: 0.460208 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 4172.936610 seconds.
-  path: Assets/Shed Bridge Tools and Fences/FreshModels/Axe/Materials/AxeMat.mat
-  artifactKey: Guid(a0ce67b5d0566a7459cd91c0772795ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Axe/Materials/AxeMat.mat using Guid(a0ce67b5d0566a7459cd91c0772795ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d79e4fbba17e0a34d0312445ae01464') in 0.284536 seconds
-  Import took 0.288904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Fences/Fence 1/Materials/Fence1Mat.mat
-  artifactKey: Guid(d37dba98c62c8b44a95198638e83bc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Fences/Fence 1/Materials/Fence1Mat.mat using Guid(d37dba98c62c8b44a95198638e83bc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725e582d55487dfcfb392914e0932019') in 0.027910 seconds
-  Import took 0.030239 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Materials/BladeHolderMat.mat
-  artifactKey: Guid(9079e6be8b2567341bbdbe20cf04c177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Materials/BladeHolderMat.mat using Guid(9079e6be8b2567341bbdbe20cf04c177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac79b4973f9f3bd7a9746f3a50e0409d') in 0.011457 seconds
-  Import took 0.013649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Last Bridge Part/Materials/Down Woods.mat
-  artifactKey: Guid(455af61cb425e3a4cae6ffb0a71681d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Last Bridge Part/Materials/Down Woods.mat using Guid(455af61cb425e3a4cae6ffb0a71681d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876e6f818d199b2f2310bdcb9a98a04d') in 0.011771 seconds
-  Import took 0.013477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Boats/Legacy_Content/Imports/Materials/Boat_Wood.mat
-  artifactKey: Guid(9b74c0a714dacdb409d67735bd5e04ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Boats/Legacy_Content/Imports/Materials/Boat_Wood.mat using Guid(9b74c0a714dacdb409d67735bd5e04ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7615b98c93d443b60d98f3ce3c5444') in 0.022556 seconds
-  Import took 0.024798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Shed Bridge Tools and Fences/FreshModels/Box/Materials/BoxMat2.mat
-  artifactKey: Guid(a5dfbb37b006e8f469786139b8f6d65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Box/Materials/BoxMat2.mat using Guid(a5dfbb37b006e8f469786139b8f6d65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5158bd118ab3c879f375713b797e88') in 0.022246 seconds
-  Import took 0.024343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Door.mat
-  artifactKey: Guid(b084a3eeee78e6c4ca79f6d9019bde1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Door.mat using Guid(b084a3eeee78e6c4ca79f6d9019bde1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb01996884049491008c66eb659091c') in 0.019994 seconds
-  Import took 0.022325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Hyper Casual FX/Materials/Circles_AB.mat
-  artifactKey: Guid(f7d420caf00b4e74c88b3682321312dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hyper Casual FX/Materials/Circles_AB.mat using Guid(f7d420caf00b4e74c88b3682321312dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87512bea1c6de4488f3459e37c3ff3eb') in 0.010352 seconds
-  Import took 0.012098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Hyper Casual FX/Materials/Drop_AB.mat
-  artifactKey: Guid(d789bd285b0278848808ac4587043a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hyper Casual FX/Materials/Drop_AB.mat using Guid(d789bd285b0278848808ac4587043a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e6da99d24ca74c019b29ba80f8c4f3') in 0.007215 seconds
-  Import took 0.008942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Shed Bridge Tools and Fences/FreshModels/Object 2/Materials/Box.mat
-  artifactKey: Guid(0417f6e2d3bd0f243a329d53ccc73d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Object 2/Materials/Box.mat using Guid(0417f6e2d3bd0f243a329d53ccc73d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbea8e2267fccb39e24563d7e7c8f2ef') in 0.008532 seconds
-  Import took 0.010380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Shed Bridge Tools and Fences/FreshModels/Box/Materials/BoxMat1.mat
-  artifactKey: Guid(e19f1f26fc98ac7469f47c3fba2e9e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Box/Materials/BoxMat1.mat using Guid(e19f1f26fc98ac7469f47c3fba2e9e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7714e48606ae3621e58accc790b00ccf') in 0.019826 seconds
-  Import took 0.021958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Boats/Legacy_Content/Imports/Materials/Boat_Alum.mat
-  artifactKey: Guid(2f1e95dee42e70b449a312311486ec2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Boats/Legacy_Content/Imports/Materials/Boat_Alum.mat using Guid(2f1e95dee42e70b449a312311486ec2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb99bcec3e0d68c41cfae9e5155d5ac5') in 0.023505 seconds
-  Import took 0.025460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Materials/Blade Holder.mat
-  artifactKey: Guid(c249edb9e69c6cc45b42e3a80a0fc08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Materials/Blade Holder.mat using Guid(c249edb9e69c6cc45b42e3a80a0fc08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a39aba64b889affd80256a9cd127d8') in 0.005778 seconds
-  Import took 0.007373 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Materials/Down Woods.mat
-  artifactKey: Guid(415abb8b5e708f14e9fcdf234444f3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/Materials/Down Woods.mat using Guid(415abb8b5e708f14e9fcdf234444f3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe314fb6462c017f24691fa84aa2428') in 0.011358 seconds
-  Import took 0.013083 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Shed Bridge Tools and Fences/FreshModels/Object 2/Materials/BoxMat.mat
-  artifactKey: Guid(edf484462efa7a24db68a4601abba76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Object 2/Materials/BoxMat.mat using Guid(edf484462efa7a24db68a4601abba76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b2a368674a2f6f73a226c09f1aed56') in 0.020072 seconds
-  Import took 0.022147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Materials/Down Woods.mat
-  artifactKey: Guid(1af0ff1c5f984f04e923f0a9eaba338d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Materials/Down Woods.mat using Guid(1af0ff1c5f984f04e923f0a9eaba338d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52bb2db316da95373ba6dfaf9a2072ac') in 0.011421 seconds
-  Import took 0.013129 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000897 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.597 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1176 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 11.3 MB.
-System memory in use after: 11.0 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1826.
-Total: 1.761750 ms (FindLiveObjects: 0.120458 ms CreateObjectMapping: 0.025708 ms MarkObjects: 1.089417 ms  DeleteObjects: 0.525417 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 118.175097 seconds.
-  path: Assets/Hyper Casual FX/Textures/confetti_large.png
-  artifactKey: Guid(a5fd1d31c7504cd4083d950f36ed7511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hyper Casual FX/Textures/confetti_large.png using Guid(a5fd1d31c7504cd4083d950f36ed7511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743277b69a12a2674c47bf186525e724') in 0.469162 seconds
-  Import took 0.471378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Hyper Casual FX/Textures/Flare03.png
-  artifactKey: Guid(9a4522a1719ed6e4099dd535d78cbd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hyper Casual FX/Textures/Flare03.png using Guid(9a4522a1719ed6e4099dd535d78cbd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c841b1e4a2837d6a961d112ee82a79') in 0.009620 seconds
-  Import took 0.011296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Hyper Casual FX/Textures/Square02.png
-  artifactKey: Guid(beaff2d80f886c04bbee441e52b721a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hyper Casual FX/Textures/Square02.png using Guid(beaff2d80f886c04bbee441e52b721a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64ec9845429c35bc25bcc51725c5c76') in 0.005966 seconds
-  Import took 0.007604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Hyper Casual FX/Textures/Shockwave_spiky.png
-  artifactKey: Guid(ccd3c6eb8020e97489da396bf552b3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hyper Casual FX/Textures/Shockwave_spiky.png using Guid(ccd3c6eb8020e97489da396bf552b3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc3efcb9ba69617a6c94f31ced92722') in 0.011019 seconds
-  Import took 0.012750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Hyper Casual FX/Textures/Ray01.png
-  artifactKey: Guid(bf04f30f380d18849b60d45ecaab22f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hyper Casual FX/Textures/Ray01.png using Guid(bf04f30f380d18849b60d45ecaab22f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe452b408767010241120d8e0563b3e') in 0.008702 seconds
-  Import took 0.010389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Hyper Casual FX/Textures/spark01.png
-  artifactKey: Guid(ae34e1306c59ede4f8b9c9aee3551223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hyper Casual FX/Textures/spark01.png using Guid(ae34e1306c59ede4f8b9c9aee3551223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058709a8940736f66c54acd50fd38155') in 0.008462 seconds
-  Import took 0.010094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Hyper Casual FX/Textures/Dust01.png
-  artifactKey: Guid(7f221a2efb03036429b23e6e78fe52d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hyper Casual FX/Textures/Dust01.png using Guid(7f221a2efb03036429b23e6e78fe52d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd4b696ba029aae5f6e9df704367ada') in 0.017640 seconds
-  Import took 0.019367 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Hyper Casual FX/Textures/Gradient01.png
-  artifactKey: Guid(1ad88c9c9b62b4e40af9d2d3db57588d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hyper Casual FX/Textures/Gradient01.png using Guid(1ad88c9c9b62b4e40af9d2d3db57588d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914bfd7f5be6a2a27860fed4049a5005') in 0.008095 seconds
-  Import took 0.009706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Hyper Casual FX/Textures/Star02.png
-  artifactKey: Guid(99b70ef2b0acc4c44a556d238188bef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hyper Casual FX/Textures/Star02.png using Guid(99b70ef2b0acc4c44a556d238188bef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5375cda44aba8aaaacc35a385fa1058') in 0.008444 seconds
-  Import took 0.010162 seconds .
+  Time since last request: 0.000387 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Blade Holder_Normal.png
+  artifactKey: Guid(3a3c0be9106e61f46843956d3ee74e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Blade Holder_Normal.png using Guid(3a3c0be9106e61f46843956d3ee74e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215d4a1dad8cc3cdda123d9f0b940d38') in 0.010771 seconds
+  Import took 0.012724 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000170 seconds.
-  path: Assets/Hyper Casual FX/Textures/Square01.png
-  artifactKey: Guid(c03421af22a354a49bbfad526333cd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hyper Casual FX/Textures/Square01.png using Guid(c03421af22a354a49bbfad526333cd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21dd84889d08b4531dc5ac58f22fa9a8') in 0.008227 seconds
-  Import took 0.009795 seconds .
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Plastic_AlbedoTransparency.png
+  artifactKey: Guid(0c1bff21e18e7a64c97f5a764251e866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Plastic_AlbedoTransparency.png using Guid(0c1bff21e18e7a64c97f5a764251e866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70e0e1b77063b3f7c241d7dc97bf42a') in 0.004259 seconds
+  Import took 0.006097 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Hyper Casual FX/Textures/Flare02.png
-  artifactKey: Guid(c1b77ffedb1987f43a8aeb4b0eecd391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hyper Casual FX/Textures/Flare02.png using Guid(c1b77ffedb1987f43a8aeb4b0eecd391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8701db55e77ed4a83e4bdb37937a565') in 0.007875 seconds
-  Import took 0.009612 seconds .
+  Time since last request: 0.000157 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Metal_MetallicSmoothness.png
+  artifactKey: Guid(a6a464a222361524bbc642c11f88eb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Metal_MetallicSmoothness.png using Guid(a6a464a222361524bbc642c11f88eb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8038df3756765b5b2c6150b1ac14fa') in 0.006534 seconds
+  Import took 0.009062 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Hyper Casual FX/Textures/drop_green.png
-  artifactKey: Guid(94ea43556dfb347439e67a9da6005b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hyper Casual FX/Textures/drop_green.png using Guid(94ea43556dfb347439e67a9da6005b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34898b897ec063183c315e16a6d6c31e') in 0.007986 seconds
-  Import took 0.009621 seconds .
+  Time since last request: 0.000196 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Holder_Normal.png
+  artifactKey: Guid(f82e5c06d4a65ff43ad31712030016a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Holder_Normal.png using Guid(f82e5c06d4a65ff43ad31712030016a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3681a85420cc656f8438dbe6aba483') in 0.004806 seconds
+  Import took 0.006763 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Hyper Casual FX/Textures/confetti_large.png
-  artifactKey: Guid(a5fd1d31c7504cd4083d950f36ed7511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hyper Casual FX/Textures/confetti_large.png using Guid(a5fd1d31c7504cd4083d950f36ed7511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743277b69a12a2674c47bf186525e724') in 0.015701 seconds
-  Import took 0.017499 seconds .
+  Time since last request: 0.000149 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Holder_AO.png
+  artifactKey: Guid(c6bbda81904ebcf478106bc2220827a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Holder_AO.png using Guid(c6bbda81904ebcf478106bc2220827a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc7db6778a5923c90dff0da691a4c1f') in 0.005239 seconds
+  Import took 0.006666 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Hyper Casual FX/Textures/Plus01.png
-  artifactKey: Guid(5e61fec3f8e7bbb4c950b3641c53c1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hyper Casual FX/Textures/Plus01.png using Guid(5e61fec3f8e7bbb4c950b3641c53c1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2488601142a0b41c3fee1bea0ec82bac') in 0.008592 seconds
-  Import took 0.010293 seconds .
+  Time since last request: 0.000156 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Holder_AlbedoTransparency.png
+  artifactKey: Guid(b2c79889e76c8e14dbd5e2abcceb7169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Holder_AlbedoTransparency.png using Guid(b2c79889e76c8e14dbd5e2abcceb7169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d21d4306b11d73cc9413dea6c066bc') in 0.004861 seconds
+  Import took 0.006459 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001266 seconds.
-  path: Assets/Hyper Casual FX/Textures/drop.png
-  artifactKey: Guid(fa7777da9f2101d4898e23c5e4b0010d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hyper Casual FX/Textures/drop.png using Guid(fa7777da9f2101d4898e23c5e4b0010d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a7b5e4136119ac2c1cd0f61c0d6f10') in 0.008262 seconds
-  Import took 0.009925 seconds .
+  Time since last request: 0.000145 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Blade Holder_MetallicSmoothness.png
+  artifactKey: Guid(52b8bb66d77bf214db00b2ef667092a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Blade Holder_MetallicSmoothness.png using Guid(52b8bb66d77bf214db00b2ef667092a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19962090355d88883bd377d995969624') in 0.004342 seconds
+  Import took 0.005319 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Hyper Casual FX/Textures/drop_blue.png
-  artifactKey: Guid(5e4bcbaf759026e4aa009c3c728033cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hyper Casual FX/Textures/drop_blue.png using Guid(5e4bcbaf759026e4aa009c3c728033cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0938497857092b598a1051c05a40ed5d') in 0.007702 seconds
-  Import took 0.009395 seconds .
+  Time since last request: 0.000146 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Metal_AlbedoTransparency.png
+  artifactKey: Guid(b533f77071478b148ada2b40a2591b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Metal_AlbedoTransparency.png using Guid(b533f77071478b148ada2b40a2591b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e671413c9394993cc1dbff1d18ec6c4') in 0.003963 seconds
+  Import took 0.005323 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Hyper Casual FX/Textures/Star01.png
-  artifactKey: Guid(4424dda84344cd94489735f2f7bdfdbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hyper Casual FX/Textures/Star01.png using Guid(4424dda84344cd94489735f2f7bdfdbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5534b1000147229da9215d558f782628') in 0.008698 seconds
-  Import took 0.010343 seconds .
+  Time since last request: 0.000145 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Metal_Normal.png
+  artifactKey: Guid(deff90a5e09df114fb0e2c29ba28532e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Metal_Normal.png using Guid(deff90a5e09df114fb0e2c29ba28532e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03797a71144814186846c55c8cd1dff5') in 0.004809 seconds
+  Import took 0.006833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Holder_MetallicSmoothness.png
+  artifactKey: Guid(8d2e75d0922a75f4a8083c706602e603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Holder_MetallicSmoothness.png using Guid(8d2e75d0922a75f4a8083c706602e603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfbfeabaf241c6824f1d2c836ada336') in 0.004689 seconds
+  Import took 0.006162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Plastic_MetallicSmoothness.png
+  artifactKey: Guid(f6195b3b2f2aeac429a154425dc7f343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Plastic_MetallicSmoothness.png using Guid(f6195b3b2f2aeac429a154425dc7f343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ac8114296f7df3bb0393ca73db7ee7') in 0.004207 seconds
+  Import took 0.005478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Plastic_AO.png
+  artifactKey: Guid(6897fe9ecfdc14f46874e063affa93c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Plastic_AO.png using Guid(6897fe9ecfdc14f46874e063affa93c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f0189c11fad412736597c8fab92d88') in 0.004204 seconds
+  Import took 0.005470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Metal_AO.png
+  artifactKey: Guid(3df6c650f7509a245a2accfc5723c757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Metal_AO.png using Guid(3df6c650f7509a245a2accfc5723c757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa0fc606bf730bb510e8b257bba6d9f') in 0.003982 seconds
+  Import took 0.005148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Plastic_Normal.png
+  artifactKey: Guid(2de34036404d8a54a9d042d96c38395a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Plastic_Normal.png using Guid(2de34036404d8a54a9d042d96c38395a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40dcd77c5da9454d7ef7e9e97e02a828') in 0.003580 seconds
+  Import took 0.004681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Blade Holder_AO.png
+  artifactKey: Guid(8ce15a1a5a39ac64d95ba30bb54ce44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Texture Scissors for Grass/Scissors for Grass_Blade Holder_AO.png using Guid(8ce15a1a5a39ac64d95ba30bb54ce44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c408851b89538757b00e37b2fc4fb33') in 0.004868 seconds
+  Import took 0.006494 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000382 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.055 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1177 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.1 MB.
+System memory in use after: 83.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1759.
+Total: 1.872417 ms (FindLiveObjects: 0.102583 ms CreateObjectMapping: 0.016625 ms MarkObjects: 1.269584 ms  DeleteObjects: 0.482917 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 292.748703 seconds.
+  path: Assets/High Matters/Free American Sedans
+  artifactKey: Guid(8824aa97baf16184699e5dc4d5fe1a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/High Matters/Free American Sedans using Guid(8824aa97baf16184699e5dc4d5fe1a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea18a7717d14e4a6ade482bbd8d3dc5f') in 0.005206 seconds
+  Import took 0.006794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.185462 seconds.
+  path: Assets/High Matters/Free American Sedans/Prefabs
+  artifactKey: Guid(4c8d82e214f43e34ba44c91dbadb8bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/High Matters/Free American Sedans/Prefabs using Guid(4c8d82e214f43e34ba44c91dbadb8bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d173043a07e1d56483bf7c229e5f24') in 0.001956 seconds
+  Import took 0.004847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049365 seconds.
+  path: Assets/High Matters/Free American Sedans/Prefabs/Car.prefab
+  artifactKey: Guid(9f91421c9babd52489a537dbe4cf29b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/High Matters/Free American Sedans/Prefabs/Car.prefab using Guid(9f91421c9babd52489a537dbe4cf29b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fcb2b8eb5d3a15bb0e2b0ecc0121dc') in 0.171977 seconds
+  Import took 0.173789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/High Matters/Free American Sedans/Prefabs/Car_stylized.prefab
+  artifactKey: Guid(fcfeff2a56335984ebaeb175ab2c0e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/High Matters/Free American Sedans/Prefabs/Car_stylized.prefab using Guid(fcfeff2a56335984ebaeb175ab2c0e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3fc7a04d1bccb5f4b24544cf0dbeda') in 0.010175 seconds
+  Import took 0.011513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/High Matters/Free American Sedans/Prefabs/Police.prefab
+  artifactKey: Guid(ad0f80dc67ce9684b8972b2f04854d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/High Matters/Free American Sedans/Prefabs/Police.prefab using Guid(ad0f80dc67ce9684b8972b2f04854d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e2a392491185322e2c4f6eb38014ba') in 0.009610 seconds
+  Import took 0.011127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/High Matters/Free American Sedans/Prefabs/Taxi_stylized.prefab
+  artifactKey: Guid(683e0b361d2b1ba4f9db1b54d01d41e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/High Matters/Free American Sedans/Prefabs/Taxi_stylized.prefab using Guid(683e0b361d2b1ba4f9db1b54d01d41e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24b7cdc56e0ef60626b49ab7833a037') in 0.007626 seconds
+  Import took 0.009043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/High Matters/Free American Sedans/Prefabs/Police_stylized.prefab
+  artifactKey: Guid(47cdf29d05da82d49b7a919d9612fdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/High Matters/Free American Sedans/Prefabs/Police_stylized.prefab using Guid(47cdf29d05da82d49b7a919d9612fdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc817b47a78962226587a600a16dc668') in 0.009377 seconds
+  Import took 0.010746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/High Matters/Free American Sedans/Prefabs/Taxi.prefab
+  artifactKey: Guid(b12952e62525ed648967814a075216b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/High Matters/Free American Sedans/Prefabs/Taxi.prefab using Guid(b12952e62525ed648967814a075216b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ef4e9a4686e0d22086e0e4bed45513') in 0.007369 seconds
+  Import took 0.008832 seconds .
 
