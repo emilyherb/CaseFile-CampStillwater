@@ -14,9 +14,15 @@ public class UpdatedMonster : MonoBehaviour
 	public AudioSource footstepSource;
 	public AudioSource screamSource;
 	public List<AudioClip> footstepClips;
+	public List<AudioClip> moans;
 	private float footstepInterval = 1.2f;
+	private float moanInterval = 10f;
 	private float footstepTimer;
+	private float moanTimer;
 	public AudioClip attackScream;
+	public AudioClip fleeScream;
+	private bool hasPlayedAttackSound = false;
+	private bool hasPlayedFleeSound = false;
 
 	// Agent and navigation
 	private Transform destination;
@@ -38,6 +44,12 @@ public class UpdatedMonster : MonoBehaviour
 
 	void Update()
 	{
+		footstepTimer -= Time.deltaTime;
+		if (footstepTimer <= 0f)
+		{
+			PlayFootstep();
+			footstepTimer = footstepInterval;
+		}
 		CheckPlayerProximity();
 		if (isFleeing)
 		{
@@ -45,11 +57,11 @@ public class UpdatedMonster : MonoBehaviour
 		}
 		else if (isHunting)
 		{
-			footstepTimer -= Time.deltaTime;
-			if (footstepTimer <= 0f)
+			moanTimer -= Time.deltaTime;
+			if (moanTimer <= 0f)
 			{
-				PlayFootstep();
-				footstepTimer = footstepInterval;
+				PlayMoan();
+				moanTimer = moanInterval;
 			}
 			if (!agent.hasPath || agent.velocity.sqrMagnitude == 0f)
 			{
@@ -71,6 +83,15 @@ public class UpdatedMonster : MonoBehaviour
 		}
 	}
 
+	void PlayMoan()
+	{
+		if (footstepClips.Count > 0 && footstepSource != null)
+		{
+			AudioClip clip = moans[Random.Range(0, moans.Count)];
+			footstepSource.PlayOneShot(clip);
+		}
+	}
+
 	void PickNewDestination()
 	{
 		if (destinations.Count == 0)
@@ -88,13 +109,21 @@ public class UpdatedMonster : MonoBehaviour
 		agent.speed = chaseSpeed;
 		agent.destination = player.position;
 		animator.SetBool("isChasing", true);
-		screamSource.PlayOneShot(attackScream);
+		footstepInterval = .4f;
+		if (!hasPlayedAttackSound)
+		{
+			screamSource.PlayOneShot(attackScream);
+			hasPlayedAttackSound = true;
+		}
 	}
 
 	void Hunting()
 	{
 		Debug.Log("HUNTING");
         agent.speed = walkSpeed; 
+		hasPlayedAttackSound = false;
+		hasPlayedFleeSound = false;
+		footstepInterval = 1.2f;
 		animator.SetBool("isChasing", false);
 		if (!agent.hasPath || agent.velocity.sqrMagnitude == 0f)
 		{
@@ -124,7 +153,9 @@ void KillPlayer()
 	void RunFromPlayer()
 	{
 		Debug.Log("Monster was hit with light");
+		hasPlayedFleeSound = true;
 		isFleeing = true;
+		screamSource.PlayOneShot(fleeScream);
 		Transform furthestPoint = GetFurthestPoint(agent.transform.position);
         if (furthestPoint != null)
         {
