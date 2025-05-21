@@ -31,6 +31,8 @@ public class UpdatedMonster : MonoBehaviour
 	private bool isHunting, isChasing, isFleeing;
 	private Animator animator;
 
+	public bool needsToKillPlayer = false;
+
 	private const float RunAwaySpeed = 40;
 
 	
@@ -51,7 +53,19 @@ public class UpdatedMonster : MonoBehaviour
 			footstepTimer = footstepInterval;
 		}
 		CheckPlayerProximity();
-		if (isFleeing)
+		if (needsToKillPlayer)
+		{
+			HuntAndKillNow();
+		}
+		else if (!needsToKillPlayer && isChasing)
+		{
+			// Reset chase state
+			isChasing = false;
+			isHunting = true;
+			agent.ResetPath();
+			Hunting();
+		}
+		else if (isFleeing)
 		{
 			agent.speed = RunAwaySpeed;
 		}
@@ -89,6 +103,22 @@ public class UpdatedMonster : MonoBehaviour
 		{
 			AudioClip clip = moans[Random.Range(0, moans.Count)];
 			footstepSource.PlayOneShot(clip);
+		}
+	}
+
+	void HuntAndKillNow()
+	{
+		isChasing = true;
+		isHunting = false;
+		Debug.Log("Finding and killing player");
+		agent.speed = chaseSpeed;
+		agent.destination = player.position;
+		animator.SetBool("isChasing", true);
+		footstepInterval = .4f;
+		if (!hasPlayedAttackSound)
+		{
+			screamSource.PlayOneShot(attackScream);
+			hasPlayedAttackSound = true;
 		}
 	}
 

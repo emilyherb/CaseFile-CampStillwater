@@ -8171,6 +8171,7 @@ MonoBehaviour:
   clickSource: {fileID: 538301642}
   flashlightClick: {fileID: 8300000, guid: 92165f43342c2304488bc888ec80ce2f, type: 3}
   changeBattery: {fileID: 8300000, guid: a25f9a99be1844c40a13e7ef2f8968b3, type: 3}
+  monster: {fileID: 1344425553}
 --- !u!82 &538301642
 AudioSource:
   m_ObjectHideFlags: 0
@@ -20793,6 +20794,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 9d9e3fd00cc321748a255e25293593d8, type: 3}
   attackScream: {fileID: 8300000, guid: e2848f378bcbb3647ae668e62a03e12c, type: 3}
   fleeScream: {fileID: 8300000, guid: b1ca5527b2e489e48b34f0da78597e27, type: 3}
+  needsToKillPlayer: 0
 --- !u!82 &1344425554
 AudioSource:
   m_ObjectHideFlags: 0

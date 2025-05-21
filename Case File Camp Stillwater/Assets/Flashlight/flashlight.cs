@@ -19,6 +19,8 @@ public class flashlight : MonoBehaviour
     public AudioClip flashlightClick;
     public AudioClip changeBattery;
 
+    public UpdatedMonster monster;
+
     void Start()
     {
         totalBars = batteryBars.Length;
@@ -30,7 +32,6 @@ public class flashlight : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
-            Debug.Log("flashlight clicked");
             if (batteryLife > 0f)
             {
                 // switch flashlight on/off
@@ -40,17 +41,22 @@ public class flashlight : MonoBehaviour
                 clickSource.PlayOneShot(flashlightClick);
             }
         }
+        if (batteryLife > 0f)
+        {
+            monster.needsToKillPlayer = false;
+        }
         if (isFlashlightOn && batteryLife > 0f)
         {
-            Debug.Log(batteryLife);
+            //Debug.Log(batteryLife);
             batteryLife -= drainRate * Time.deltaTime;
             batteryLife = Mathf.Clamp(batteryLife, 0f, 100f);
 
             if (batteryLife <= 0f)
             {
+                monster.needsToKillPlayer = true;
                 isFlashlightOn = false;
                 flashlightLight.enabled = false;
-                Debug.Log("Flashlight ran out of battery");
+                flashlightCollider.enabled = false;
             }
 
             UpdateBatteryUI();
