@@ -17,6 +17,10 @@ public class GameManager : MonoBehaviour
     public int totalBatteries = 8;
     public TMP_Text licenseCounterText;
 
+    // Audio stuff
+    public AudioSource pickupSource;
+    public AudioClip pickupIdClip;
+
     // Define the bounds of the spawn area
     public Vector3 spawnAreaCenter;
     public Vector3 spawnAreaSize;
@@ -50,6 +54,8 @@ public class GameManager : MonoBehaviour
 
     public void CollectLicense(GameObject license)
     {
+        // play pickup liscence
+        pickupSource.PlayOneShot(pickupIdClip);
         licensesCollected++;
         UpdateLicenseUI();
         Destroy(license);

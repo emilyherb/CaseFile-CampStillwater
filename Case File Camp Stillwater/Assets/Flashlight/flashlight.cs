@@ -15,6 +15,10 @@ public class flashlight : MonoBehaviour
     private bool isFlashlightOn = false;
     private int totalBars;
 
+    public AudioSource clickSource;
+    public AudioClip flashlightClick;
+    public AudioClip changeBattery;
+
     void Start()
     {
         totalBars = batteryBars.Length;
@@ -24,7 +28,7 @@ public class flashlight : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             Debug.Log("flashlight clicked");
             if (batteryLife > 0f)
@@ -33,6 +37,7 @@ public class flashlight : MonoBehaviour
                 isFlashlightOn = !isFlashlightOn;
                 flashlightLight.enabled = isFlashlightOn;
                 flashlightCollider.enabled = isFlashlightOn;
+                clickSource.PlayOneShot(flashlightClick);
             }
         }
         if (isFlashlightOn && batteryLife > 0f)
@@ -65,6 +70,7 @@ public class flashlight : MonoBehaviour
     public void RechargeLight()
     {
         batteryLife = 100f;
+        clickSource.PlayOneShot(changeBattery);
         UpdateBatteryUI();
     }
 }
