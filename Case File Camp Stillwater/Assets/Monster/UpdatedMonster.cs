@@ -57,14 +57,6 @@ public class UpdatedMonster : MonoBehaviour
 		{
 			HuntAndKillNow();
 		}
-		else if (!needsToKillPlayer && isChasing)
-		{
-			// Reset chase state
-			isChasing = false;
-			isHunting = true;
-			agent.ResetPath();
-			Hunting();
-		}
 		else if (isFleeing)
 		{
 			agent.speed = RunAwaySpeed;
@@ -185,6 +177,7 @@ void KillPlayer()
 		Debug.Log("Monster was hit with light");
 		hasPlayedFleeSound = true;
 		isFleeing = true;
+		needsToKillPlayer = false;
 		screamSource.PlayOneShot(fleeScream);
 		Transform furthestPoint = GetFurthestPoint(agent.transform.position);
         if (furthestPoint != null)
