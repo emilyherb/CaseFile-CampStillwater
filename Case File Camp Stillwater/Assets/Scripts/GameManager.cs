@@ -105,6 +105,12 @@ public void PlayerDied()
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+    public void GoToMainMenu()
+{
+    SceneManager.LoadScene("MainMenu"); // Replace "MainMenu" with your actual main menu scene name
+}
+
+
     void SpawnLicenses()
     {
         for (int i = 0; i < totalLicenses; i++)
