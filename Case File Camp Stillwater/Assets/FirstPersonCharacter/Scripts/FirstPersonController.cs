@@ -79,6 +79,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 m_FixedCameraBaseHeight + bobOffset,
                 m_OriginalCameraPosition.z
             );
+
         }
 
         private void PlayLandingSound()

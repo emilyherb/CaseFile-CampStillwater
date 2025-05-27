@@ -29,8 +29,17 @@ public class CluePickup : MonoBehaviour
         {
             Debug.Log("Player triggered pickup!");
             collected = true;
+            if (ClueLog.Instance == null)
+            {
+                Debug.LogError("ClueLog.Instance is null! Clue not added.");
+            }
+            else
+            {
+                Debug.Log("ClueLog.Instance is valid. Adding clue.");
+                ClueLog.Instance.AddClue(clueID, clueTitle, clueText);
+            }
             ClueLog.Instance.AddClue(clueID, clueTitle, clueText);
-            //UIManager.Instance.ShowClueNotification(clueTitle);
+            UIManager.Instance.ShowClueNotification(clueTitle);
             Destroy(gameObject);
         }
     }
