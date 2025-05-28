@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     public int totalLicenses = 6;
     public int totalBatteries = 8;
     public TMP_Text licenseCounterText;
+    public GameObject InstructionPanel;
 
     // Audio stuff
     public AudioSource pickupSource;
@@ -44,13 +45,29 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void Start()
+void Start()
+{
+    licensesCollected = 0;
+    SpawnLicenses();
+    UpdateLicenseUI();
+    SpawnBatteries();
+
+    if (InstructionPanel != null)
+        InstructionPanel.SetActive(true);
+}
+
+void Update()
+{
+    if (InstructionPanel != null && InstructionPanel.activeSelf)
     {
-        licensesCollected = 0;
-        SpawnLicenses();
-        UpdateLicenseUI();
-        SpawnBatteries();
+        if (Input.GetKeyDown(KeyCode.Return)) // Return is the Enter key
+        {
+            HideInstructions();
+        }
     }
+}
+
+
 
     public void CollectLicense(GameObject license)
     {
@@ -153,6 +170,14 @@ public void PlayerDied()
         float z = Random.Range(-halfSize.z, halfSize.z);
         return spawnAreaCenter + new Vector3(x, y, z);
     }
+
+    public void HideInstructions()
+{
+    if (InstructionPanel != null)
+        InstructionPanel.SetActive(false);
+}
+
+
     public void ShowEndScreen()
 {
     // Show the end screen UI
