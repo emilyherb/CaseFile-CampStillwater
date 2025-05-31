@@ -21,6 +21,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private AudioClip m_JumpSound;
         [SerializeField] private AudioClip m_LandSound;
 
+        [SerializeField] private float sprintDuration = 5f;
+        [SerializeField] private float sprintCooldown = 3f;
+        private float sprintTimer = 0f;
+        private bool canSprint = true;
+
         private Camera m_Camera;
         private bool m_Jump;
         private float m_YRotation;
@@ -160,21 +165,46 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_FootstepSounds[0] = m_AudioSource.clip;
         }
 
-        private void GetInput(out float speed)
-        {
-            float horizontal = Input.GetAxis("Horizontal");
-            float vertical = Input.GetAxis("Vertical");
+       private void GetInput(out float speed)
+{
+    float horizontal = Input.GetAxis("Horizontal");
+    float vertical = Input.GetAxis("Vertical");
 
 #if !MOBILE_INPUT
-            m_IsWalking = !Input.GetKey(KeyCode.LeftShift);
+    bool wantsToSprint = Input.GetKey(KeyCode.LeftShift);
+    if (wantsToSprint && canSprint && sprintTimer < sprintDuration)
+    {
+        m_IsWalking = false;
+        sprintTimer += Time.deltaTime;
+
+        if (sprintTimer >= sprintDuration)
+        {
+            canSprint = false;
+        }
+    }
+    else
+    {
+        m_IsWalking = true;
+    }
+
+    // Handle cooldown
+    if (!wantsToSprint && !canSprint)
+    {
+        sprintTimer -= Time.deltaTime;
+        if (sprintTimer <= 0f)
+        {
+            sprintTimer = 0f;
+            canSprint = true;
+        }
+    }
 #endif
 
-            speed = m_IsWalking ? m_WalkSpeed : m_RunSpeed;
-            m_Input = new Vector2(horizontal, vertical);
+    speed = m_IsWalking ? m_WalkSpeed : m_RunSpeed;
+    m_Input = new Vector2(horizontal, vertical);
 
-            if (m_Input.sqrMagnitude > 1)
-                m_Input.Normalize();
-        }
+    if (m_Input.sqrMagnitude > 1)
+        m_Input.Normalize();
+}
 
         private void RotateView()
         {
@@ -188,5 +218,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if (body == null || body.isKinematic) return;
             body.AddForceAtPosition(m_CharacterController.velocity * 0.1f, hit.point, ForceMode.Impulse);
         }
+    public float GetSprintNormalized()
+    {
+        return 1f - (sprintTimer / sprintDuration);
     }
+    }
+
+
 }
