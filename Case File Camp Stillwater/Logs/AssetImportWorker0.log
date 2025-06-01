@@ -8,45 +8,79 @@ Using pre-set license
 -name
 AssetImportWorker0
 -projectPath
-/Users/carrie/Documents/github/CaseFile-CampStillwater/Case File Camp Stillwater
+/Users/emilyherbert/Documents/CaseFile-CampStillwater/Case File Camp Stillwater
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53005
-Successfully changed project path to: /Users/carrie/Documents/github/CaseFile-CampStillwater/Case File Camp Stillwater
-/Users/carrie/Documents/github/CaseFile-CampStillwater/Case File Camp Stillwater
+57727
+Successfully changed project path to: /Users/emilyherbert/Documents/CaseFile-CampStillwater/Case File Camp Stillwater
+/Users/emilyherbert/Documents/CaseFile-CampStillwater/Case File Camp Stillwater
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 89.41 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 39.00 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/carrie/Documents/github/CaseFile-CampStillwater/Case File Camp Stillwater/Assets
+[Subsystems] Discovering subsystems at path /Users/emilyherbert/Documents/CaseFile-CampStillwater/Case File Camp Stillwater/Assets
 GfxDevice: creating device client; threaded=0
-2025-06-01 03:01:27.396 Unity[38195:16700052] (null) preferred device: Apple M1 (high power)
-2025-06-01 03:01:27.396 Unity[38195:16700052] Metal devices available: 1
-2025-06-01 03:01:27.396 Unity[38195:16700052] 0: Apple M1 (high power)
-2025-06-01 03:01:27.396 Unity[38195:16700052] Using device Apple M1 (high power)
-Initializing Metal device caps: Apple M1
+2025-06-01 15:42:10.714 Unity[29535:2947021] (null) preferred device: Apple M4 Pro (high power)
+2025-06-01 15:42:10.714 Unity[29535:2947021] Metal devices available: 1
+2025-06-01 15:42:10.714 Unity[29535:2947021] 0: Apple M4 Pro (high power)
+2025-06-01 15:42:10.714 Unity[29535:2947021] Using device Apple M4 Pro (high power)
+Initializing Metal device caps: Apple M4 Pro
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56195
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56535
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000929 seconds.
+Registered in 0.000366 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 35.43 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 37.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.913 seconds
+- Completed reload, in  1.569 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000972 seconds.
+Registered in 0.001170 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.627 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1277 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1758.
+Total: 1.782708 ms (FindLiveObjects: 0.138625 ms CreateObjectMapping: 0.024875 ms MarkObjects: 1.085583 ms  DeleteObjects: 0.532916 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(114e2c45c3aef4cd893137303b7896d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(114e2c45c3aef4cd893137303b7896d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71a1c05372c1a5e6c57185465baa33e') in 0.103879 seconds
+  Import took 0.106159 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000330 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
@@ -55,56 +89,22 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.500 seconds
+- Completed reload, in  1.508 seconds
 Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.18 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1277 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.6 MB.
-System memory in use after: 79.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1758.
-Total: 4.316417 ms (FindLiveObjects: 0.388000 ms CreateObjectMapping: 0.030750 ms MarkObjects: 3.026083 ms  DeleteObjects: 0.870417 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Diary Page #1.prefab
-  artifactKey: Guid(c2008dad9bdf34c059c9ad5f4c520ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Diary Page #1.prefab using Guid(c2008dad9bdf34c059c9ad5f4c520ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d4c52c6a3d1701e8ec0a2d5d5c116c') in 1.111047 seconds
-  Import took 1.116466 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.548391 seconds.
-  path: Assets/1000_F_10371839_XSeB2kreuA59Z1LexptFBM8qEuVlzphM.jpg
-  artifactKey: Guid(4c991efea736d4d6697250a123327719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1000_F_10371839_XSeB2kreuA59Z1LexptFBM8qEuVlzphM.jpg using Guid(4c991efea736d4d6697250a123327719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d9ed7112fb4eb14cdd090fee3ec78f') in 0.484386 seconds
-  Import took 0.494249 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001406 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.739 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1184 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 224.3 MB.
-System memory in use after: 223.6 MB.
+System memory in use before: 78.4 MB.
+System memory in use after: 77.7 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1771.
-Total: 2.580083 ms (FindLiveObjects: 0.842500 ms CreateObjectMapping: 0.029541 ms MarkObjects: 1.108625 ms  DeleteObjects: 0.598333 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1761.
+Total: 1.937916 ms (FindLiveObjects: 0.131041 ms CreateObjectMapping: 0.026208 ms MarkObjects: 1.258542 ms  DeleteObjects: 0.521250 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 314.097373 seconds.
+  path: Assets/Scenes/Main Scene.unity
+  artifactKey: Guid(2b02c29601fc84e49a18fde7fed33f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Scene.unity using Guid(2b02c29601fc84e49a18fde7fed33f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5b7f31da3b165875045245a29b8672') in 0.018130 seconds
+  Import took 0.020783 seconds .
 

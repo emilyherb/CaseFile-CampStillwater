@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
     public int totalBatteries = 8;
     public TMP_Text licenseCounterText;
     public GameObject InstructionPanel;
+    public GameObject pauseMenu;
+    private bool isPaused = false;
 
     // Audio stuff
     public AudioSource pickupSource;
@@ -58,13 +60,40 @@ void Start()
 
 void Update()
 {
-    if (InstructionPanel != null && InstructionPanel.activeSelf)
+    if (InstructionPanel != null && InstructionPanel.activeSelf && Input.GetKeyDown(KeyCode.Return))
     {
-        if (Input.GetKeyDown(KeyCode.Return)) // Return is the Enter key
+        HideInstructions();
+    }
+
+    if (Input.GetKeyDown(KeyCode.Escape))
+    {
+        if (isPaused)
         {
-            HideInstructions();
+            ResumeGame();
+        }
+        else
+        {
+            PauseGame();
         }
     }
+}
+
+public void PauseGame()
+{
+    pauseMenu.SetActive(true);
+    Time.timeScale = 0f;
+    Cursor.lockState = CursorLockMode.None;
+    Cursor.visible = true;
+    isPaused = true;
+}
+
+public void ResumeGame()
+{
+    pauseMenu.SetActive(false);
+    Time.timeScale = 1f;
+    Cursor.lockState = CursorLockMode.Locked;
+    Cursor.visible = false;
+    isPaused = false;
 }
 
 
@@ -126,6 +155,13 @@ public void PlayerDied()
 {
     SceneManager.LoadScene("MainMenu"); // Replace "MainMenu" with your actual main menu scene name
 }
+
+public void ExitGame()
+{
+    Debug.Log("Exiting game...");
+    Application.Quit();
+}
+
 
 
     void SpawnLicenses()
@@ -200,3 +236,4 @@ public void PlayerDied()
 }
 
 }
+
