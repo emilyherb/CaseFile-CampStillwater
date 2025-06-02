@@ -5,6 +5,10 @@ Move around the map with WASD
 'Shift' to run
 'esc' to open exit menu
 
+Note: If you can't click out of the intro screen after the game starts, press the Enter key.
+
+See Releases for Windows build.
+
 🕹️ How to Download and Run CampStillwater (Mac)
 Download the ZIP file
 Click the link and download CampStillwater.zip to your Mac.
