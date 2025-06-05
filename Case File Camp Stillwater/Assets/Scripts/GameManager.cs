@@ -110,6 +110,7 @@ public void ResumeGame()
         {
             Debug.Log("All licenses collected!");
             // You can add a win screen or other behavior here
+            SceneManager.LoadScene("Win_Menu");
         }
     }
 
